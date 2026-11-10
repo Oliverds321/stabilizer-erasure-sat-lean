@@ -1,0 +1,15 @@
+{
+ "code": "rotated surface [[25,1,5]]",
+ "key": "surface5",
+ "level": 8,
+ "distance": 5,
+ "symmetric": false,
+ "listed": 254,
+ "leaves": 1,
+ "certified": true,
+ "lean_output": "checks passed (161 ms): isotropy, 254 listed sets uncorrectable, sizes, cover\nleaf 0 rep=- units=0: hash matches a CertifyList-certified instance\nCERTIFIED CODE rotated surface [[25,1,5]]: complete through 8, distance 5, minimum-size sets by exponent [(1, 104)] (combine mode, 196 ms)",
+ "seconds": 24.96977925300598,
+ "bundle_sha256": "bfae7ebe4dd3d0046814a1f74ed67fca262956c39c6c9595c31e84b281347f5e",
+ "program": "tools/lrat/CertifyCode.lean combine",
+ "meaning": "lean/ListCertificate.lean: symmetric_certificate / plain_certificate (Certified rows L d mins)"
+}

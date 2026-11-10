@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite the manuscript and this repository."
+title: "A subexponential algorithm for the erasure logical error rate of sparse stabilizer codes: Lean 4 formalization, manuscript and experiments"
+type: software
+authors:
+  - family-names: "D'Souza"
+    given-names: "Oliver"
+version: "1.0.0"
+date-released: "2026-11-12"
+license: Apache-2.0
+repository-code: "https://github.com/Oliverds321/stabilizer-erasure-sat-lean"
+keywords:
+  - quantum error correction
+  - erasure channel
+  - stabilizer codes
+  - SAT
+  - Lean 4
+  - formal verification
+preferred-citation:
+  type: unpublished
+  title: "A subexponential algorithm for the erasure logical error rate of sparse stabilizer codes"
+  authors:
+    - family-names: "D'Souza"
+      given-names: "Oliver"
+  year: 2026
+  month: 11
+  notes: "Preprint, not independently refereed."

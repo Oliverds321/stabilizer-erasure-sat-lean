@@ -1,0 +1,253 @@
+{
+ "code": "toric [[128,2,8]]",
+ "key": "toric8",
+ "distance": 8,
+ "levels": {
+  "8": {
+   "verified": true,
+   "symmetric": true,
+   "instances": [
+    {
+     "solve_seconds": 0.6012165546417236,
+     "proof_bytes": 4145423,
+     "check_seconds": 1.5899667739868164,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric8_level8_q0.cnf: 11092 clauses, 45961 proof steps, 30898 after trimming",
+     "status": "verified",
+     "representative": 0,
+     "variables": 1693,
+     "clauses": 11092,
+     "cnf_sha256": "dfadf1ae786902b5f365cc4e93d79247c602bd24be065c2408f8ee513a942952"
+    },
+    {
+     "solve_seconds": 0.5524954795837402,
+     "proof_bytes": 3790203,
+     "check_seconds": 1.2781524658203125,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric8_level8_q64.cnf: 11092 clauses, 41054 proof steps, 29247 after trimming",
+     "status": "verified",
+     "representative": 64,
+     "variables": 1693,
+     "clauses": 11092,
+     "cnf_sha256": "c58f9f4409f16cc7801fe5163fdbdbf0d8c9e77b4282127e97a4635188e1a09d"
+    }
+   ]
+  },
+  "9": {
+   "verified": true,
+   "symmetric": true,
+   "instances": [
+    {
+     "solve_seconds": 1.1752095222473145,
+     "proof_bytes": 7862411,
+     "check_seconds": 1.6068124771118164,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric8_level9_q0.cnf: 11092 clauses, 71328 proof steps, 55201 after trimming",
+     "status": "verified",
+     "representative": 0,
+     "variables": 1693,
+     "clauses": 11092,
+     "cnf_sha256": "a18c706dbf60230608a332707af0e9232ff28cf433a300517bb6799c5e49d6e5"
+    },
+    {
+     "solve_seconds": 1.3860156536102295,
+     "proof_bytes": 8744373,
+     "check_seconds": 1.5990517139434814,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric8_level9_q64.cnf: 11092 clauses, 80347 proof steps, 58294 after trimming",
+     "status": "verified",
+     "representative": 64,
+     "variables": 1693,
+     "clauses": 11092,
+     "cnf_sha256": "7347ba4486f1a96f07427bbd21b6a214409a1ae33a5728ea8a85a85c1f443adf"
+    }
+   ]
+  },
+  "10": {
+   "verified": true,
+   "symmetric": true,
+   "instances": [
+    {
+     "solve_seconds": 2.8226773738861084,
+     "proof_bytes": 16090454,
+     "check_seconds": 2.224903106689453,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric8_level10_q0.cnf: 12884 clauses, 127703 proof steps, 97164 after trimming",
+     "status": "verified",
+     "representative": 0,
+     "variables": 1693,
+     "clauses": 12884,
+     "cnf_sha256": "aae5f436cc074524e518dfa38ddefca9c0b172dd80083610bde169bd7f2393e7"
+    },
+    {
+     "solve_seconds": 2.5614676475524902,
+     "proof_bytes": 14562571,
+     "check_seconds": 2.0514700412750244,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric8_level10_q64.cnf: 12884 clauses, 126413 proof steps, 90856 after trimming",
+     "status": "verified",
+     "representative": 64,
+     "variables": 1693,
+     "clauses": 12884,
+     "cnf_sha256": "d43269bc4849fd092e68896249ab17885aaedb2d2c24a72c7365d123663db2e5"
+    }
+   ]
+  },
+  "11": {
+   "verified": true,
+   "symmetric": true,
+   "instances": [
+    {
+     "solve_seconds": 6.34747314453125,
+     "proof_bytes": 33017277,
+     "check_seconds": 3.1146111488342285,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric8_level11_q0.cnf: 12884 clauses, 256215 proof steps, 198671 after trimming",
+     "status": "verified",
+     "representative": 0,
+     "variables": 1693,
+     "clauses": 12884,
+     "cnf_sha256": "ff9df86d480dd7f7c181c0de73a06336e13b7db27d46170ce306cc1f37feec3b"
+    },
+    {
+     "solve_seconds": 5.938149452209473,
+     "proof_bytes": 31231266,
+     "check_seconds": 2.8122942447662354,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric8_level11_q64.cnf: 12884 clauses, 246169 proof steps, 195415 after trimming",
+     "status": "verified",
+     "representative": 64,
+     "variables": 1693,
+     "clauses": 12884,
+     "cnf_sha256": "8b48cd4271853623b17ff028ca140a5391bb4b5c11c88b5d4bfdce16172edeca"
+    }
+   ]
+  },
+  "12": {
+   "verified": true,
+   "symmetric": true,
+   "instances": [
+    {
+     "solve_seconds": 15.734819650650024,
+     "proof_bytes": 65263105,
+     "check_seconds": 6.28600549697876,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric8_level12_q0.cnf: 38868 clauses, 477867 proof steps, 370192 after trimming",
+     "status": "verified",
+     "representative": 0,
+     "variables": 1693,
+     "clauses": 38868,
+     "cnf_sha256": "748a98d7ee300b594b17e050269632cf2f5c1c1825122b411d3e9eb6f235ceec"
+    },
+    {
+     "solve_seconds": 13.718485116958618,
+     "proof_bytes": 58392635,
+     "check_seconds": 6.092771291732788,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric8_level12_q64.cnf: 38868 clauses, 431417 proof steps, 336111 after trimming",
+     "status": "verified",
+     "representative": 64,
+     "variables": 1693,
+     "clauses": 38868,
+     "cnf_sha256": "5c4b7dabc1c01b06e1b9db934e94c6c232c18c7f64a6b096e6e94d80c1b2b635"
+    }
+   ]
+  },
+  "13": {
+   "verified": true,
+   "symmetric": true,
+   "instances": [
+    {
+     "solve_seconds": 47.14030838012695,
+     "proof_bytes": 167961587,
+     "check_seconds": 12.722931623458862,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric8_level13_q0.cnf: 38868 clauses, 1174728 proof steps, 948989 after trimming",
+     "status": "verified",
+     "representative": 0,
+     "variables": 1693,
+     "clauses": 38868,
+     "cnf_sha256": "2b9c79e58f73e43cf9e11ba69c9bd1e92ea99d95c47727f5d6b855d4a96bc0c2"
+    },
+    {
+     "solve_seconds": 41.08459258079529,
+     "proof_bytes": 151739078,
+     "check_seconds": 11.086536884307861,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric8_level13_q64.cnf: 38868 clauses, 1061232 proof steps, 868005 after trimming",
+     "status": "verified",
+     "representative": 64,
+     "variables": 1693,
+     "clauses": 38868,
+     "cnf_sha256": "2db49bd200d47a59d253557ca6b8fd5628dd133f9a9c232957c173c5fd7b5a9b"
+    }
+   ]
+  },
+  "14": {
+   "verified": true,
+   "symmetric": true,
+   "instances": [
+    {
+     "solve_seconds": 154.15854716300964,
+     "proof_bytes": 325022425,
+     "check_seconds": 35.40454363822937,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric8_level14_q0.cnf: 234196 clauses, 2161901 proof steps, 1722635 after trimming",
+     "status": "verified",
+     "representative": 0,
+     "variables": 1693,
+     "clauses": 234196,
+     "cnf_sha256": "058ffa404764c4e692ea1ae295a0dd54fc6f29646c82d320242dee69382aaca8"
+    },
+    {
+     "solve_seconds": 160.60582828521729,
+     "proof_bytes": 324711986,
+     "check_seconds": 37.89001798629761,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric8_level14_q64.cnf: 234196 clauses, 2211060 proof steps, 1783395 after trimming",
+     "status": "verified",
+     "representative": 64,
+     "variables": 1693,
+     "clauses": 234196,
+     "cnf_sha256": "a6899baef5534d5c4035f91e90e40f9d741c83e02c452c6285c4509dae8283dd"
+    }
+   ]
+  },
+  "15": {
+   "verified": true,
+   "symmetric": true,
+   "instances": [
+    {
+     "status": "verified",
+     "representative": 0,
+     "variables": 1693,
+     "clauses": 234196,
+     "leaves": [
+      {
+       "solve_seconds": 337.11954617500305,
+       "proof_bytes": 853455369,
+       "check_seconds": 49.55441617965698,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric8_level15_q0_.cnf: 234196 clauses, 5066646 proof steps, 4199059 after trimming",
+       "status": "verified",
+       "cube": [],
+       "cnf_sha256": "eab76473313de7159dc146a8e1708f08dc7556e5666a13baa4aa93ff45262723"
+      }
+     ],
+     "solve_seconds": 337.11954617500305,
+     "check_seconds": 49.55441617965698,
+     "proof_bytes": 853455369
+    },
+    {
+     "status": "verified",
+     "representative": 64,
+     "variables": 1693,
+     "clauses": 234196,
+     "leaves": [
+      {
+       "solve_seconds": 295.86833357810974,
+       "proof_bytes": 762997736,
+       "check_seconds": 46.04856586456299,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric8_level15_q64_.cnf: 234196 clauses, 4727463 proof steps, 3850453 after trimming",
+       "status": "verified",
+       "cube": [],
+       "cnf_sha256": "001754d06ed30a25a25acc3d7efb5e1bdec28460d95ff8f2128dd9019b1ebe41"
+      }
+     ],
+     "solve_seconds": 295.86833357810974,
+     "check_seconds": 46.04856586456299,
+     "proof_bytes": 762997736
+    }
+   ]
+  }
+ },
+ "leading_classes": {
+  "1": 32
+ },
+ "certified_through": 15
+}

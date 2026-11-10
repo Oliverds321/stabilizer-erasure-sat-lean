@@ -1,0 +1,39 @@
+{
+ "code": "toric [[18,2,3]]",
+ "key": "toric3",
+ "distance": 3,
+ "levels": {
+  "6": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "status": "verified",
+     "representative": null,
+     "formula": "certFormula (Lean)",
+     "leaves": [
+      {
+       "solve_seconds": 0.2049553394317627,
+       "proof_bytes": 244457,
+       "check_seconds": 6.509679317474365,
+       "checker_output": "CERTIFIED n=18 L=6 listed=162 units=0: every uncorrectable erased set of size <= 6 satisfying the unit constraints contains a listed set (1822 clauses, 4817 proof steps, 4714 after trimming)",
+       "status": "verified",
+       "cube": [],
+       "cnf_sha256": "aadcb53f1a5830df3fc062980e9ed52170ab9521757477b6ef91f835cf00f930",
+       "instance_sha256": "f2fae5c83de9d1ad5c31a104287de0676e82fffcc5111c17a7bd1abdaacdfa7e",
+       "variables": 560,
+       "clauses": 1822
+      }
+     ],
+     "solve_seconds": 0.2049553394317627,
+     "check_seconds": 6.509679317474365,
+     "proof_bytes": 244457
+    }
+   ]
+  }
+ },
+ "leading_classes": {
+  "1": 12
+ },
+ "certified_through": 6
+}

@@ -1,0 +1,52 @@
+A subexponential algorithm for the erasure logical error rate of sparse
+stabilizer codes: Lean 4 formalization, manuscript and experiments
+Copyright 2026 Oliver D'Souza
+
+Code in this repository (Lean sources, Python scripts and audit files) is
+licensed under the Apache License, Version 2.0 (LICENSE), except where stated
+otherwise below. The manuscript, its LaTeX source and the figures in paper/ are
+licensed under Creative Commons Attribution 4.0 International
+(paper/LICENSE.md); the Apache License does not apply to them.
+
+Third-party material included in this repository
+------------------------------------------------
+
+third_party/openai-math-4eaee875/modified/
+  108 Lean source files from OpenAI's repository
+  https://github.com/openai/math at commit 4eaee87548250b2682affda7d05d947c05554bae,
+  licensed under the Apache License, Version 2.0. They are MODIFIED copies:
+  21 files have proof-internal refactors (long proofs split into private
+  lemmas so that they compile within a memory limit) that leave every exported
+  statement unchanged, and 87 files have import-only edits (aggregate imports
+  replaced by focused ones, missing imports added). See
+  third_party/openai-math-4eaee875/NOTICE and the two diffs in
+  third_party/openai-math-4eaee875/records/.
+  third_party/openai-math-4eaee875/upstream-manifest.json and
+  overlay-manifest.json list the upstream files with their SHA-256 hashes; the
+  2461 unmodified files are not redistributed here and are fetched from
+  GitHub by scripts/fetch_openai_math.py.
+
+lean/AKS/
+  9 Lean source files adapted from Geoffrey Irving's formalization
+  https://github.com/girving/aks at commit
+  c7fb62ed80a4a610f87f34db0082cadbd7c00c9f (the Margulis-Gabber-Galil expander
+  and its spectral bound), licensed under the Apache License, Version 2.0. They
+  are MODIFIED copies, adapted to the Lean and Mathlib versions used here; each
+  of these files says so in its first lines. The other files of lean/AKS/ are
+  part of this development.
+
+Dependencies used but not redistributed
+---------------------------------------
+
+Lean 4 (Apache License 2.0), https://github.com/leanprover/lean4
+  Toolchain 4.34.1. The release bundles the CaDiCaL SAT solver (MIT License),
+  which the experiments use to produce LRAT proofs; the proofs are checked by
+  the LRAT checker of Lean core.
+Mathlib (Apache License 2.0), https://github.com/leanprover-community/mathlib4
+  and its dependencies Batteries, Aesop, Qq, ProofWidgets, Plausible,
+  LeanSearchClient, ImportGraph and Cli (each under its own licence), at the
+  revisions pinned in
+  third_party/openai-math-4eaee875/records/pinned-dependencies.json.
+Python packages used by experiments/ (each under its own licence): numpy,
+  numba, matplotlib, psutil, PySAT (python-sat), CryptoMiniSat (pycryptosat)
+  and ApproxMC (pyapproxmc).

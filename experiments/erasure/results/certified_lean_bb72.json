@@ -1,0 +1,62 @@
+{
+ "code": "BB [[72,12,6]]",
+ "key": "bb72",
+ "distance": 6,
+ "levels": {
+  "11": {
+   "verified": true,
+   "symmetric": true,
+   "instances": [
+    {
+     "status": "verified",
+     "representative": 0,
+     "formula": "certFormula (Lean)",
+     "leaves": [
+      {
+       "solve_seconds": 38.50777983665466,
+       "proof_bytes": 168752612,
+       "check_seconds": 13.51534128189087,
+       "checker_output": "CERTIFIED n=72 L=11 listed=28632 units=1: every uncorrectable erased set of size <= 11 satisfying the unit constraints contains a listed set (38573 clauses, 1370938 proof steps, 1148535 after trimming)",
+       "status": "verified",
+       "cube": [],
+       "cnf_sha256": "56860d20f27617d3568d4ff6277b1deeeefe01def37c0244172884d28ae0e350",
+       "instance_sha256": "01edd27001316a47be5414f8e84165b8742b38cdd1829fbf87a3f3798e92d304",
+       "variables": 3242,
+       "clauses": 38573
+      }
+     ],
+     "solve_seconds": 38.50777983665466,
+     "check_seconds": 13.51534128189087,
+     "proof_bytes": 168752612
+    },
+    {
+     "status": "verified",
+     "representative": 36,
+     "formula": "certFormula (Lean)",
+     "leaves": [
+      {
+       "solve_seconds": 31.88919448852539,
+       "proof_bytes": 140821063,
+       "check_seconds": 12.515909910202026,
+       "checker_output": "CERTIFIED n=72 L=11 listed=28632 units=1: every uncorrectable erased set of size <= 11 satisfying the unit constraints contains a listed set (38573 clauses, 1174658 proof steps, 989461 after trimming)",
+       "status": "verified",
+       "cube": [],
+       "cnf_sha256": "00a47a46b944282ef5921e6d4c8e16496c77736a67e73878c3919dacbac56c9b",
+       "instance_sha256": "06bdc31aa50b99edefa18072209b3b43c71994677924bbf2830d60f296dc9cd0",
+       "variables": 3242,
+       "clauses": 38573
+      }
+     ],
+     "solve_seconds": 31.88919448852539,
+     "check_seconds": 12.515909910202026,
+     "proof_bytes": 140821063
+    }
+   ]
+  }
+ },
+ "leading_classes": {
+  "1": 144,
+  "2": 12
+ },
+ "certified_through": 11
+}

@@ -1,0 +1,147 @@
+{
+ "code": "toric [[72,2,6]]",
+ "key": "toric6",
+ "distance": 6,
+ "levels": {
+  "6": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 0.16906452178955078,
+     "proof_bytes": 879201,
+     "check_seconds": 1.0782248973846436,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric6_level6.cnf: 4191 clauses, 10903 proof steps, 9913 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 901,
+     "clauses": 4191,
+     "cnf_sha256": "fddf544b658ea0282f4131c1eb0f18ed6c7cc8fc52454902a7ea12ee6b6d8b22"
+    }
+   ]
+  },
+  "7": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 0.3221547603607178,
+     "proof_bytes": 1995904,
+     "check_seconds": 1.158975601196289,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric6_level7.cnf: 4191 clauses, 26219 proof steps, 19793 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 901,
+     "clauses": 4191,
+     "cnf_sha256": "cfc4a72e61aecded12e2a023a587b0825deb69c341c1b384821d190c6523dd65"
+    }
+   ]
+  },
+  "8": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 0.7076168060302734,
+     "proof_bytes": 4234828,
+     "check_seconds": 1.3018369674682617,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric6_level8.cnf: 4911 clauses, 52036 proof steps, 37981 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 901,
+     "clauses": 4911,
+     "cnf_sha256": "8f1be2f5e6fc2da1e4df4ceda6ab1aef8f80a459ab8437fdea42fcd4b591f3cf"
+    }
+   ]
+  },
+  "9": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 1.722830057144165,
+     "proof_bytes": 9075738,
+     "check_seconds": 1.6893818378448486,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric6_level9.cnf: 4911 clauses, 98360 proof steps, 75673 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 901,
+     "clauses": 4911,
+     "cnf_sha256": "86eb6be4a457c15464babc7626f6d34005cf2eb908d78c94059daeb75ee7e322"
+    }
+   ]
+  },
+  "10": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 4.403741836547852,
+     "proof_bytes": 20111857,
+     "check_seconds": 2.559746265411377,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric6_level10.cnf: 10671 clauses, 191010 proof steps, 164710 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 901,
+     "clauses": 10671,
+     "cnf_sha256": "ccd522a80b6e700cf0ebc793c4f6b7f217c2a7a33645d3ce75c5ed48ac67d3a8"
+    }
+   ]
+  },
+  "11": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 12.585017442703247,
+     "proof_bytes": 53705092,
+     "check_seconds": 4.634596347808838,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric6_level11.cnf: 10671 clauses, 515172 proof steps, 425665 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 901,
+     "clauses": 10671,
+     "cnf_sha256": "c82160cd80c7a494120398fe1b79a5a8bfe05de4f7e02835dcd421fe2439a8d1"
+    }
+   ]
+  },
+  "12": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 40.37308096885681,
+     "proof_bytes": 113810936,
+     "check_seconds": 10.891961097717285,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric6_level12.cnf: 48243 clauses, 975435 proof steps, 845711 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 901,
+     "clauses": 48243,
+     "cnf_sha256": "75f647cc525fd10df426fbf01549b36e33c95aacb5c4fb4fbc9a90c8172e9f29"
+    }
+   ]
+  },
+  "13": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 102.13052344322205,
+     "proof_bytes": 257310246,
+     "check_seconds": 19.63647150993347,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric6_level13.cnf: 48243 clauses, 2148021 proof steps, 1768326 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 901,
+     "clauses": 48243,
+     "cnf_sha256": "26457842c9bf728b560e64abedf36078b8ba14189b466423438c73eea501c903"
+    }
+   ]
+  }
+ },
+ "leading_classes": {
+  "1": 24
+ },
+ "certified_through": 13
+}

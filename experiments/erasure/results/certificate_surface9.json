@@ -1,0 +1,15 @@
+{
+ "code": "rotated surface [[81,1,9]]",
+ "key": "surface9",
+ "level": 14,
+ "distance": 9,
+ "symmetric": false,
+ "listed": 81004,
+ "leaves": 6,
+ "certified": true,
+ "lean_output": "checks passed (279458 ms): isotropy, 81004 listed sets uncorrectable, sizes, cover\nleaf 0 rep=- units=1: hash matches a CertifyList-certified instance\nleaf 1 rep=- units=3: hash matches a CertifyList-certified instance\nleaf 2 rep=- units=3: hash matches a CertifyList-certified instance\nleaf 3 rep=- units=3: hash matches a CertifyList-certified instance\nleaf 4 rep=- units=4: hash matches a CertifyList-certified instance\nleaf 5 rep=- units=4: hash matches a CertifyList-certified instance\nCERTIFIED CODE rotated surface [[81,1,9]]: complete through 14, distance 9, minimum-size sets by exponent [(1, 3112)] (combine mode, 334128 ms)",
+ "seconds": 458.3774793148041,
+ "bundle_sha256": "ec44e45d73a782a6f85715aa6054777f8b09165d261ecdc3e7a29a320d02c26a",
+ "program": "tools/lrat/CertifyCode.lean combine",
+ "meaning": "lean/ListCertificate.lean: symmetric_certificate / plain_certificate (Certified rows L d mins)"
+}

@@ -1,0 +1,130 @@
+{
+ "code": "toric [[32,2,4]]",
+ "key": "toric4",
+ "distance": 4,
+ "levels": {
+  "4": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 0.022354602813720703,
+     "proof_bytes": 51934,
+     "check_seconds": 0.9406721591949463,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric4_level4.cnf: 1203 clauses, 983 proof steps, 1084 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 365,
+     "clauses": 1203,
+     "cnf_sha256": "84391d364d5d6d0caad55eb6d76f23ea03e6e8e449ea1968fe53b57828edcf56"
+    }
+   ]
+  },
+  "5": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 0.03306174278259277,
+     "proof_bytes": 102249,
+     "check_seconds": 1.0094196796417236,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric4_level5.cnf: 1203 clauses, 2234 proof steps, 2005 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 365,
+     "clauses": 1203,
+     "cnf_sha256": "e21bd628caed307269bed2e4d2e762eb719a957fa970e1628bff51964ec9ec6c"
+    }
+   ]
+  },
+  "6": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 0.060385704040527344,
+     "proof_bytes": 282383,
+     "check_seconds": 1.0113105773925781,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric4_level6.cnf: 1395 clauses, 5046 proof steps, 4004 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 365,
+     "clauses": 1395,
+     "cnf_sha256": "b946db0c8193afc6eb28fee76c0ead076079ff708ed52728fd0dd4a4e21a4d44"
+    }
+   ]
+  },
+  "7": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 0.1272737979888916,
+     "proof_bytes": 663060,
+     "check_seconds": 1.079138994216919,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric4_level7.cnf: 1395 clauses, 10238 proof steps, 9771 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 365,
+     "clauses": 1395,
+     "cnf_sha256": "ff311bbbdfe507d47a84db31b850bb9203a2fcec0d559b0070e973aab00e7828"
+    }
+   ]
+  },
+  "8": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 0.2646470069885254,
+     "proof_bytes": 1398137,
+     "check_seconds": 1.0742287635803223,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric4_level8.cnf: 2459 clauses, 23215 proof steps, 19349 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 365,
+     "clauses": 2459,
+     "cnf_sha256": "917015317da58d8d68552d4c5393728257ac331df9060098e2fd0ba2080ad57e"
+    }
+   ]
+  },
+  "9": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 0.5124409198760986,
+     "proof_bytes": 2586781,
+     "check_seconds": 1.2265541553497314,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric4_level9.cnf: 2459 clauses, 39901 proof steps, 33372 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 365,
+     "clauses": 2459,
+     "cnf_sha256": "f86027576214a03457ea4ec656027d7070e7e3efbdf5510486db437cbaef69e9"
+    }
+   ]
+  },
+  "10": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 1.1867506504058838,
+     "proof_bytes": 5037859,
+     "check_seconds": 1.6010007858276367,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric4_level10.cnf: 5595 clauses, 67234 proof steps, 62773 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 365,
+     "clauses": 5595,
+     "cnf_sha256": "6c22f4bd76c4f435d6d4d9cd88461350bf13a93a595b259100e67123c8d4940f"
+    }
+   ]
+  }
+ },
+ "leading_classes": {
+  "1": 16
+ },
+ "certified_through": 10
+}

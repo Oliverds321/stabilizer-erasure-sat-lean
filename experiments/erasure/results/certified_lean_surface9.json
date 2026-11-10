@@ -1,0 +1,177 @@
+{
+ "code": "rotated surface [[81,1,9]]",
+ "key": "surface9",
+ "distance": 9,
+ "levels": {
+  "14": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "status": "verified",
+     "representative": null,
+     "formula": "certFormula (Lean)",
+     "leaves": [
+      {
+       "solve_seconds": 121.14801526069641,
+       "proof_bytes": 578791104,
+       "check_seconds": 29.531561613082886,
+       "checker_output": "CERTIFIED n=81 L=14 listed=81004 units=1: every uncorrectable erased set of size <= 14 satisfying the unit constraints contains a listed set (92059 clauses, 4632980 proof steps, 3427686 after trimming)",
+       "status": "verified",
+       "cube": [
+        [
+         10,
+         true
+        ]
+       ],
+       "cnf_sha256": "8e6c5d23efe58db70c8673e6b01c8004ed6a52414d4c991e3b0f8961b311fe87",
+       "instance_sha256": "b05741cf43b3423cc3cd6523dcc5df0f448f4aae5a8f7e34f53f3c841159425e",
+       "variables": 3737,
+       "clauses": 92059
+      },
+      {
+       "solve_seconds": 65.99389243125916,
+       "proof_bytes": 367685538,
+       "check_seconds": 21.0232412815094,
+       "checker_output": "CERTIFIED n=81 L=14 listed=81004 units=3: every uncorrectable erased set of size <= 14 satisfying the unit constraints contains a listed set (92061 clauses, 2809014 proof steps, 2192753 after trimming)",
+       "status": "verified",
+       "cube": [
+        [
+         10,
+         false
+        ],
+        [
+         11,
+         true
+        ],
+        [
+         12,
+         true
+        ]
+       ],
+       "cnf_sha256": "7f16114f066e8a8abf865ce9ecfe18ed97464ee6257d512c68087d89053d4b18",
+       "instance_sha256": "a21a85574b6da1148caf4972fd585fb6cce235cafa78dc0bb99ca2cb7af6de11",
+       "variables": 3737,
+       "clauses": 92061
+      },
+      {
+       "solve_seconds": 77.63620114326477,
+       "proof_bytes": 402380897,
+       "check_seconds": 23.02688694000244,
+       "checker_output": "CERTIFIED n=81 L=14 listed=81004 units=3: every uncorrectable erased set of size <= 14 satisfying the unit constraints contains a listed set (92061 clauses, 3284200 proof steps, 2560260 after trimming)",
+       "status": "verified",
+       "cube": [
+        [
+         10,
+         false
+        ],
+        [
+         11,
+         true
+        ],
+        [
+         12,
+         false
+        ]
+       ],
+       "cnf_sha256": "8ca7352ba2c0f2990925d39c5cad4bdaaf229dba32f1aa65b1c634b0151ef480",
+       "instance_sha256": "0386b321f361f06ce4b8c5bd8c7e52a293dee3a6827fc93bbe687930ac9bd4ef",
+       "variables": 3737,
+       "clauses": 92061
+      },
+      {
+       "solve_seconds": 83.62833094596863,
+       "proof_bytes": 425895739,
+       "check_seconds": 24.525198221206665,
+       "checker_output": "CERTIFIED n=81 L=14 listed=81004 units=3: every uncorrectable erased set of size <= 14 satisfying the unit constraints contains a listed set (92061 clauses, 3459143 proof steps, 2648359 after trimming)",
+       "status": "verified",
+       "cube": [
+        [
+         10,
+         false
+        ],
+        [
+         11,
+         false
+        ],
+        [
+         12,
+         true
+        ]
+       ],
+       "cnf_sha256": "ae4d8aaf877ae86b9c7f19eb3ee42498a70c7460f5bb6770865e0eedc671fd80",
+       "instance_sha256": "051270fc4f485a465bfa93f652eb7144bafe121e0a652b3c942b01359191f544",
+       "variables": 3737,
+       "clauses": 92061
+      },
+      {
+       "solve_seconds": 72.59941482543945,
+       "proof_bytes": 379430815,
+       "check_seconds": 22.026662826538086,
+       "checker_output": "CERTIFIED n=81 L=14 listed=81004 units=4: every uncorrectable erased set of size <= 14 satisfying the unit constraints contains a listed set (92062 clauses, 2811496 proof steps, 2177381 after trimming)",
+       "status": "verified",
+       "cube": [
+        [
+         10,
+         false
+        ],
+        [
+         11,
+         false
+        ],
+        [
+         12,
+         false
+        ],
+        [
+         13,
+         true
+        ]
+       ],
+       "cnf_sha256": "1b67aa7a36e6c29997f055d7abd060c7da2dc13eb5486303cb1c582b665688e3",
+       "instance_sha256": "87c5f0e9a8f6da9994803726156d67b61e0985412027c9adc70994cce0ad4f76",
+       "variables": 3737,
+       "clauses": 92062
+      },
+      {
+       "solve_seconds": 200.15671038627625,
+       "proof_bytes": 830639476,
+       "check_seconds": 41.046199560165405,
+       "checker_output": "CERTIFIED n=81 L=14 listed=81004 units=4: every uncorrectable erased set of size <= 14 satisfying the unit constraints contains a listed set (92062 clauses, 6805624 proof steps, 5180412 after trimming)",
+       "status": "verified",
+       "cube": [
+        [
+         10,
+         false
+        ],
+        [
+         11,
+         false
+        ],
+        [
+         12,
+         false
+        ],
+        [
+         13,
+         false
+        ]
+       ],
+       "cnf_sha256": "ab1e739d476fa6f1864edcf0e7255080fb103d5b8fb89d4d10f3550181b6a907",
+       "instance_sha256": "edf54ca3b4b9171ad8de1414c90506dde867b857fd4713a34f7fd5fb52e38a67",
+       "variables": 3737,
+       "clauses": 92062
+      }
+     ],
+     "solve_seconds": 621.1625649929047,
+     "check_seconds": 161.17975044250488,
+     "proof_bytes": 2984823569
+    }
+   ]
+  }
+ },
+ "leading_classes": {
+  "1": 3112
+ },
+ "certified_through": 14
+}

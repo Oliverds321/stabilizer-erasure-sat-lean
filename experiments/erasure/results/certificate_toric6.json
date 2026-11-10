@@ -1,0 +1,15 @@
+{
+ "code": "toric [[72,2,6]]",
+ "key": "toric6",
+ "level": 13,
+ "distance": 6,
+ "symmetric": true,
+ "listed": 44076,
+ "leaves": 15,
+ "certified": true,
+ "lean_output": "checks passed (147234 ms): isotropy, 44076 listed sets uncorrectable, sizes, 2 generators, 2 representatives, cover\nleaf 0 rep=0 units=1: hash matches a CertifyList-certified instance\nleaf 1 rep=0 units=2: hash matches a CertifyList-certified instance\nleaf 2 rep=0 units=3: hash matches a CertifyList-certified instance\nleaf 3 rep=0 units=4: hash matches a CertifyList-certified instance\nleaf 4 rep=0 units=5: hash matches a CertifyList-certified instance\nleaf 5 rep=0 units=6: hash matches a CertifyList-certified instance\nleaf 6 rep=0 units=7: hash matches a CertifyList-certified instance\nleaf 7 rep=0 units=7: hash matches a CertifyList-certified instance\nleaf 8 rep=36 units=1: hash matches a CertifyList-certified instance\nleaf 9 rep=36 units=2: hash matches a CertifyList-certified instance\nleaf 10 rep=36 units=3: hash matches a CertifyList-certified instance\nleaf 11 rep=36 units=4: hash matches a CertifyList-certified instance\nleaf 12 rep=36 units=5: hash matches a CertifyList-certified instance\nleaf 13 rep=36 units=6: hash matches a CertifyList-certified instance\nleaf 14 rep=36 units=6: hash matches a CertifyList-certified instance\nCERTIFIED CODE toric [[72,2,6]]: complete through 13, distance 6, minimum-size sets by exponent [(1, 24)] (combine mode, 215603 ms)",
+ "seconds": 225.21072602272034,
+ "bundle_sha256": "5e1fa33e06688408fefb47ce913857d25959ebbc555a2406b0ab0fc0494a4f3e",
+ "program": "tools/lrat/CertifyCode.lean combine",
+ "meaning": "lean/ListCertificate.lean: symmetric_certificate / plain_certificate (Certified rows L d mins)"
+}

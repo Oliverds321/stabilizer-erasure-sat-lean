@@ -1,0 +1,35 @@
+Modified files from openai/math
+===============================
+
+Source:   https://github.com/openai/math
+Commit:   4eaee87548250b2682affda7d05d947c05554bae
+Licence:  Apache License, Version 2.0 (see LICENSE at the top of this
+          repository; the upstream repository carries the same licence text)
+Entry:    OAI.Algorithms.SubexponentialSAT.SqrtLogSpace.Final
+
+The directory modified/ contains 108 of the 2569 Lean files of the
+repository-local import closure of the entry module above, as modified for this
+project. Paths are relative to the upstream directory lean/. Every file in
+modified/ differs from the upstream file of the same path; the upstream and
+modified SHA-256 of every file of the closure are in overlay-manifest.json.
+
+Kind of changes (stated in accordance with section 4(b) of the Apache License):
+
+- 21 files: proof-internal refactors. Long proofs were split into private
+  lemmas, or proof steps rearranged, so that each module compiles within the
+  memory limit of the build. No exported statement was changed; the solver's final
+  theorem was re-audited for axioms after the change. Diff:
+  records/proof-only-changes.patch.
+- 87 files: import-only edits. Aggregate Mathlib imports were replaced by
+  focused imports, or missing imports added, with proof bodies unchanged. Diff:
+  records/import-only-changes.patch.
+
+The other 2461 files of the closure are used unmodified. They are not
+redistributed here; scripts/fetch_openai_math.py downloads the commit above
+from GitHub, checks every file against upstream-manifest.json and assembles the
+compiled source tree (upstream files plus modified/), which it checks against
+overlay-manifest.json.
+
+The modifications were made in 2026 for the project "A subexponential algorithm
+for the erasure logical error rate of sparse stabilizer codes" (Oliver D'Souza).
+OpenAI is not responsible for them.

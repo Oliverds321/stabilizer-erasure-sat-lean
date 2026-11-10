@@ -1,0 +1,79 @@
+{
+ "code": "rotated surface [[25,1,5]]",
+ "key": "surface5",
+ "distance": 5,
+ "levels": {
+  "5": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 0.022888660430908203,
+     "proof_bytes": 25479,
+     "check_seconds": 1.0647268295288086,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\surface5_level5.cnf: 854 clauses, 668 proof steps, 671 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 257,
+     "clauses": 854,
+     "cnf_sha256": "e65aa4cd8c592aada07f39b450cefda83a27fb63a51ab828913ee8cbbe18c7b6"
+    }
+   ]
+  },
+  "6": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 0.022846698760986328,
+     "proof_bytes": 43847,
+     "check_seconds": 0.9396779537200928,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\surface5_level6.cnf: 854 clauses, 1026 proof steps, 989 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 257,
+     "clauses": 854,
+     "cnf_sha256": "2900307510b0a07eb78290bb1d766fee75bbc3497238bf714db5411b11aa36a8"
+    }
+   ]
+  },
+  "7": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 0.023403406143188477,
+     "proof_bytes": 43898,
+     "check_seconds": 0.9468164443969727,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\surface5_level7.cnf: 1004 clauses, 1023 proof steps, 1077 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 257,
+     "clauses": 1004,
+     "cnf_sha256": "52dcfe884f56bc544c7c1e4b2f755c14a52c13d517441a212a37c8856250ef6d"
+    }
+   ]
+  },
+  "8": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 0.02599954605102539,
+     "proof_bytes": 76028,
+     "check_seconds": 1.014803409576416,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\surface5_level8.cnf: 1004 clauses, 1600 proof steps, 1459 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 257,
+     "clauses": 1004,
+     "cnf_sha256": "34dbe700fa10286dcc445b96dc5dcbc17d98115a2ee6b949f5c4779216f055a6"
+    }
+   ]
+  }
+ },
+ "leading_classes": {
+  "1": 104
+ },
+ "certified_through": 8
+}

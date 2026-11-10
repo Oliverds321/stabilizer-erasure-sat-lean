@@ -1,0 +1,114 @@
+{
+ "code": "BB [[72,12,6]]",
+ "key": "bb72",
+ "distance": 6,
+ "levels": {
+  "6": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 0.6125950813293457,
+     "proof_bytes": 3825293,
+     "check_seconds": 1.2841439247131348,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb72_level6.cnf: 5727 clauses, 39705 proof steps, 33042 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 1267,
+     "clauses": 5727,
+     "cnf_sha256": "1ff5aa278718e7e407c517e29b7ffd98b6738dcf94d68aac45b7abfe526c4aed"
+    }
+   ]
+  },
+  "7": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 0.9860477447509766,
+     "proof_bytes": 5935720,
+     "check_seconds": 1.439096212387085,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb72_level7.cnf: 5727 clauses, 64842 proof steps, 53455 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 1267,
+     "clauses": 5727,
+     "cnf_sha256": "36fd768368a112b7f387ec7b20c1a61a1b5c6e910288932e63fce18d0007be26"
+    }
+   ]
+  },
+  "8": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 2.901857614517212,
+     "proof_bytes": 15544280,
+     "check_seconds": 2.1944427490234375,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb72_level8.cnf: 7707 clauses, 149624 proof steps, 130752 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 1267,
+     "clauses": 7707,
+     "cnf_sha256": "a4511cc18d3e49d0416220abeb52cca24a3507722468f4c650362b606bd65492"
+    }
+   ]
+  },
+  "9": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 13.106549739837646,
+     "proof_bytes": 61975936,
+     "check_seconds": 4.664047718048096,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb72_level9.cnf: 7707 clauses, 624146 proof steps, 494799 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 1267,
+     "clauses": 7707,
+     "cnf_sha256": "1642363e3f000539a1fe91e07abcb204f73571f2a388b8d2946644787a5d95b2"
+    }
+   ]
+  },
+  "10": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 44.01857376098633,
+     "proof_bytes": 152460432,
+     "check_seconds": 11.607741355895996,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb72_level10.cnf: 34203 clauses, 1367343 proof steps, 1157994 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 1267,
+     "clauses": 34203,
+     "cnf_sha256": "7e9412dbe78ca3ef7723e096ca734454a54c665759c9c753e2820cfc4f8117e0"
+    }
+   ]
+  },
+  "11": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 105.10259938240051,
+     "proof_bytes": 335018693,
+     "check_seconds": 21.37648606300354,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb72_level11.cnf: 34203 clauses, 2774754 proof steps, 2281841 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 1267,
+     "clauses": 34203,
+     "cnf_sha256": "708878dffb3de9d73c071eb51469aedda8deac56f88dfcaa928fda7186513863"
+    }
+   ]
+  }
+ },
+ "leading_classes": {
+  "1": 144,
+  "2": 12
+ },
+ "certified_through": 11
+}

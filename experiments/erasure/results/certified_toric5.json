@@ -1,0 +1,130 @@
+{
+ "code": "toric [[50,2,5]]",
+ "key": "toric5",
+ "distance": 5,
+ "levels": {
+  "5": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 0.05278921127319336,
+     "proof_bytes": 230333,
+     "check_seconds": 1.0883772373199463,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric5_level5.cnf: 2348 clauses, 3412 proof steps, 3196 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 603,
+     "clauses": 2348,
+     "cnf_sha256": "55e488246b1a6853199ff128d82977f410f04ee4ed2c33a81fa25531d3b94e4f"
+    }
+   ]
+  },
+  "6": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 0.10625600814819336,
+     "proof_bytes": 551096,
+     "check_seconds": 1.080901861190796,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric5_level6.cnf: 2348 clauses, 7561 proof steps, 7482 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 603,
+     "clauses": 2348,
+     "cnf_sha256": "61b7904b15eca7ca1777e8e04f48ebaa80da1824056b1b0a38624b6be1a20606"
+    }
+   ]
+  },
+  "7": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 0.2741227149963379,
+     "proof_bytes": 1479072,
+     "check_seconds": 1.081376552581787,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric5_level7.cnf: 2748 clauses, 17505 proof steps, 16656 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 603,
+     "clauses": 2748,
+     "cnf_sha256": "5429dfce6dc2beb797634cdc648dcd2bef84e21cb2f6ddabf90f98a1da36f86d"
+    }
+   ]
+  },
+  "8": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 0.5144209861755371,
+     "proof_bytes": 2973476,
+     "check_seconds": 1.1907477378845215,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric5_level8.cnf: 2748 clauses, 38075 proof steps, 31519 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 603,
+     "clauses": 2748,
+     "cnf_sha256": "345dfcad308d41b87a516d29156d53ddb5f99cc6ace90664f080b07404a1460e"
+    }
+   ]
+  },
+  "9": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 1.3697013854980469,
+     "proof_bytes": 7100104,
+     "check_seconds": 1.510615587234497,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric5_level9.cnf: 4948 clauses, 83887 proof steps, 70175 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 603,
+     "clauses": 4948,
+     "cnf_sha256": "6ee25812c0c70834c0cc38a819acd19f9401b4626bbf182fe814e676763654b1"
+    }
+   ]
+  },
+  "10": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 3.565150737762451,
+     "proof_bytes": 16702870,
+     "check_seconds": 2.239438056945801,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric5_level10.cnf: 7358 clauses, 182163 proof steps, 152550 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 603,
+     "clauses": 7358,
+     "cnf_sha256": "f5b63c2262d7284956fde56b001dd51d51f61118a45c7d0b0e38e53cbdefdffd"
+    }
+   ]
+  },
+  "11": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 10.510610103607178,
+     "proof_bytes": 37400283,
+     "check_seconds": 4.145457029342651,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric5_level11.cnf: 15358 clauses, 381420 proof steps, 335681 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 603,
+     "clauses": 15358,
+     "cnf_sha256": "dc9d04afb17942484fcaee7f0aba85a291654b7b6a5af0305a9d58cdbc4555f0"
+    }
+   ]
+  }
+ },
+ "leading_classes": {
+  "1": 20
+ },
+ "certified_through": 11
+}

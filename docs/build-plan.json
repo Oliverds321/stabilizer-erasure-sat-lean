@@ -1,0 +1,2905 @@
+{
+ "description": "Every module of this development with its source file. Modules with compatibility_options true are compiled with the two additional options given in docs/BUILD.md.",
+ "modules": {
+  "AKS.Graph.Regular": {
+   "file": "lean/AKS/Graph/Regular.lean",
+   "compatibility_options": true
+  },
+  "AKS.MGG.Adapter": {
+   "file": "lean/AKS/MGG/Adapter.lean",
+   "compatibility_options": true
+  },
+  "AKS.MGG.DFT": {
+   "file": "lean/AKS/MGG/DFT.lean",
+   "compatibility_options": true
+  },
+  "AKS.MGG.Defs": {
+   "file": "lean/AKS/MGG/Defs.lean",
+   "compatibility_options": true
+  },
+  "AKS.MGG.Factory": {
+   "file": "lean/AKS/MGG/Factory.lean",
+   "compatibility_options": true
+  },
+  "AKS.MGG.Rayleigh": {
+   "file": "lean/AKS/MGG/Rayleigh.lean",
+   "compatibility_options": true
+  },
+  "AKS.MGG.SquareSize": {
+   "file": "lean/AKS/MGG/SquareSize.lean",
+   "compatibility_options": true
+  },
+  "AKS.MGG.WalkExpansion": {
+   "file": "lean/AKS/MGG/WalkExpansion.lean",
+   "compatibility_options": true
+  },
+  "AKS.MGG.Young": {
+   "file": "lean/AKS/MGG/Young.lean",
+   "compatibility_options": true
+  },
+  "AKS.MGG.YoungAssembly": {
+   "file": "lean/AKS/MGG/YoungAssembly.lean",
+   "compatibility_options": true
+  },
+  "AKS.MGG.YoungDefs": {
+   "file": "lean/AKS/MGG/YoungDefs.lean",
+   "compatibility_options": true
+  },
+  "AKS.Misc.Fin": {
+   "file": "lean/AKS/Misc/Fin.lean",
+   "compatibility_options": true
+  },
+  "ActualMGGInstantiationCandidate": {
+   "file": "lean/ActualMGGInstantiationCandidate.lean",
+   "compatibility_options": true
+  },
+  "Assembly.Body": {
+   "file": "lean/Assembly/Body.lean",
+   "compatibility_options": true
+  },
+  "Assembly.Instance": {
+   "file": "lean/Assembly/Instance.lean",
+   "compatibility_options": true
+  },
+  "Assembly.Loop": {
+   "file": "lean/Assembly/Loop.lean",
+   "compatibility_options": true
+  },
+  "Assembly.Main": {
+   "file": "lean/Assembly/Main.lean",
+   "compatibility_options": true
+  },
+  "Assembly.Poly": {
+   "file": "lean/Assembly/Poly.lean",
+   "compatibility_options": true
+  },
+  "Assembly.Program": {
+   "file": "lean/Assembly/Program.lean",
+   "compatibility_options": true
+  },
+  "Assembly.Run": {
+   "file": "lean/Assembly/Run.lean",
+   "compatibility_options": true
+  },
+  "Assembly.Spec": {
+   "file": "lean/Assembly/Spec.lean",
+   "compatibility_options": true
+  },
+  "CompletenessConverse": {
+   "file": "lean/CompletenessConverse.lean",
+   "compatibility_options": false
+  },
+  "CompletenessFormula": {
+   "file": "lean/CompletenessFormula.lean",
+   "compatibility_options": false
+  },
+  "ConcreteQuantumClosure": {
+   "file": "lean/ConcreteQuantumClosure.lean",
+   "compatibility_options": false
+  },
+  "DispatchedHashStagesCandidate": {
+   "file": "lean/DispatchedHashStagesCandidate.lean",
+   "compatibility_options": true
+  },
+  "DistanceDetermination": {
+   "file": "lean/DistanceDetermination.lean",
+   "compatibility_options": false
+  },
+  "DistanceExtraction": {
+   "file": "lean/DistanceExtraction.lean",
+   "compatibility_options": false
+  },
+  "DistanceWeight": {
+   "file": "lean/DistanceWeight.lean",
+   "compatibility_options": false
+  },
+  "DyadicEncoderDataCandidate": {
+   "file": "lean/DyadicEncoderDataCandidate.lean",
+   "compatibility_options": true
+  },
+  "EffectiveSelectorsCandidate": {
+   "file": "lean/EffectiveSelectorsCandidate.lean",
+   "compatibility_options": true
+  },
+  "EnumeratorExample": {
+   "file": "lean/EnumeratorExample.lean",
+   "compatibility_options": false
+  },
+  "EnumeratorFormula": {
+   "file": "lean/EnumeratorFormula.lean",
+   "compatibility_options": false
+  },
+  "ExactTable": {
+   "file": "lean/ExactTable.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATBinaryToUnary": {
+   "file": "lean/ExternalSATBinaryToUnary.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATCandidateBound": {
+   "file": "lean/ExternalSATCandidateBound.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATCandidateChild": {
+   "file": "lean/ExternalSATCandidateChild.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATCandidateClauseEmitter": {
+   "file": "lean/ExternalSATCandidateClauseEmitter.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATCandidateVisit": {
+   "file": "lean/ExternalSATCandidateVisit.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATCanonicalBytes": {
+   "file": "lean/ExternalSATCanonicalBytes.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATCanonicalEnumeration": {
+   "file": "lean/ExternalSATCanonicalEnumeration.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATCanonicalFinalize": {
+   "file": "lean/ExternalSATCanonicalFinalize.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATCanonicalFrontend": {
+   "file": "lean/ExternalSATCanonicalFrontend.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATCanonicalHeader": {
+   "file": "lean/ExternalSATCanonicalHeader.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATCanonicalQueryBounds": {
+   "file": "lean/ExternalSATCanonicalQueryBounds.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATCanonicalRawController": {
+   "file": "lean/ExternalSATCanonicalRawController.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATClauseMatchSemantics": {
+   "file": "lean/ExternalSATClauseMatchSemantics.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATConcreteSolver": {
+   "file": "lean/ExternalSATConcreteSolver.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATCountedLiteral": {
+   "file": "lean/ExternalSATCountedLiteral.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATDFSOrder": {
+   "file": "lean/ExternalSATDFSOrder.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATDFSOutputOrder": {
+   "file": "lean/ExternalSATDFSOutputOrder.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATDeepCandidateTraversal": {
+   "file": "lean/ExternalSATDeepCandidateTraversal.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATEngineLocated": {
+   "file": "lean/ExternalSATEngineLocated.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATFieldMembership": {
+   "file": "lean/ExternalSATFieldMembership.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATFormulaBridge": {
+   "file": "lean/ExternalSATFormulaBridge.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATFormulaOccurrence": {
+   "file": "lean/ExternalSATFormulaOccurrence.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATFrameEmitter": {
+   "file": "lean/ExternalSATFrameEmitter.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATFrontLocated": {
+   "file": "lean/ExternalSATFrontLocated.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATHeaderExtractor": {
+   "file": "lean/ExternalSATHeaderExtractor.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATHeaderToUnary": {
+   "file": "lean/ExternalSATHeaderToUnary.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATIntervalHull": {
+   "file": "lean/ExternalSATIntervalHull.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATLinkedCompleted": {
+   "file": "lean/ExternalSATLinkedCompleted.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATLinkedPolynomial": {
+   "file": "lean/ExternalSATLinkedPolynomial.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATLiteralToUnary": {
+   "file": "lean/ExternalSATLiteralToUnary.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATLocatedSpace": {
+   "file": "lean/ExternalSATLocatedSpace.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATMatchingBounds": {
+   "file": "lean/ExternalSATMatchingBounds.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATMiddleCandidateTraversal": {
+   "file": "lean/ExternalSATMiddleCandidateTraversal.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATObservedTransport": {
+   "file": "lean/ExternalSATObservedTransport.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATOuterCandidateTraversal": {
+   "file": "lean/ExternalSATOuterCandidateTraversal.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATPreservingEquality": {
+   "file": "lean/ExternalSATPreservingEquality.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATPrimitiveLink": {
+   "file": "lean/ExternalSATPrimitiveLink.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATPrimitiveTransport": {
+   "file": "lean/ExternalSATPrimitiveTransport.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATQueryCanonicalCompleted": {
+   "file": "lean/ExternalSATQueryCanonicalCompleted.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATQueryCanonicalController": {
+   "file": "lean/ExternalSATQueryCanonicalController.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATQueryPreparation": {
+   "file": "lean/ExternalSATQueryPreparation.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATRateMajorant": {
+   "file": "lean/ExternalSATRateMajorant.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATRawBodyParser": {
+   "file": "lean/ExternalSATRawBodyParser.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATRawClauseMatcher": {
+   "file": "lean/ExternalSATRawClauseMatcher.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATRawClauseParser": {
+   "file": "lean/ExternalSATRawClauseParser.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATRawLiteralEmitter": {
+   "file": "lean/ExternalSATRawLiteralEmitter.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATRawOutputReverse": {
+   "file": "lean/ExternalSATRawOutputReverse.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATRawQueryBounds": {
+   "file": "lean/ExternalSATRawQueryBounds.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATRawQueryCompleted": {
+   "file": "lean/ExternalSATRawQueryCompleted.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATRawQueryLowering": {
+   "file": "lean/ExternalSATRawQueryLowering.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATRawQueryPolynomial": {
+   "file": "lean/ExternalSATRawQueryPolynomial.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATResourceBounds": {
+   "file": "lean/ExternalSATResourceBounds.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATResourceTransport": {
+   "file": "lean/ExternalSATResourceTransport.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATRetainedLiteral": {
+   "file": "lean/ExternalSATRetainedLiteral.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATRuntimeEnvelope": {
+   "file": "lean/ExternalSATRuntimeEnvelope.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATTraversalBudgetHierarchy": {
+   "file": "lean/ExternalSATTraversalBudgetHierarchy.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATUnaryFieldExtractor": {
+   "file": "lean/ExternalSATUnaryFieldExtractor.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATUnaryRangeLoop": {
+   "file": "lean/ExternalSATUnaryRangeLoop.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATVisitBounds": {
+   "file": "lean/ExternalSATVisitBounds.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATWidthPreparation": {
+   "file": "lean/ExternalSATWidthPreparation.lean",
+   "compatibility_options": false
+  },
+  "ExternalSATWordEquality": {
+   "file": "lean/ExternalSATWordEquality.lean",
+   "compatibility_options": false
+  },
+  "FL.CEK": {
+   "file": "lean/FL/CEK.lean",
+   "compatibility_options": true
+  },
+  "FL.Core": {
+   "file": "lean/FL/Core.lean",
+   "compatibility_options": true
+  },
+  "FL.Encode": {
+   "file": "lean/FL/Encode.lean",
+   "compatibility_options": true
+  },
+  "FL.EncodedRun": {
+   "file": "lean/FL/EncodedRun.lean",
+   "compatibility_options": true
+  },
+  "FL.Lib.Basic": {
+   "file": "lean/FL/Lib/Basic.lean",
+   "compatibility_options": true
+  },
+  "FL.Lib.LinearRepair": {
+   "file": "lean/FL/Lib/LinearRepair.lean",
+   "compatibility_options": true
+  },
+  "FL.Lib.List": {
+   "file": "lean/FL/Lib/List.lean",
+   "compatibility_options": true
+  },
+  "FL.Lib.Nat": {
+   "file": "lean/FL/Lib/Nat.lean",
+   "compatibility_options": true
+  },
+  "FL.StepV": {
+   "file": "lean/FL/StepV.lean",
+   "compatibility_options": true
+  },
+  "FL.Typed.Core": {
+   "file": "lean/FL/Typed/Core.lean",
+   "compatibility_options": true
+  },
+  "FL.Typed.Fn": {
+   "file": "lean/FL/Typed/Fn.lean",
+   "compatibility_options": true
+  },
+  "FL.Typed.Syntax": {
+   "file": "lean/FL/Typed/Syntax.lean",
+   "compatibility_options": true
+  },
+  "Final.ConcreteExternal": {
+   "file": "lean/Final/ConcreteExternal.lean",
+   "compatibility_options": true
+  },
+  "Final.Init.Arith": {
+   "file": "lean/Final/Init/Arith.lean",
+   "compatibility_options": true
+  },
+  "Final.Init.Bounds": {
+   "file": "lean/Final/Init/Bounds.lean",
+   "compatibility_options": true
+  },
+  "Final.Init.Ctx": {
+   "file": "lean/Final/Init/Ctx.lean",
+   "compatibility_options": true
+  },
+  "Final.Init.Poly": {
+   "file": "lean/Final/Init/Poly.lean",
+   "compatibility_options": true
+  },
+  "Final.Init.Top": {
+   "file": "lean/Final/Init/Top.lean",
+   "compatibility_options": true
+  },
+  "Final.Macro": {
+   "file": "lean/Final/Macro.lean",
+   "compatibility_options": true
+  },
+  "Final.MacroLink": {
+   "file": "lean/Final/MacroLink.lean",
+   "compatibility_options": true
+  },
+  "Final.OutputInjective": {
+   "file": "lean/Final/OutputInjective.lean",
+   "compatibility_options": true
+  },
+  "Final.RawBits": {
+   "file": "lean/Final/RawBits.lean",
+   "compatibility_options": true
+  },
+  "Final.Statement": {
+   "file": "lean/Final/Statement.lean",
+   "compatibility_options": true
+  },
+  "FixedQuantumClosure": {
+   "file": "lean/FixedQuantumClosure.lean",
+   "compatibility_options": false
+  },
+  "FixedWitnessAllLengthFactoryCandidate": {
+   "file": "lean/FixedWitnessAllLengthFactoryCandidate.lean",
+   "compatibility_options": true
+  },
+  "GeneralCountingOutput": {
+   "file": "lean/GeneralCountingOutput.lean",
+   "compatibility_options": false
+  },
+  "GeneralInstalled": {
+   "file": "lean/GeneralInstalled.lean",
+   "compatibility_options": false
+  },
+  "GeneralMachineAgreement": {
+   "file": "lean/GeneralMachineAgreement.lean",
+   "compatibility_options": false
+  },
+  "GeneralMachineBudgetEnvelope": {
+   "file": "lean/GeneralMachineBudgetEnvelope.lean",
+   "compatibility_options": false
+  },
+  "GeneralMachineCompleted": {
+   "file": "lean/GeneralMachineCompleted.lean",
+   "compatibility_options": false
+  },
+  "GeneralMachineConcrete": {
+   "file": "lean/GeneralMachineConcrete.lean",
+   "compatibility_options": false
+  },
+  "GeneralMachineCountingStepBudget": {
+   "file": "lean/GeneralMachineCountingStepBudget.lean",
+   "compatibility_options": false
+  },
+  "GeneralMachineEndpointBudget": {
+   "file": "lean/GeneralMachineEndpointBudget.lean",
+   "compatibility_options": false
+  },
+  "GeneralMachineFinishStepBudget": {
+   "file": "lean/GeneralMachineFinishStepBudget.lean",
+   "compatibility_options": false
+  },
+  "GeneralMachineGuarantee": {
+   "file": "lean/GeneralMachineGuarantee.lean",
+   "compatibility_options": false
+  },
+  "GeneralMachinePolynomial": {
+   "file": "lean/GeneralMachinePolynomial.lean",
+   "compatibility_options": false
+  },
+  "GeneralMachineRuntimeLoop": {
+   "file": "lean/GeneralMachineRuntimeLoop.lean",
+   "compatibility_options": false
+  },
+  "GeneralReachableBounds": {
+   "file": "lean/GeneralReachableBounds.lean",
+   "compatibility_options": false
+  },
+  "GeneralRepairFL": {
+   "file": "lean/GeneralRepairFL.lean",
+   "compatibility_options": false
+  },
+  "HybridEstimator": {
+   "file": "lean/HybridEstimator.lean",
+   "compatibility_options": false
+  },
+  "HybridSymmetry": {
+   "file": "lean/HybridSymmetry.lean",
+   "compatibility_options": false
+  },
+  "IidErasureTheorem": {
+   "file": "lean/IidErasureTheorem.lean",
+   "compatibility_options": false
+  },
+  "Install.Callees": {
+   "file": "lean/Install/Callees.lean",
+   "compatibility_options": true
+  },
+  "Install.Components": {
+   "file": "lean/Install/Components.lean",
+   "compatibility_options": true
+  },
+  "Install.Mono": {
+   "file": "lean/Install/Mono.lean",
+   "compatibility_options": true
+  },
+  "Install.OK": {
+   "file": "lean/Install/OK.lean",
+   "compatibility_options": true
+  },
+  "Install.OKHash": {
+   "file": "lean/Install/OKHash.lean",
+   "compatibility_options": true
+  },
+  "Install.Remaining": {
+   "file": "lean/Install/Remaining.lean",
+   "compatibility_options": true
+  },
+  "Install.Table": {
+   "file": "lean/Install/Table.lean",
+   "compatibility_options": true
+  },
+  "Interp.Basic": {
+   "file": "lean/Interp/Basic.lean",
+   "compatibility_options": true
+  },
+  "Interp.Call": {
+   "file": "lean/Interp/Call.lean",
+   "compatibility_options": true
+  },
+  "Interp.Cases": {
+   "file": "lean/Interp/Cases.lean",
+   "compatibility_options": true
+  },
+  "Interp.Loop": {
+   "file": "lean/Interp/Loop.lean",
+   "compatibility_options": true
+  },
+  "Interp.Parse": {
+   "file": "lean/Interp/Parse.lean",
+   "compatibility_options": true
+  },
+  "Interp.Step": {
+   "file": "lean/Interp/Step.lean",
+   "compatibility_options": true
+  },
+  "Interp.Tree": {
+   "file": "lean/Interp/Tree.lean",
+   "compatibility_options": true
+  },
+  "LatentArgumentMagnitude": {
+   "file": "lean/LatentArgumentMagnitude.lean",
+   "compatibility_options": true
+  },
+  "LatentAuxiliaryExecution": {
+   "file": "lean/LatentAuxiliaryExecution.lean",
+   "compatibility_options": true
+  },
+  "LatentBodyExecution": {
+   "file": "lean/LatentBodyExecution.lean",
+   "compatibility_options": true
+  },
+  "LatentCompileBounds": {
+   "file": "lean/LatentCompileBounds.lean",
+   "compatibility_options": true
+  },
+  "LatentCompileInputBudget": {
+   "file": "lean/LatentCompileInputBudget.lean",
+   "compatibility_options": true
+  },
+  "LatentContextBounds": {
+   "file": "lean/LatentContextBounds.lean",
+   "compatibility_options": true
+  },
+  "LatentContextFL": {
+   "file": "lean/LatentContextFL.lean",
+   "compatibility_options": true
+  },
+  "LatentContextInputSize": {
+   "file": "lean/LatentContextInputSize.lean",
+   "compatibility_options": true
+  },
+  "LatentControllerInstalled": {
+   "file": "lean/LatentControllerInstalled.lean",
+   "compatibility_options": true
+  },
+  "LatentEndpointDispatchFL": {
+   "file": "lean/LatentEndpointDispatchFL.lean",
+   "compatibility_options": true
+  },
+  "LatentEndpointInputBudget": {
+   "file": "lean/LatentEndpointInputBudget.lean",
+   "compatibility_options": true
+  },
+  "LatentEndpointMachineGuarantee": {
+   "file": "lean/LatentEndpointMachineGuarantee.lean",
+   "compatibility_options": true
+  },
+  "LatentEndpointRepairBounds": {
+   "file": "lean/LatentEndpointRepairBounds.lean",
+   "compatibility_options": true
+  },
+  "LatentEndpointRepairFL": {
+   "file": "lean/LatentEndpointRepairFL.lean",
+   "compatibility_options": true
+  },
+  "LatentEndpointStepBounds": {
+   "file": "lean/LatentEndpointStepBounds.lean",
+   "compatibility_options": true
+  },
+  "LatentEngineExtent": {
+   "file": "lean/LatentEngineExtent.lean",
+   "compatibility_options": true
+  },
+  "LatentFactoryResourceBounds": {
+   "file": "lean/LatentFactoryResourceBounds.lean",
+   "compatibility_options": true
+  },
+  "LatentFactorySeeds": {
+   "file": "lean/LatentFactorySeeds.lean",
+   "compatibility_options": true
+  },
+  "LatentGateListBounds": {
+   "file": "lean/LatentGateListBounds.lean",
+   "compatibility_options": true
+  },
+  "LatentGateParserBounds": {
+   "file": "lean/LatentGateParserBounds.lean",
+   "compatibility_options": true
+  },
+  "LatentGateParserFL": {
+   "file": "lean/LatentGateParserFL.lean",
+   "compatibility_options": true
+  },
+  "LatentInitializerBudget": {
+   "file": "lean/LatentInitializerBudget.lean",
+   "compatibility_options": true
+  },
+  "LatentInitializerComputes": {
+   "file": "lean/LatentInitializerComputes.lean",
+   "compatibility_options": true
+  },
+  "LatentInitializerFL": {
+   "file": "lean/LatentInitializerFL.lean",
+   "compatibility_options": true
+  },
+  "LatentInitializerInputBudget": {
+   "file": "lean/LatentInitializerInputBudget.lean",
+   "compatibility_options": true
+  },
+  "LatentInitializerInstalled": {
+   "file": "lean/LatentInitializerInstalled.lean",
+   "compatibility_options": true
+  },
+  "LatentInitializerSplit": {
+   "file": "lean/LatentInitializerSplit.lean",
+   "compatibility_options": true
+  },
+  "LatentInputParserBounds": {
+   "file": "lean/LatentInputParserBounds.lean",
+   "compatibility_options": true
+  },
+  "LatentMachineBridge": {
+   "file": "lean/LatentMachineBridge.lean",
+   "compatibility_options": true
+  },
+  "LatentMachineCoins": {
+   "file": "lean/LatentMachineCoins.lean",
+   "compatibility_options": true
+  },
+  "LatentMachineInput": {
+   "file": "lean/LatentMachineInput.lean",
+   "compatibility_options": true
+  },
+  "LatentMonotoneTheorem": {
+   "file": "lean/LatentMonotoneTheorem.lean",
+   "compatibility_options": false
+  },
+  "LatentOracleTime": {
+   "file": "lean/LatentOracleTime.lean",
+   "compatibility_options": true
+  },
+  "LatentParserInstalled": {
+   "file": "lean/LatentParserInstalled.lean",
+   "compatibility_options": true
+  },
+  "LatentPolynomialMachineGuarantee": {
+   "file": "lean/LatentPolynomialMachineGuarantee.lean",
+   "compatibility_options": true
+  },
+  "LatentPositiveMachineExecution": {
+   "file": "lean/LatentPositiveMachineExecution.lean",
+   "compatibility_options": true
+  },
+  "LatentPositiveRegisterExecution": {
+   "file": "lean/LatentPositiveRegisterExecution.lean",
+   "compatibility_options": true
+  },
+  "LatentProgramParser": {
+   "file": "lean/LatentProgramParser.lean",
+   "compatibility_options": true
+  },
+  "LatentProgramParserBounds": {
+   "file": "lean/LatentProgramParserBounds.lean",
+   "compatibility_options": true
+  },
+  "LatentProgramParserFL": {
+   "file": "lean/LatentProgramParserFL.lean",
+   "compatibility_options": true
+  },
+  "LatentReachableStateSize": {
+   "file": "lean/LatentReachableStateSize.lean",
+   "compatibility_options": true
+  },
+  "LatentReachableStepBudget": {
+   "file": "lean/LatentReachableStepBudget.lean",
+   "compatibility_options": true
+  },
+  "LatentRegisterSpace": {
+   "file": "lean/LatentRegisterSpace.lean",
+   "compatibility_options": true
+  },
+  "LatentResourceAccounting": {
+   "file": "lean/LatentResourceAccounting.lean",
+   "compatibility_options": false
+  },
+  "LatentResourceRunFacts": {
+   "file": "lean/LatentResourceRunFacts.lean",
+   "compatibility_options": true
+  },
+  "LatentResourceRuntime": {
+   "file": "lean/LatentResourceRuntime.lean",
+   "compatibility_options": true
+  },
+  "LatentRuntimeAgreement": {
+   "file": "lean/LatentRuntimeAgreement.lean",
+   "compatibility_options": true
+  },
+  "LatentRuntimeMacro": {
+   "file": "lean/LatentRuntimeMacro.lean",
+   "compatibility_options": true
+  },
+  "LatentTimePolynomial": {
+   "file": "lean/LatentTimePolynomial.lean",
+   "compatibility_options": true
+  },
+  "LatentUniformRunRefinement": {
+   "file": "lean/LatentUniformRunRefinement.lean",
+   "compatibility_options": true
+  },
+  "LatentWrappersFL": {
+   "file": "lean/LatentWrappersFL.lean",
+   "compatibility_options": true
+  },
+  "LatentWrappersInstalled": {
+   "file": "lean/LatentWrappersInstalled.lean",
+   "compatibility_options": true
+  },
+  "LatentZeroBranch": {
+   "file": "lean/LatentZeroBranch.lean",
+   "compatibility_options": true
+  },
+  "LatentZeroExecution": {
+   "file": "lean/LatentZeroExecution.lean",
+   "compatibility_options": true
+  },
+  "LatentZeroMachineExecution": {
+   "file": "lean/LatentZeroMachineExecution.lean",
+   "compatibility_options": true
+  },
+  "LatentZeroRegisterExecution": {
+   "file": "lean/LatentZeroRegisterExecution.lean",
+   "compatibility_options": true
+  },
+  "ListCertificate": {
+   "file": "lean/ListCertificate.lean",
+   "compatibility_options": false
+  },
+  "OneZeroPaddingCandidate": {
+   "file": "lean/OneZeroPaddingCandidate.lean",
+   "compatibility_options": true
+  },
+  "OracleCost.CachedBatch": {
+   "file": "lean/OracleCost/CachedBatch.lean",
+   "compatibility_options": true
+  },
+  "OracleCost.CachedControl": {
+   "file": "lean/OracleCost/CachedControl.lean",
+   "compatibility_options": true
+  },
+  "OracleCost.CachedRefinement": {
+   "file": "lean/OracleCost/CachedRefinement.lean",
+   "compatibility_options": true
+  },
+  "OracleCost.DensityPadding": {
+   "file": "lean/OracleCost/DensityPadding.lean",
+   "compatibility_options": true
+  },
+  "OracleCost.EncodedSAT": {
+   "file": "lean/OracleCost/EncodedSAT.lean",
+   "compatibility_options": true
+  },
+  "OracleCost.EnginePhysical": {
+   "file": "lean/OracleCost/EnginePhysical.lean",
+   "compatibility_options": true
+  },
+  "OracleCost.FixedSlotEncoding": {
+   "file": "lean/OracleCost/FixedSlotEncoding.lean",
+   "compatibility_options": true
+  },
+  "OracleCost.FixedSlotExchangeMachine": {
+   "file": "lean/OracleCost/FixedSlotExchangeMachine.lean",
+   "compatibility_options": true
+  },
+  "OracleCost.FixedSlotExchangeTrace": {
+   "file": "lean/OracleCost/FixedSlotExchangeTrace.lean",
+   "compatibility_options": true
+  },
+  "OracleCost.FixedSlotFields": {
+   "file": "lean/OracleCost/FixedSlotFields.lean",
+   "compatibility_options": true
+  },
+  "OracleCost.GuidedInputSliceMachine": {
+   "file": "lean/OracleCost/GuidedInputSliceMachine.lean",
+   "compatibility_options": true
+  },
+  "OracleCost.GuidedInputSliceTrace": {
+   "file": "lean/OracleCost/GuidedInputSliceTrace.lean",
+   "compatibility_options": true
+  },
+  "OracleCost.InjectiveTapeLiftCandidate": {
+   "file": "lean/OracleCost/InjectiveTapeLiftCandidate.lean",
+   "compatibility_options": true
+  },
+  "OracleCost.Interface": {
+   "file": "lean/OracleCost/Interface.lean",
+   "compatibility_options": false
+  },
+  "OracleCost.LabelRoutedMachineNetwork": {
+   "file": "lean/OracleCost/LabelRoutedMachineNetwork.lean",
+   "compatibility_options": true
+  },
+  "OracleCost.MachineObservations": {
+   "file": "lean/OracleCost/MachineObservations.lean",
+   "compatibility_options": true
+  },
+  "OracleCost.MedianSort": {
+   "file": "lean/OracleCost/MedianSort.lean",
+   "compatibility_options": true
+  },
+  "OracleCost.MultiTape": {
+   "file": "lean/OracleCost/MultiTape.lean",
+   "compatibility_options": false
+  },
+  "OracleCost.PhysicalConfidence": {
+   "file": "lean/OracleCost/PhysicalConfidence.lean",
+   "compatibility_options": true
+  },
+  "OracleCost.PrefixControl": {
+   "file": "lean/OracleCost/PrefixControl.lean",
+   "compatibility_options": true
+  },
+  "OracleCost.PrefixDriver": {
+   "file": "lean/OracleCost/PrefixDriver.lean",
+   "compatibility_options": true
+  },
+  "OracleCost.PrefixEmissions": {
+   "file": "lean/OracleCost/PrefixEmissions.lean",
+   "compatibility_options": true
+  },
+  "OracleCost.PrefixEngine": {
+   "file": "lean/OracleCost/PrefixEngine.lean",
+   "compatibility_options": true
+  },
+  "OracleCost.PrefixExecution": {
+   "file": "lean/OracleCost/PrefixExecution.lean",
+   "compatibility_options": true
+  },
+  "OracleCost.PrefixInvariant": {
+   "file": "lean/OracleCost/PrefixInvariant.lean",
+   "compatibility_options": true
+  },
+  "OracleCost.PrefixMachine": {
+   "file": "lean/OracleCost/PrefixMachine.lean",
+   "compatibility_options": true
+  },
+  "OracleCost.PrefixSAT": {
+   "file": "lean/OracleCost/PrefixSAT.lean",
+   "compatibility_options": true
+  },
+  "OracleCost.PrefixTransitions": {
+   "file": "lean/OracleCost/PrefixTransitions.lean",
+   "compatibility_options": true
+  },
+  "OracleCost.QuantumQueryBound": {
+   "file": "lean/OracleCost/QuantumQueryBound.lean",
+   "compatibility_options": true
+  },
+  "OracleCost.QuantumService": {
+   "file": "lean/OracleCost/QuantumService.lean",
+   "compatibility_options": true
+  },
+  "OracleCost.QueryCodec": {
+   "file": "lean/OracleCost/QueryCodec.lean",
+   "compatibility_options": false
+  },
+  "OracleCost.QueryCopy": {
+   "file": "lean/OracleCost/QueryCopy.lean",
+   "compatibility_options": true
+  },
+  "OracleCost.QuerySize": {
+   "file": "lean/OracleCost/QuerySize.lean",
+   "compatibility_options": false
+  },
+  "OracleCost.ScaleSelection": {
+   "file": "lean/OracleCost/ScaleSelection.lean",
+   "compatibility_options": true
+  },
+  "OracleCost.ServiceAdapter": {
+   "file": "lean/OracleCost/ServiceAdapter.lean",
+   "compatibility_options": false
+  },
+  "OracleCost.StoredBitDispatchCandidate": {
+   "file": "lean/OracleCost/StoredBitDispatchCandidate.lean",
+   "compatibility_options": true
+  },
+  "OracleCost.StoredCodeHashEngineConfidenceCandidate": {
+   "file": "lean/OracleCost/StoredCodeHashEngineConfidenceCandidate.lean",
+   "compatibility_options": true
+  },
+  "OracleCost.TraceDisplacementCandidate": {
+   "file": "lean/OracleCost/TraceDisplacementCandidate.lean",
+   "compatibility_options": true
+  },
+  "PaddingInvariance": {
+   "file": "lean/PaddingInvariance.lean",
+   "compatibility_options": false
+  },
+  "PaperExamples": {
+   "file": "lean/PaperExamples.lean",
+   "compatibility_options": false
+  },
+  "PhysicalBridge.AmbiguityRank": {
+   "file": "lean/PhysicalBridge/AmbiguityRank.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.BellFidelity": {
+   "file": "lean/PhysicalBridge/BellFidelity.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.BinaryElimination": {
+   "file": "lean/PhysicalBridge/BinaryElimination.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.BinaryMatrixRank": {
+   "file": "lean/PhysicalBridge/BinaryMatrixRank.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.BinaryPauli": {
+   "file": "lean/PhysicalBridge/BinaryPauli.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.BinaryPauliResolution": {
+   "file": "lean/PhysicalBridge/BinaryPauliResolution.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.BinaryProducts": {
+   "file": "lean/PhysicalBridge/BinaryProducts.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.BoundedRatios": {
+   "file": "lean/PhysicalBridge/BoundedRatios.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.CSSStabilizer": {
+   "file": "lean/PhysicalBridge/CSSStabilizer.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.CachedCoefficients": {
+   "file": "lean/PhysicalBridge/CachedCoefficients.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.ChannelSums": {
+   "file": "lean/PhysicalBridge/ChannelSums.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.CommutationRank": {
+   "file": "lean/PhysicalBridge/CommutationRank.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.CoordinateSplit": {
+   "file": "lean/PhysicalBridge/CoordinateSplit.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.EncodedNormalizerNoise": {
+   "file": "lean/PhysicalBridge/EncodedNormalizerNoise.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.ErasureOptimum": {
+   "file": "lean/PhysicalBridge/ErasureOptimum.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.ExactEndpoints": {
+   "file": "lean/PhysicalBridge/ExactEndpoints.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.ExecutablePhysicalOutput": {
+   "file": "lean/PhysicalBridge/ExecutablePhysicalOutput.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.FidelityBounds": {
+   "file": "lean/PhysicalBridge/FidelityBounds.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.FlagBlocks": {
+   "file": "lean/PhysicalBridge/FlagBlocks.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.FlaggedErasure": {
+   "file": "lean/PhysicalBridge/FlaggedErasure.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.FlaggedOptimum": {
+   "file": "lean/PhysicalBridge/FlaggedOptimum.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.FullErasure": {
+   "file": "lean/PhysicalBridge/FullErasure.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.GeneralStabilizer": {
+   "file": "lean/PhysicalBridge/GeneralStabilizer.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.GlobalSyndromeDecoder": {
+   "file": "lean/PhysicalBridge/GlobalSyndromeDecoder.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.HermitianPauli": {
+   "file": "lean/PhysicalBridge/HermitianPauli.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.IsometryDecoder": {
+   "file": "lean/PhysicalBridge/IsometryDecoder.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.KrausFidelity": {
+   "file": "lean/PhysicalBridge/KrausFidelity.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.LatentCertificates": {
+   "file": "lean/PhysicalBridge/LatentCertificates.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.LatentFlaggedChannel": {
+   "file": "lean/PhysicalBridge/LatentFlaggedChannel.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.LinearFibers": {
+   "file": "lean/PhysicalBridge/LinearFibers.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.LinearRepairBounds": {
+   "file": "lean/PhysicalBridge/LinearRepairBounds.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.LinearRepairConfidence": {
+   "file": "lean/PhysicalBridge/LinearRepairConfidence.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.LinearRepairEdges": {
+   "file": "lean/PhysicalBridge/LinearRepairEdges.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.LinearRepairOutput": {
+   "file": "lean/PhysicalBridge/LinearRepairOutput.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.LinearRepairScan": {
+   "file": "lean/PhysicalBridge/LinearRepairScan.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.LinearRepairVector": {
+   "file": "lean/PhysicalBridge/LinearRepairVector.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.LocalLogicalFibers": {
+   "file": "lean/PhysicalBridge/LocalLogicalFibers.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.LogicalCompression": {
+   "file": "lean/PhysicalBridge/LogicalCompression.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.LogicalPhaseQuotient": {
+   "file": "lean/PhysicalBridge/LogicalPhaseQuotient.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.LogicalQuotient": {
+   "file": "lean/PhysicalBridge/LogicalQuotient.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.LogicalResolution": {
+   "file": "lean/PhysicalBridge/LogicalResolution.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.MatrixChannels": {
+   "file": "lean/PhysicalBridge/MatrixChannels.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.MixedReplacement": {
+   "file": "lean/PhysicalBridge/MixedReplacement.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.MixturePushforward": {
+   "file": "lean/PhysicalBridge/MixturePushforward.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.Mixtures": {
+   "file": "lean/PhysicalBridge/Mixtures.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.MultivariateReliability": {
+   "file": "lean/PhysicalBridge/MultivariateReliability.lean",
+   "compatibility_options": false
+  },
+  "PhysicalBridge.OptimalUnitaryMixture": {
+   "file": "lean/PhysicalBridge/OptimalUnitaryMixture.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.PauliSyndromes": {
+   "file": "lean/PhysicalBridge/PauliSyndromes.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.PauliTensor": {
+   "file": "lean/PhysicalBridge/PauliTensor.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.PauliTrace": {
+   "file": "lean/PhysicalBridge/PauliTrace.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.PhysicalAlgorithm": {
+   "file": "lean/PhysicalBridge/PhysicalAlgorithm.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.PhysicalApproximation": {
+   "file": "lean/PhysicalBridge/PhysicalApproximation.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.PhysicalBernstein": {
+   "file": "lean/PhysicalBridge/PhysicalBernstein.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.PhysicalCachedShape": {
+   "file": "lean/PhysicalBridge/PhysicalCachedShape.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.PhysicalCachedTails": {
+   "file": "lean/PhysicalBridge/PhysicalCachedTails.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.PhysicalShapeConfidence": {
+   "file": "lean/PhysicalBridge/PhysicalShapeConfidence.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.PostprocessShape": {
+   "file": "lean/PhysicalBridge/PostprocessShape.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.PostprocessTails": {
+   "file": "lean/PhysicalBridge/PostprocessTails.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.RangeKernelProduct": {
+   "file": "lean/PhysicalBridge/RangeKernelProduct.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.RationalBudgets": {
+   "file": "lean/PhysicalBridge/RationalBudgets.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.RationalCurveEvaluator": {
+   "file": "lean/PhysicalBridge/RationalCurveEvaluator.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.RationalOutputEdges": {
+   "file": "lean/PhysicalBridge/RationalOutputEdges.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.RationalOutputStorage": {
+   "file": "lean/PhysicalBridge/RationalOutputStorage.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.RationalPhysicalEstimator": {
+   "file": "lean/PhysicalBridge/RationalPhysicalEstimator.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.RationalPosetRepair": {
+   "file": "lean/PhysicalBridge/RationalPosetRepair.lean",
+   "compatibility_options": false
+  },
+  "PhysicalBridge.RationalRepair": {
+   "file": "lean/PhysicalBridge/RationalRepair.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.RationalTensorConfidence": {
+   "file": "lean/PhysicalBridge/RationalTensorConfidence.lean",
+   "compatibility_options": false
+  },
+  "PhysicalBridge.RationalTensorRepair": {
+   "file": "lean/PhysicalBridge/RationalTensorRepair.lean",
+   "compatibility_options": false
+  },
+  "PhysicalBridge.ReindexChannels": {
+   "file": "lean/PhysicalBridge/ReindexChannels.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.RestrictedRankBridge": {
+   "file": "lean/PhysicalBridge/RestrictedRankBridge.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.ScalarUnitary": {
+   "file": "lean/PhysicalBridge/ScalarUnitary.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.SparseBinaryRank": {
+   "file": "lean/PhysicalBridge/SparseBinaryRank.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.StabilizerEncoding": {
+   "file": "lean/PhysicalBridge/StabilizerEncoding.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.StabilizerProjector": {
+   "file": "lean/PhysicalBridge/StabilizerProjector.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.SubspaceNoiseDecomposition": {
+   "file": "lean/PhysicalBridge/SubspaceNoiseDecomposition.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.SubspaceRecoveryOptimum": {
+   "file": "lean/PhysicalBridge/SubspaceRecoveryOptimum.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.SubsystemTwirl": {
+   "file": "lean/PhysicalBridge/SubsystemTwirl.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.SupportedTwirl": {
+   "file": "lean/PhysicalBridge/SupportedTwirl.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.SyndromeCharacters": {
+   "file": "lean/PhysicalBridge/SyndromeCharacters.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.SyndromeFibers": {
+   "file": "lean/PhysicalBridge/SyndromeFibers.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.SyndromeMixture": {
+   "file": "lean/PhysicalBridge/SyndromeMixture.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.SyndromeResolution": {
+   "file": "lean/PhysicalBridge/SyndromeResolution.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.TensorConfidence": {
+   "file": "lean/PhysicalBridge/TensorConfidence.lean",
+   "compatibility_options": false
+  },
+  "PhysicalBridge.TraceResolution": {
+   "file": "lean/PhysicalBridge/TraceResolution.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.UniformLogicalNoise": {
+   "file": "lean/PhysicalBridge/UniformLogicalNoise.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.UniformMixtures": {
+   "file": "lean/PhysicalBridge/UniformMixtures.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.UnitaryResolution": {
+   "file": "lean/PhysicalBridge/UnitaryResolution.lean",
+   "compatibility_options": true
+  },
+  "PhysicalBridge.ZeroLengthDispatchCandidate": {
+   "file": "lean/PhysicalBridge/ZeroLengthDispatchCandidate.lean",
+   "compatibility_options": true
+  },
+  "PointHardness": {
+   "file": "lean/PointHardness.lean",
+   "compatibility_options": false
+  },
+  "ProductCode": {
+   "file": "lean/ProductCode.lean",
+   "compatibility_options": false
+  },
+  "QecReliability.AffineCircuits": {
+   "file": "lean/QecReliability/AffineCircuits.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.Averaging": {
+   "file": "lean/QecReliability/Averaging.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.BadEncoder": {
+   "file": "lean/QecReliability/BadEncoder.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.BadWeightEncoder": {
+   "file": "lean/QecReliability/BadWeightEncoder.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.BernsteinShape": {
+   "file": "lean/QecReliability/BernsteinShape.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.BinaryAdder": {
+   "file": "lean/QecReliability/BinaryAdder.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.BinarySymplectic": {
+   "file": "lean/QecReliability/BinarySymplectic.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.BitModelsCore": {
+   "file": "lean/QecReliability/BitModelsCore.lean",
+   "compatibility_options": false
+  },
+  "QecReliability.BlockComposition": {
+   "file": "lean/QecReliability/BlockComposition.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.CNFBlocks": {
+   "file": "lean/QecReliability/CNFBlocks.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.CachedEvaluator": {
+   "file": "lean/QecReliability/CachedEvaluator.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.CachedStorage": {
+   "file": "lean/QecReliability/CachedStorage.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.CenteredPowerCandidate": {
+   "file": "lean/QecReliability/CenteredPowerCandidate.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.CenteredSpectralGap": {
+   "file": "lean/QecReliability/CenteredSpectralGap.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.Certificates": {
+   "file": "lean/QecReliability/Certificates.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.CircuitCompiler": {
+   "file": "lean/QecReliability/CircuitCompiler.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.CircuitComposition": {
+   "file": "lean/QecReliability/CircuitComposition.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.CircuitPrograms": {
+   "file": "lean/QecReliability/CircuitPrograms.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.CleaningBlock": {
+   "file": "lean/QecReliability/CleaningBlock.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.CodeCore": {
+   "file": "lean/QecReliability/CodeCore.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.CodeDistance": {
+   "file": "lean/QecReliability/CodeDistance.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.CodeHash": {
+   "file": "lean/QecReliability/CodeHash.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.CodeHashCircuits": {
+   "file": "lean/QecReliability/CodeHashCircuits.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.CodeHashQuantum": {
+   "file": "lean/QecReliability/CodeHashQuantum.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.CodeHashStages": {
+   "file": "lean/QecReliability/CodeHashStages.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.CodePadding": {
+   "file": "lean/QecReliability/CodePadding.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.CodingHashBridge": {
+   "file": "lean/QecReliability/CodingHashBridge.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.ConcreteQuantumConfidence": {
+   "file": "lean/QecReliability/ConcreteQuantumConfidence.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.ConfidenceParameters": {
+   "file": "lean/QecReliability/ConfidenceParameters.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.CurveConfidence": {
+   "file": "lean/QecReliability/CurveConfidence.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.DecisionTrial": {
+   "file": "lean/QecReliability/DecisionTrial.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.DenseHashReference": {
+   "file": "lean/QecReliability/DenseHashReference.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.DirectedPortSparseCandidate": {
+   "file": "lean/QecReliability/DirectedPortSparseCandidate.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.DyadicAlignment": {
+   "file": "lean/QecReliability/DyadicAlignment.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.DyadicCodeFamily": {
+   "file": "lean/QecReliability/DyadicCodeFamily.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.ExplicitBitSampler": {
+   "file": "lean/QecReliability/ExplicitBitSampler.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.FiniteLocalCountingCandidate": {
+   "file": "lean/QecReliability/FiniteLocalCountingCandidate.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.FiniteLocalSelectorCandidate": {
+   "file": "lean/QecReliability/FiniteLocalSelectorCandidate.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.FiniteProbability": {
+   "file": "lean/QecReliability/FiniteProbability.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.FiniteRandomTapeExecutionCandidate": {
+   "file": "lean/QecReliability/FiniteRandomTapeExecutionCandidate.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.FiniteXorRowEmitterCandidate": {
+   "file": "lean/QecReliability/FiniteXorRowEmitterCandidate.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.FixedLocalAmplifierEmitterCandidate": {
+   "file": "lean/QecReliability/FixedLocalAmplifierEmitterCandidate.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.FixedLocalBaseEmitterCandidate": {
+   "file": "lean/QecReliability/FixedLocalBaseEmitterCandidate.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.FixedLocalDyadicDataCandidate": {
+   "file": "lean/QecReliability/FixedLocalDyadicDataCandidate.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.FixedLocalEncoderClosureCandidate": {
+   "file": "lean/QecReliability/FixedLocalEncoderClosureCandidate.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.FixedWitnessRecursiveBridgeCandidate": {
+   "file": "lean/QecReliability/FixedWitnessRecursiveBridgeCandidate.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.FixedWitnessSparseAmplifierCandidate": {
+   "file": "lean/QecReliability/FixedWitnessSparseAmplifierCandidate.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.GoodEncoder": {
+   "file": "lean/QecReliability/GoodEncoder.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.HammingMonotonicity": {
+   "file": "lean/QecReliability/HammingMonotonicity.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.HashConfidence": {
+   "file": "lean/QecReliability/HashConfidence.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.HashMoments": {
+   "file": "lean/QecReliability/HashMoments.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.Latent": {
+   "file": "lean/QecReliability/Latent.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.LatentEncoder": {
+   "file": "lean/QecReliability/LatentEncoder.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.LazyPortGraphCore": {
+   "file": "lean/QecReliability/LazyPortGraphCore.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.MGGPortGraph": {
+   "file": "lean/QecReliability/MGGPortGraph.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.MedianAmplification": {
+   "file": "lean/QecReliability/MedianAmplification.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.MultivariateShapeRepair": {
+   "file": "lean/QecReliability/MultivariateShapeRepair.lean",
+   "compatibility_options": false
+  },
+  "QecReliability.Normalization": {
+   "file": "lean/QecReliability/Normalization.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.PackedSemanticBridgeCandidate": {
+   "file": "lean/QecReliability/PackedSemanticBridgeCandidate.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.PaddedSparseCandidate": {
+   "file": "lean/QecReliability/PaddedSparseCandidate.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.PopulationCounter": {
+   "file": "lean/QecReliability/PopulationCounter.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.PortPowerCandidate": {
+   "file": "lean/QecReliability/PortPowerCandidate.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.PosetShapeRepair": {
+   "file": "lean/QecReliability/PosetShapeRepair.lean",
+   "compatibility_options": false
+  },
+  "QecReliability.PoweredMGGPortGraph": {
+   "file": "lean/QecReliability/PoweredMGGPortGraph.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.PrefixCNF": {
+   "file": "lean/QecReliability/PrefixCNF.lean",
+   "compatibility_options": false
+  },
+  "QecReliability.PrefixEnumeration": {
+   "file": "lean/QecReliability/PrefixEnumeration.lean",
+   "compatibility_options": false
+  },
+  "QecReliability.ProductProbability": {
+   "file": "lean/QecReliability/ProductProbability.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.ProjectedTrial": {
+   "file": "lean/QecReliability/ProjectedTrial.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.QuantumBridge": {
+   "file": "lean/QecReliability/QuantumBridge.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.QuantumCircuitPieces": {
+   "file": "lean/QecReliability/QuantumCircuitPieces.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.QuantumDecisionBridge": {
+   "file": "lean/QecReliability/QuantumDecisionBridge.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.QuantumLatentEncoder": {
+   "file": "lean/QecReliability/QuantumLatentEncoder.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.RecursiveEncoderDistanceCandidate": {
+   "file": "lean/QecReliability/RecursiveEncoderDistanceCandidate.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.RegularWalks": {
+   "file": "lean/QecReliability/RegularWalks.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.SelectedSparseAmplifier": {
+   "file": "lean/QecReliability/SelectedSparseAmplifier.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.SerializedEncoderWiringCandidateReviewed": {
+   "file": "lean/QecReliability/SerializedEncoderWiringCandidateReviewed.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.SharedCircuit": {
+   "file": "lean/QecReliability/SharedCircuit.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.SharedCircuitCore": {
+   "file": "lean/QecReliability/SharedCircuitCore.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.SimultaneousConfidence": {
+   "file": "lean/QecReliability/SimultaneousConfidence.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.SparseCircuits": {
+   "file": "lean/QecReliability/SparseCircuits.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.SparseGenerators": {
+   "file": "lean/QecReliability/SparseGenerators.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.SparseNormalizer": {
+   "file": "lean/QecReliability/SparseNormalizer.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.SparseReconstruction": {
+   "file": "lean/QecReliability/SparseReconstruction.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.SymbolAlignment": {
+   "file": "lean/QecReliability/SymbolAlignment.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.TargetScale": {
+   "file": "lean/QecReliability/TargetScale.lean",
+   "compatibility_options": false
+  },
+  "QecReliability.TensorBernstein": {
+   "file": "lean/QecReliability/TensorBernstein.lean",
+   "compatibility_options": false
+  },
+  "QecReliability.TensorCoefficientCounting": {
+   "file": "lean/QecReliability/TensorCoefficientCounting.lean",
+   "compatibility_options": false
+  },
+  "QecReliability.TensorCountingConfidence": {
+   "file": "lean/QecReliability/TensorCountingConfidence.lean",
+   "compatibility_options": false
+  },
+  "QecReliability.TensorLatent": {
+   "file": "lean/QecReliability/TensorLatent.lean",
+   "compatibility_options": false
+  },
+  "QecReliability.TensorLayers": {
+   "file": "lean/QecReliability/TensorLayers.lean",
+   "compatibility_options": false
+  },
+  "QecReliability.TensorQuantumEncoder": {
+   "file": "lean/QecReliability/TensorQuantumEncoder.lean",
+   "compatibility_options": false
+  },
+  "QecReliability.TransposeAccumulator": {
+   "file": "lean/QecReliability/TransposeAccumulator.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.TransposeQuantumBridge": {
+   "file": "lean/QecReliability/TransposeQuantumBridge.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.UniformLinear": {
+   "file": "lean/QecReliability/UniformLinear.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.WalkAvoidance": {
+   "file": "lean/QecReliability/WalkAvoidance.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.WalkCodingBridge": {
+   "file": "lean/QecReliability/WalkCodingBridge.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.WalkEnergy": {
+   "file": "lean/QecReliability/WalkEnergy.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.WalkSymbols": {
+   "file": "lean/QecReliability/WalkSymbols.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.WeightEncoder": {
+   "file": "lean/QecReliability/WeightEncoder.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.XorCircuitCore": {
+   "file": "lean/QecReliability/XorCircuitCore.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.XorCircuitInput": {
+   "file": "lean/QecReliability/XorCircuitInput.lean",
+   "compatibility_options": true
+  },
+  "QecReliability.XorTranspose": {
+   "file": "lean/QecReliability/XorTranspose.lean",
+   "compatibility_options": true
+  },
+  "RankSampling": {
+   "file": "lean/RankSampling.lean",
+   "compatibility_options": false
+  },
+  "RegMachine.Abstract": {
+   "file": "lean/RegMachine/Abstract.lean",
+   "compatibility_options": true
+  },
+  "RegMachine.BasicLib": {
+   "file": "lean/RegMachine/BasicLib.lean",
+   "compatibility_options": true
+  },
+  "RegMachine.CallClean": {
+   "file": "lean/RegMachine/CallClean.lean",
+   "compatibility_options": true
+  },
+  "RegMachine.CallMachine": {
+   "file": "lean/RegMachine/CallMachine.lean",
+   "compatibility_options": true
+  },
+  "RegMachine.CallSim": {
+   "file": "lean/RegMachine/CallSim.lean",
+   "compatibility_options": true
+  },
+  "RegMachine.CallSpec": {
+   "file": "lean/RegMachine/CallSpec.lean",
+   "compatibility_options": true
+  },
+  "RegMachine.Compile": {
+   "file": "lean/RegMachine/Compile.lean",
+   "compatibility_options": true
+  },
+  "RegMachine.Encoding": {
+   "file": "lean/RegMachine/Encoding.lean",
+   "compatibility_options": true
+  },
+  "RegMachine.Engine": {
+   "file": "lean/RegMachine/Engine.lean",
+   "compatibility_options": true
+  },
+  "RegMachine.Gadgets": {
+   "file": "lean/RegMachine/Gadgets.lean",
+   "compatibility_options": true
+  },
+  "RegMachine.GadgetsAppend": {
+   "file": "lean/RegMachine/GadgetsAppend.lean",
+   "compatibility_options": true
+  },
+  "RegMachine.GadgetsPushFront": {
+   "file": "lean/RegMachine/GadgetsPushFront.lean",
+   "compatibility_options": true
+  },
+  "RegMachine.Lang": {
+   "file": "lean/RegMachine/Lang.lean",
+   "compatibility_options": true
+  },
+  "RegMachine.Loops": {
+   "file": "lean/RegMachine/Loops.lean",
+   "compatibility_options": true
+  },
+  "RegMachine.Macros": {
+   "file": "lean/RegMachine/Macros.lean",
+   "compatibility_options": true
+  },
+  "RegMachine.Main": {
+   "file": "lean/RegMachine/Main.lean",
+   "compatibility_options": true
+  },
+  "RegMachine.OracleLib": {
+   "file": "lean/RegMachine/OracleLib.lean",
+   "compatibility_options": true
+  },
+  "RegMachine.RegMap": {
+   "file": "lean/RegMachine/RegMap.lean",
+   "compatibility_options": true
+  },
+  "RegMachine.SATOracle": {
+   "file": "lean/RegMachine/SATOracle.lean",
+   "compatibility_options": true
+  },
+  "RegMachine.Struct": {
+   "file": "lean/RegMachine/Struct.lean",
+   "compatibility_options": true
+  },
+  "ResourceAccounting": {
+   "file": "lean/ResourceAccounting.lean",
+   "compatibility_options": false
+  },
+  "ResourceAssemblyAdapter": {
+   "file": "lean/ResourceAssemblyAdapter.lean",
+   "compatibility_options": true
+  },
+  "ResourceConcreteExternal": {
+   "file": "lean/ResourceConcreteExternal.lean",
+   "compatibility_options": true
+  },
+  "ResourceEncodedSAT": {
+   "file": "lean/ResourceEncodedSAT.lean",
+   "compatibility_options": true
+  },
+  "ResourceQuantumQueryBounds": {
+   "file": "lean/ResourceQuantumQueryBounds.lean",
+   "compatibility_options": true
+  },
+  "ResourceQuantumTime": {
+   "file": "lean/ResourceQuantumTime.lean",
+   "compatibility_options": true
+  },
+  "ResourceSATOracle": {
+   "file": "lean/ResourceSATOracle.lean",
+   "compatibility_options": true
+  },
+  "SamplingBounds": {
+   "file": "lean/SamplingBounds.lean",
+   "compatibility_options": false
+  },
+  "SatCosetWeight": {
+   "file": "lean/SatCosetWeight.lean",
+   "compatibility_options": false
+  },
+  "SatHardness": {
+   "file": "lean/SatHardness.lean",
+   "compatibility_options": false
+  },
+  "SatLogicalQubit": {
+   "file": "lean/SatLogicalQubit.lean",
+   "compatibility_options": false
+  },
+  "SatToDistance": {
+   "file": "lean/SatToDistance.lean",
+   "compatibility_options": false
+  },
+  "TensorArgumentMagnitude": {
+   "file": "lean/TensorArgumentMagnitude.lean",
+   "compatibility_options": false
+  },
+  "TensorCountingAnswers": {
+   "file": "lean/TensorCountingAnswers.lean",
+   "compatibility_options": false
+  },
+  "TensorCountingInitial": {
+   "file": "lean/TensorCountingInitial.lean",
+   "compatibility_options": false
+  },
+  "TensorCountingInputBudget": {
+   "file": "lean/TensorCountingInputBudget.lean",
+   "compatibility_options": false
+  },
+  "TensorCountingOutput": {
+   "file": "lean/TensorCountingOutput.lean",
+   "compatibility_options": false
+  },
+  "TensorCountingResources": {
+   "file": "lean/TensorCountingResources.lean",
+   "compatibility_options": false
+  },
+  "TensorCountingSpace": {
+   "file": "lean/TensorCountingSpace.lean",
+   "compatibility_options": false
+  },
+  "TensorCountingTimeBudget": {
+   "file": "lean/TensorCountingTimeBudget.lean",
+   "compatibility_options": false
+  },
+  "TensorCountingTrace": {
+   "file": "lean/TensorCountingTrace.lean",
+   "compatibility_options": false
+  },
+  "TensorFactoryResourceBounds": {
+   "file": "lean/TensorFactoryResourceBounds.lean",
+   "compatibility_options": false
+  },
+  "TensorFactorySeeds": {
+   "file": "lean/TensorFactorySeeds.lean",
+   "compatibility_options": false
+  },
+  "TensorFixedQuantumClosure": {
+   "file": "lean/TensorFixedQuantumClosure.lean",
+   "compatibility_options": false
+  },
+  "TensorFixedQuantumStrong": {
+   "file": "lean/TensorFixedQuantumStrong.lean",
+   "compatibility_options": false
+  },
+  "TensorGeneralAlgorithm": {
+   "file": "lean/TensorGeneralAlgorithm.lean",
+   "compatibility_options": false
+  },
+  "TensorGeneralCircuit": {
+   "file": "lean/TensorGeneralCircuit.lean",
+   "compatibility_options": false
+  },
+  "TensorGeneralSemantics": {
+   "file": "lean/TensorGeneralSemantics.lean",
+   "compatibility_options": false
+  },
+  "TensorGridEnumeration": {
+   "file": "lean/TensorGridEnumeration.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineAgreement": {
+   "file": "lean/TensorMachineAgreement.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineArgumentEnvelope": {
+   "file": "lean/TensorMachineArgumentEnvelope.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineAuxiliaryBounds": {
+   "file": "lean/TensorMachineAuxiliaryBounds.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineBudgetEnvelope": {
+   "file": "lean/TensorMachineBudgetEnvelope.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineCallbackRuns": {
+   "file": "lean/TensorMachineCallbackRuns.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineCompleted": {
+   "file": "lean/TensorMachineCompleted.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineConcrete": {
+   "file": "lean/TensorMachineConcrete.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineContextBounds": {
+   "file": "lean/TensorMachineContextBounds.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineContextFL": {
+   "file": "lean/TensorMachineContextFL.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineContextSpace": {
+   "file": "lean/TensorMachineContextSpace.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineControlLibrary": {
+   "file": "lean/TensorMachineControlLibrary.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineControllerBounds": {
+   "file": "lean/TensorMachineControllerBounds.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineControllerFL": {
+   "file": "lean/TensorMachineControllerFL.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineControllerSpace": {
+   "file": "lean/TensorMachineControllerSpace.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineCountingStepBudget": {
+   "file": "lean/TensorMachineCountingStepBudget.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineCountingTotals": {
+   "file": "lean/TensorMachineCountingTotals.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineEndpointBudget": {
+   "file": "lean/TensorMachineEndpointBudget.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineFinishResources": {
+   "file": "lean/TensorMachineFinishResources.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineFinishStepBudget": {
+   "file": "lean/TensorMachineFinishStepBudget.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineGrid": {
+   "file": "lean/TensorMachineGrid.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineGridBounds": {
+   "file": "lean/TensorMachineGridBounds.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineGridCost": {
+   "file": "lean/TensorMachineGridCost.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineGridEnvelope": {
+   "file": "lean/TensorMachineGridEnvelope.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineGridFL": {
+   "file": "lean/TensorMachineGridFL.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineGridSpace": {
+   "file": "lean/TensorMachineGridSpace.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineGuarantee": {
+   "file": "lean/TensorMachineGuarantee.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineInitializerBounds": {
+   "file": "lean/TensorMachineInitializerBounds.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineInitializerEnvelope": {
+   "file": "lean/TensorMachineInitializerEnvelope.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineInitializerFL": {
+   "file": "lean/TensorMachineInitializerFL.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineInitializerPaper": {
+   "file": "lean/TensorMachineInitializerPaper.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineInput": {
+   "file": "lean/TensorMachineInput.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineInputExtent": {
+   "file": "lean/TensorMachineInputExtent.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineInstalled": {
+   "file": "lean/TensorMachineInstalled.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineInvoke": {
+   "file": "lean/TensorMachineInvoke.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineLowering": {
+   "file": "lean/TensorMachineLowering.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineParserBounds": {
+   "file": "lean/TensorMachineParserBounds.lean",
+   "compatibility_options": false
+  },
+  "TensorMachinePathTrace": {
+   "file": "lean/TensorMachinePathTrace.lean",
+   "compatibility_options": false
+  },
+  "TensorMachinePhysicalTransfer": {
+   "file": "lean/TensorMachinePhysicalTransfer.lean",
+   "compatibility_options": false
+  },
+  "TensorMachinePolynomial": {
+   "file": "lean/TensorMachinePolynomial.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineProgram": {
+   "file": "lean/TensorMachineProgram.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineProgramSpec": {
+   "file": "lean/TensorMachineProgramSpec.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineProgramValid": {
+   "file": "lean/TensorMachineProgramValid.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineQueryFL": {
+   "file": "lean/TensorMachineQueryFL.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineResourceLowering": {
+   "file": "lean/TensorMachineResourceLowering.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineRuntimeLoop": {
+   "file": "lean/TensorMachineRuntimeLoop.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineStepResources": {
+   "file": "lean/TensorMachineStepResources.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineStructuralTime": {
+   "file": "lean/TensorMachineStructuralTime.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineTotalResources": {
+   "file": "lean/TensorMachineTotalResources.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineTotalsFromEqualities": {
+   "file": "lean/TensorMachineTotalsFromEqualities.lean",
+   "compatibility_options": false
+  },
+  "TensorMachineTrace": {
+   "file": "lean/TensorMachineTrace.lean",
+   "compatibility_options": false
+  },
+  "TensorPhysicalAlgorithm": {
+   "file": "lean/TensorPhysicalAlgorithm.lean",
+   "compatibility_options": false
+  },
+  "TensorPhysicalOutput": {
+   "file": "lean/TensorPhysicalOutput.lean",
+   "compatibility_options": false
+  },
+  "TensorPhysicalVectorConfidence": {
+   "file": "lean/TensorPhysicalVectorConfidence.lean",
+   "compatibility_options": false
+  },
+  "TensorQueryBoundary": {
+   "file": "lean/TensorQueryBoundary.lean",
+   "compatibility_options": false
+  },
+  "TensorQueryFL": {
+   "file": "lean/TensorQueryFL.lean",
+   "compatibility_options": false
+  },
+  "TensorQueryFLBounds": {
+   "file": "lean/TensorQueryFLBounds.lean",
+   "compatibility_options": false
+  },
+  "TensorQueryFLInstalled": {
+   "file": "lean/TensorQueryFLInstalled.lean",
+   "compatibility_options": false
+  },
+  "TensorQueryFLValidity": {
+   "file": "lean/TensorQueryFLValidity.lean",
+   "compatibility_options": false
+  },
+  "TensorQueryInputBudget": {
+   "file": "lean/TensorQueryInputBudget.lean",
+   "compatibility_options": false
+  },
+  "TensorQueryPlain": {
+   "file": "lean/TensorQueryPlain.lean",
+   "compatibility_options": false
+  },
+  "TensorQueryService": {
+   "file": "lean/TensorQueryService.lean",
+   "compatibility_options": false
+  },
+  "TensorQuerySize": {
+   "file": "lean/TensorQuerySize.lean",
+   "compatibility_options": false
+  },
+  "TensorRepairFL": {
+   "file": "lean/TensorRepairFL.lean",
+   "compatibility_options": false
+  },
+  "TensorRepairFLAnchorBounds": {
+   "file": "lean/TensorRepairFLAnchorBounds.lean",
+   "compatibility_options": false
+  },
+  "TensorRepairFLAnchorTableBounds": {
+   "file": "lean/TensorRepairFLAnchorTableBounds.lean",
+   "compatibility_options": false
+  },
+  "TensorRepairFLAnchors": {
+   "file": "lean/TensorRepairFLAnchors.lean",
+   "compatibility_options": false
+  },
+  "TensorRepairFLBitBounds": {
+   "file": "lean/TensorRepairFLBitBounds.lean",
+   "compatibility_options": false
+  },
+  "TensorRepairFLBounds": {
+   "file": "lean/TensorRepairFLBounds.lean",
+   "compatibility_options": false
+  },
+  "TensorRepairFLCanonical": {
+   "file": "lean/TensorRepairFLCanonical.lean",
+   "compatibility_options": false
+  },
+  "TensorRepairFLCanonicalBits": {
+   "file": "lean/TensorRepairFLCanonicalBits.lean",
+   "compatibility_options": false
+  },
+  "TensorRepairFLCanonicalBounds": {
+   "file": "lean/TensorRepairFLCanonicalBounds.lean",
+   "compatibility_options": false
+  },
+  "TensorRepairFLCountAllocationBounds": {
+   "file": "lean/TensorRepairFLCountAllocationBounds.lean",
+   "compatibility_options": false
+  },
+  "TensorRepairFLCountBounds": {
+   "file": "lean/TensorRepairFLCountBounds.lean",
+   "compatibility_options": false
+  },
+  "TensorRepairFLFullBounds": {
+   "file": "lean/TensorRepairFLFullBounds.lean",
+   "compatibility_options": false
+  },
+  "TensorRepairFLFullInstalled": {
+   "file": "lean/TensorRepairFLFullInstalled.lean",
+   "compatibility_options": false
+  },
+  "TensorRepairFLInputParts": {
+   "file": "lean/TensorRepairFLInputParts.lean",
+   "compatibility_options": false
+  },
+  "TensorRepairFLInstalled": {
+   "file": "lean/TensorRepairFLInstalled.lean",
+   "compatibility_options": false
+  },
+  "TensorRepairFLKeyBounds": {
+   "file": "lean/TensorRepairFLKeyBounds.lean",
+   "compatibility_options": false
+  },
+  "TensorRepairFLOutputBounds": {
+   "file": "lean/TensorRepairFLOutputBounds.lean",
+   "compatibility_options": false
+  },
+  "TensorRepairFLPlain": {
+   "file": "lean/TensorRepairFLPlain.lean",
+   "compatibility_options": false
+  },
+  "TensorRepairFLReachableBounds": {
+   "file": "lean/TensorRepairFLReachableBounds.lean",
+   "compatibility_options": false
+  },
+  "TensorRepairFLScanBounds": {
+   "file": "lean/TensorRepairFLScanBounds.lean",
+   "compatibility_options": false
+  },
+  "TensorRepairFLSemantics": {
+   "file": "lean/TensorRepairFLSemantics.lean",
+   "compatibility_options": false
+  },
+  "TensorRepairFLTableBounds": {
+   "file": "lean/TensorRepairFLTableBounds.lean",
+   "compatibility_options": false
+  },
+  "TensorRepairFLWrapper": {
+   "file": "lean/TensorRepairFLWrapper.lean",
+   "compatibility_options": false
+  },
+  "TensorRuntimeQueries": {
+   "file": "lean/TensorRuntimeQueries.lean",
+   "compatibility_options": false
+  },
+  "TensorRuntimeQueryBounds": {
+   "file": "lean/TensorRuntimeQueryBounds.lean",
+   "compatibility_options": false
+  },
+  "Trans.Bounds.Loop": {
+   "file": "lean/Trans/Bounds/Loop.lean",
+   "compatibility_options": true
+  },
+  "Trans.Bounds.Output": {
+   "file": "lean/Trans/Bounds/Output.lean",
+   "compatibility_options": true
+  },
+  "Trans.Bounds.Size": {
+   "file": "lean/Trans/Bounds/Size.lean",
+   "compatibility_options": true
+  },
+  "Trans.Bounds.SizeCfg": {
+   "file": "lean/Trans/Bounds/SizeCfg.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsEnc.Amp": {
+   "file": "lean/Trans/BoundsEnc/Amp.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsEnc.Basic": {
+   "file": "lean/Trans/BoundsEnc/Basic.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsEnc.Gates": {
+   "file": "lean/Trans/BoundsEnc/Gates.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsEnc.Level": {
+   "file": "lean/Trans/BoundsEnc/Level.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsEnc.Main": {
+   "file": "lean/Trans/BoundsEnc/Main.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsQH.Comb": {
+   "file": "lean/Trans/BoundsQH/Comb.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsQH.Compile": {
+   "file": "lean/Trans/BoundsQH/Compile.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsQH.HAff": {
+   "file": "lean/Trans/BoundsQH/HAff.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsQH.HComb": {
+   "file": "lean/Trans/BoundsQH/HComb.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsQH.HFold": {
+   "file": "lean/Trans/BoundsQH/HFold.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsQH.HMain": {
+   "file": "lean/Trans/BoundsQH/HMain.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsQH.HParams": {
+   "file": "lean/Trans/BoundsQH/HParams.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsQH.HTrans": {
+   "file": "lean/Trans/BoundsQH/HTrans.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsQH.Lib": {
+   "file": "lean/Trans/BoundsQH/Lib.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsQH.Point": {
+   "file": "lean/Trans/BoundsQH/Point.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsQH.PointE": {
+   "file": "lean/Trans/BoundsQH/PointE.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsQH.Poly": {
+   "file": "lean/Trans/BoundsQH/Poly.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsQH.QBad": {
+   "file": "lean/Trans/BoundsQH/QBad.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsQH.QBlock": {
+   "file": "lean/Trans/BoundsQH/QBlock.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsQH.QCirc": {
+   "file": "lean/Trans/BoundsQH/QCirc.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsQH.QCodec": {
+   "file": "lean/Trans/BoundsQH/QCodec.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsQH.QGood": {
+   "file": "lean/Trans/BoundsQH/QGood.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsQH.QLayer": {
+   "file": "lean/Trans/BoundsQH/QLayer.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsQH.QPop": {
+   "file": "lean/Trans/BoundsQH/QPop.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsRest.Compile": {
+   "file": "lean/Trans/BoundsRest/Compile.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsRest.EndPoly": {
+   "file": "lean/Trans/BoundsRest/EndPoly.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsRest.Endpoint": {
+   "file": "lean/Trans/BoundsRest/Endpoint.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsRest.InitHdr": {
+   "file": "lean/Trans/BoundsRest/InitHdr.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsRest.InitMany": {
+   "file": "lean/Trans/BoundsRest/InitMany.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsRest.InitParse": {
+   "file": "lean/Trans/BoundsRest/InitParse.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsRest.Mag": {
+   "file": "lean/Trans/BoundsRest/Mag.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsStep.Base": {
+   "file": "lean/Trans/BoundsStep/Base.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsStep.Dispatch": {
+   "file": "lean/Trans/BoundsStep/Dispatch.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsStep.Envelope": {
+   "file": "lean/Trans/BoundsStep/Envelope.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsStep.PhaseA": {
+   "file": "lean/Trans/BoundsStep/PhaseA.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsStep.PhaseCall": {
+   "file": "lean/Trans/BoundsStep/PhaseCall.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsStep.PhaseFetch": {
+   "file": "lean/Trans/BoundsStep/PhaseFetch.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsStep.PhasePrefix": {
+   "file": "lean/Trans/BoundsStep/PhasePrefix.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsStep.PhaseRepair": {
+   "file": "lean/Trans/BoundsStep/PhaseRepair.lean",
+   "compatibility_options": true
+  },
+  "Trans.BoundsStep.Step": {
+   "file": "lean/Trans/BoundsStep/Step.lean",
+   "compatibility_options": true
+  },
+  "Trans.Control.Base": {
+   "file": "lean/Trans/Control/Base.lean",
+   "compatibility_options": true
+  },
+  "Trans.Control.Init": {
+   "file": "lean/Trans/Control/Init.lean",
+   "compatibility_options": true
+  },
+  "Trans.Control.Rank": {
+   "file": "lean/Trans/Control/Rank.lean",
+   "compatibility_options": true
+  },
+  "Trans.Control.RankPlain": {
+   "file": "lean/Trans/Control/RankPlain.lean",
+   "compatibility_options": true
+  },
+  "Trans.Control.StepA": {
+   "file": "lean/Trans/Control/StepA.lean",
+   "compatibility_options": true
+  },
+  "Trans.Control.StepB": {
+   "file": "lean/Trans/Control/StepB.lean",
+   "compatibility_options": true
+  },
+  "Trans.Control.StepMain": {
+   "file": "lean/Trans/Control/StepMain.lean",
+   "compatibility_options": true
+  },
+  "Trans.Control.StepP": {
+   "file": "lean/Trans/Control/StepP.lean",
+   "compatibility_options": true
+  },
+  "Trans.Control.Types": {
+   "file": "lean/Trans/Control/Types.lean",
+   "compatibility_options": true
+  },
+  "Trans.Hash.Corr": {
+   "file": "lean/Trans/Hash/Corr.lean",
+   "compatibility_options": true
+  },
+  "Trans.Hash.CorrBase": {
+   "file": "lean/Trans/Hash/CorrBase.lean",
+   "compatibility_options": true
+  },
+  "Trans.Hash.CorrParts": {
+   "file": "lean/Trans/Hash/CorrParts.lean",
+   "compatibility_options": true
+  },
+  "Trans.Hash.FLAffine": {
+   "file": "lean/Trans/Hash/FLAffine.lean",
+   "compatibility_options": true
+  },
+  "Trans.Hash.FLBase": {
+   "file": "lean/Trans/Hash/FLBase.lean",
+   "compatibility_options": true
+  },
+  "Trans.Hash.FLList": {
+   "file": "lean/Trans/Hash/FLList.lean",
+   "compatibility_options": true
+  },
+  "Trans.Hash.FLScalar": {
+   "file": "lean/Trans/Hash/FLScalar.lean",
+   "compatibility_options": true
+  },
+  "Trans.Hash.FLTrans": {
+   "file": "lean/Trans/Hash/FLTrans.lean",
+   "compatibility_options": true
+  },
+  "Trans.Hash.FLWalk": {
+   "file": "lean/Trans/Hash/FLWalk.lean",
+   "compatibility_options": true
+  },
+  "Trans.Hash.FLWire": {
+   "file": "lean/Trans/Hash/FLWire.lean",
+   "compatibility_options": true
+  },
+  "Trans.Hash.Main": {
+   "file": "lean/Trans/Hash/Main.lean",
+   "compatibility_options": true
+  },
+  "Trans.Hash.Plain": {
+   "file": "lean/Trans/Hash/Plain.lean",
+   "compatibility_options": true
+  },
+  "Trans.Hash.Positive": {
+   "file": "lean/Trans/Hash/Positive.lean",
+   "compatibility_options": true
+  },
+  "Trans.Hash.Seed": {
+   "file": "lean/Trans/Hash/Seed.lean",
+   "compatibility_options": true
+  },
+  "Trans.HashCallees.Base": {
+   "file": "lean/Trans/HashCallees/Base.lean",
+   "compatibility_options": true
+  },
+  "Trans.HashCallees.EncoderCorr": {
+   "file": "lean/Trans/HashCallees/EncoderCorr.lean",
+   "compatibility_options": true
+  },
+  "Trans.HashCallees.EncoderCorrPow": {
+   "file": "lean/Trans/HashCallees/EncoderCorrPow.lean",
+   "compatibility_options": true
+  },
+  "Trans.HashCallees.EncoderCorrX": {
+   "file": "lean/Trans/HashCallees/EncoderCorrX.lean",
+   "compatibility_options": true
+  },
+  "Trans.HashCallees.EncoderFL": {
+   "file": "lean/Trans/HashCallees/EncoderFL.lean",
+   "compatibility_options": true
+  },
+  "Trans.HashCallees.EncoderFLAmp": {
+   "file": "lean/Trans/HashCallees/EncoderFLAmp.lean",
+   "compatibility_options": true
+  },
+  "Trans.HashCallees.EncoderFLBase": {
+   "file": "lean/Trans/HashCallees/EncoderFLBase.lean",
+   "compatibility_options": true
+  },
+  "Trans.HashCallees.EncoderPlain": {
+   "file": "lean/Trans/HashCallees/EncoderPlain.lean",
+   "compatibility_options": true
+  },
+  "Trans.HashCallees.EncoderSize": {
+   "file": "lean/Trans/HashCallees/EncoderSize.lean",
+   "compatibility_options": true
+  },
+  "Trans.HashCallees.MGG": {
+   "file": "lean/Trans/HashCallees/MGG.lean",
+   "compatibility_options": true
+  },
+  "Trans.HashCallees.MGGBounds": {
+   "file": "lean/Trans/HashCallees/MGGBounds.lean",
+   "compatibility_options": true
+  },
+  "Trans.HashCallees.Main": {
+   "file": "lean/Trans/HashCallees/Main.lean",
+   "compatibility_options": true
+  },
+  "Trans.Query.Bounds": {
+   "file": "lean/Trans/Query/Bounds.lean",
+   "compatibility_options": true
+  },
+  "Trans.Query.Codec": {
+   "file": "lean/Trans/Query/Codec.lean",
+   "compatibility_options": true
+  },
+  "Trans.Query.CorrBasic": {
+   "file": "lean/Trans/Query/CorrBasic.lean",
+   "compatibility_options": true
+  },
+  "Trans.Query.CorrLayer": {
+   "file": "lean/Trans/Query/CorrLayer.lean",
+   "compatibility_options": true
+  },
+  "Trans.Query.CorrPop": {
+   "file": "lean/Trans/Query/CorrPop.lean",
+   "compatibility_options": true
+  },
+  "Trans.Query.CorrSparse": {
+   "file": "lean/Trans/Query/CorrSparse.lean",
+   "compatibility_options": true
+  },
+  "Trans.Query.FLBad": {
+   "file": "lean/Trans/Query/FLBad.lean",
+   "compatibility_options": true
+  },
+  "Trans.Query.FLBase": {
+   "file": "lean/Trans/Query/FLBase.lean",
+   "compatibility_options": true
+  },
+  "Trans.Query.FLCirc": {
+   "file": "lean/Trans/Query/FLCirc.lean",
+   "compatibility_options": true
+  },
+  "Trans.Query.FLGood": {
+   "file": "lean/Trans/Query/FLGood.lean",
+   "compatibility_options": true
+  },
+  "Trans.Query.FLLayer": {
+   "file": "lean/Trans/Query/FLLayer.lean",
+   "compatibility_options": true
+  },
+  "Trans.Query.FLPop": {
+   "file": "lean/Trans/Query/FLPop.lean",
+   "compatibility_options": true
+  },
+  "Trans.Query.ListEnv": {
+   "file": "lean/Trans/Query/ListEnv.lean",
+   "compatibility_options": true
+  },
+  "Trans.Query.Main": {
+   "file": "lean/Trans/Query/Main.lean",
+   "compatibility_options": true
+  },
+  "Trans.Query.Plain": {
+   "file": "lean/Trans/Query/Plain.lean",
+   "compatibility_options": true
+  },
+  "Trans.Query.Types": {
+   "file": "lean/Trans/Query/Types.lean",
+   "compatibility_options": true
+  },
+  "Trans.Wire.Agree": {
+   "file": "lean/Trans/Wire/Agree.lean",
+   "compatibility_options": true
+  },
+  "Trans.Wire.Base": {
+   "file": "lean/Trans/Wire/Base.lean",
+   "compatibility_options": true
+  },
+  "Trans.Wire.Compile": {
+   "file": "lean/Trans/Wire/Compile.lean",
+   "compatibility_options": true
+  },
+  "Trans.Wire.Facts": {
+   "file": "lean/Trans/Wire/Facts.lean",
+   "compatibility_options": true
+  },
+  "Trans.Wire.Header": {
+   "file": "lean/Trans/Wire/Header.lean",
+   "compatibility_options": true
+  },
+  "Trans.Wire.Init": {
+   "file": "lean/Trans/Wire/Init.lean",
+   "compatibility_options": true
+  },
+  "Trans.Wire.Parse": {
+   "file": "lean/Trans/Wire/Parse.lean",
+   "compatibility_options": true
+  },
+  "UncorrectableFormula": {
+   "file": "lean/UncorrectableFormula.lean",
+   "compatibility_options": false
+  },
+  "UncorrectableMachine": {
+   "file": "lean/UncorrectableMachine.lean",
+   "compatibility_options": false
+  },
+  "UncorrectableMachineSized": {
+   "file": "lean/UncorrectableMachineSized.lean",
+   "compatibility_options": false
+  },
+  "UncorrectableProbability": {
+   "file": "lean/UncorrectableProbability.lean",
+   "compatibility_options": false
+  },
+  "UniformWalkFactoryCandidate": {
+   "file": "lean/UniformWalkFactoryCandidate.lean",
+   "compatibility_options": true
+  },
+  "UnionEstimator": {
+   "file": "lean/UnionEstimator.lean",
+   "compatibility_options": false
+  },
+  "WholeWrapperAllWords": {
+   "file": "lean/WholeWrapperAllWords.lean",
+   "compatibility_options": true
+  },
+  "WholeWrapperBaseTrace": {
+   "file": "lean/WholeWrapperBaseTrace.lean",
+   "compatibility_options": true
+  },
+  "WholeWrapperBitLengths": {
+   "file": "lean/WholeWrapperBitLengths.lean",
+   "compatibility_options": true
+  },
+  "WholeWrapperBroadContract": {
+   "file": "lean/WholeWrapperBroadContract.lean",
+   "compatibility_options": true
+  },
+  "WholeWrapperCacheTrace": {
+   "file": "lean/WholeWrapperCacheTrace.lean",
+   "compatibility_options": true
+  },
+  "WholeWrapperCallWidths": {
+   "file": "lean/WholeWrapperCallWidths.lean",
+   "compatibility_options": true
+  },
+  "WholeWrapperCellBatch": {
+   "file": "lean/WholeWrapperCellBatch.lean",
+   "compatibility_options": true
+  },
+  "WholeWrapperCellTrace": {
+   "file": "lean/WholeWrapperCellTrace.lean",
+   "compatibility_options": true
+  },
+  "WholeWrapperCoefficientBatch": {
+   "file": "lean/WholeWrapperCoefficientBatch.lean",
+   "compatibility_options": true
+  },
+  "WholeWrapperCoefficientTrace": {
+   "file": "lean/WholeWrapperCoefficientTrace.lean",
+   "compatibility_options": true
+  },
+  "WholeWrapperConcreteCells": {
+   "file": "lean/WholeWrapperConcreteCells.lean",
+   "compatibility_options": true
+  },
+  "WholeWrapperContracts": {
+   "file": "lean/WholeWrapperContracts.lean",
+   "compatibility_options": true
+  },
+  "WholeWrapperController": {
+   "file": "lean/WholeWrapperController.lean",
+   "compatibility_options": true
+  },
+  "WholeWrapperCounterSubset": {
+   "file": "lean/WholeWrapperCounterSubset.lean",
+   "compatibility_options": true
+  },
+  "WholeWrapperEncodedInputRun": {
+   "file": "lean/WholeWrapperEncodedInputRun.lean",
+   "compatibility_options": true
+  },
+  "WholeWrapperEncodedSubset": {
+   "file": "lean/WholeWrapperEncodedSubset.lean",
+   "compatibility_options": true
+  },
+  "WholeWrapperFactoryInputBounds": {
+   "file": "lean/WholeWrapperFactoryInputBounds.lean",
+   "compatibility_options": true
+  },
+  "WholeWrapperFactoryInputRun": {
+   "file": "lean/WholeWrapperFactoryInputRun.lean",
+   "compatibility_options": true
+  },
+  "WholeWrapperFieldLengths": {
+   "file": "lean/WholeWrapperFieldLengths.lean",
+   "compatibility_options": true
+  },
+  "WholeWrapperFinishTraces": {
+   "file": "lean/WholeWrapperFinishTraces.lean",
+   "compatibility_options": true
+  },
+  "WholeWrapperFixedProbability": {
+   "file": "lean/WholeWrapperFixedProbability.lean",
+   "compatibility_options": true
+  },
+  "WholeWrapperFixedSlots": {
+   "file": "lean/WholeWrapperFixedSlots.lean",
+   "compatibility_options": true
+  },
+  "WholeWrapperInputBounds": {
+   "file": "lean/WholeWrapperInputBounds.lean",
+   "compatibility_options": true
+  },
+  "WholeWrapperInputEncoding": {
+   "file": "lean/WholeWrapperInputEncoding.lean",
+   "compatibility_options": true
+  },
+  "WholeWrapperInputRun": {
+   "file": "lean/WholeWrapperInputRun.lean",
+   "compatibility_options": true
+  },
+  "WholeWrapperLocalProofs": {
+   "file": "lean/WholeWrapperLocalProofs.lean",
+   "compatibility_options": true
+  },
+  "WholeWrapperMedianFrame": {
+   "file": "lean/WholeWrapperMedianFrame.lean",
+   "compatibility_options": true
+  },
+  "WholeWrapperOutputTrace": {
+   "file": "lean/WholeWrapperOutputTrace.lean",
+   "compatibility_options": true
+  },
+  "WholeWrapperPrefixLift": {
+   "file": "lean/WholeWrapperPrefixLift.lean",
+   "compatibility_options": true
+  },
+  "WholeWrapperRatioWords": {
+   "file": "lean/WholeWrapperRatioWords.lean",
+   "compatibility_options": true
+  },
+  "WholeWrapperReachableBounds": {
+   "file": "lean/WholeWrapperReachableBounds.lean",
+   "compatibility_options": true
+  },
+  "WholeWrapperRepairFrame": {
+   "file": "lean/WholeWrapperRepairFrame.lean",
+   "compatibility_options": true
+  },
+  "WholeWrapperRepetitions": {
+   "file": "lean/WholeWrapperRepetitions.lean",
+   "compatibility_options": true
+  },
+  "WholeWrapperRepresentation": {
+   "file": "lean/WholeWrapperRepresentation.lean",
+   "compatibility_options": true
+  },
+  "WholeWrapperRequestBounds": {
+   "file": "lean/WholeWrapperRequestBounds.lean",
+   "compatibility_options": true
+  },
+  "WholeWrapperSelectionFrame": {
+   "file": "lean/WholeWrapperSelectionFrame.lean",
+   "compatibility_options": true
+  },
+  "WholeWrapperStoredValues": {
+   "file": "lean/WholeWrapperStoredValues.lean",
+   "compatibility_options": true
+  },
+  "WholeWrapperTrialTrace": {
+   "file": "lean/WholeWrapperTrialTrace.lean",
+   "compatibility_options": true
+  },
+  "WholeWrapperWordPolynomial": {
+   "file": "lean/WholeWrapperWordPolynomial.lean",
+   "compatibility_options": true
+  },
+  "ZeroDispatchCandidate": {
+   "file": "lean/ZeroDispatchCandidate.lean",
+   "compatibility_options": true
+  }
+ }
+}

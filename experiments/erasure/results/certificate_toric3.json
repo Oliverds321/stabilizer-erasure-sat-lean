@@ -1,0 +1,15 @@
+{
+ "code": "toric [[18,2,3]]",
+ "key": "toric3",
+ "level": 6,
+ "distance": 3,
+ "symmetric": false,
+ "listed": 162,
+ "leaves": 1,
+ "certified": true,
+ "lean_output": "checks passed (89 ms): isotropy, 162 listed sets uncorrectable, sizes, cover\nleaf 0 rep=- units=0: hash matches a CertifyList-certified instance\nCERTIFIED CODE toric [[18,2,3]]: complete through 6, distance 3, minimum-size sets by exponent [(1, 12)] (combine mode, 119 ms)",
+ "seconds": 8.294655799865723,
+ "bundle_sha256": "f26031b14a2d6bd0e930d9d594ba6a99a5ddfcb9992ad46ace520c1e74b5180f",
+ "program": "tools/lrat/CertifyCode.lean combine",
+ "meaning": "lean/ListCertificate.lean: symmetric_certificate / plain_certificate (Certified rows L d mins)"
+}

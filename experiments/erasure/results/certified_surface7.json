@@ -1,0 +1,130 @@
+{
+ "code": "rotated surface [[49,1,7]]",
+ "key": "surface7",
+ "distance": 7,
+ "levels": {
+  "7": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 0.04370832443237305,
+     "proof_bytes": 140077,
+     "check_seconds": 1.0778896808624268,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\surface7_level7.cnf: 2723 clauses, 3220 proof steps, 2905 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 558,
+     "clauses": 2723,
+     "cnf_sha256": "81eadf1de557f69e93ab6c0d7d05402151c4749bc654949c831d78be615cebe0"
+    }
+   ]
+  },
+  "8": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 0.07044553756713867,
+     "proof_bytes": 285670,
+     "check_seconds": 1.08585786819458,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\surface7_level8.cnf: 2723 clauses, 6579 proof steps, 5006 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 558,
+     "clauses": 2723,
+     "cnf_sha256": "01242252d7e63f22f7a56dd1168ab4488991db037766ca1b879b866fcdd9f503"
+    }
+   ]
+  },
+  "9": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 0.24753093719482422,
+     "proof_bytes": 1274948,
+     "check_seconds": 1.2610275745391846,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\surface7_level9.cnf: 4677 clauses, 25782 proof steps, 19351 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 558,
+     "clauses": 4677,
+     "cnf_sha256": "e684c0d93fce0a02cb64dbb3e8fc46c2805e73ff988f5bd13e1d284c226babfc"
+    }
+   ]
+  },
+  "10": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 0.35295987129211426,
+     "proof_bytes": 1608493,
+     "check_seconds": 1.2828662395477295,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\surface7_level10.cnf: 4677 clauses, 30714 proof steps, 24622 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 558,
+     "clauses": 4677,
+     "cnf_sha256": "8d03926a728680d04df0ba2dec8fade49478471847654cc47b1b1ea044da1583"
+    }
+   ]
+  },
+  "11": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 0.8859598636627197,
+     "proof_bytes": 3432161,
+     "check_seconds": 1.5774943828582764,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\surface7_level11.cnf: 9225 clauses, 55318 proof steps, 45861 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 558,
+     "clauses": 9225,
+     "cnf_sha256": "2a8b0f0b160c48ff61aa9ebb81b2896426c571b45ac3cc81462b9060427cd759"
+    }
+   ]
+  },
+  "12": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 1.169088363647461,
+     "proof_bytes": 4371545,
+     "check_seconds": 1.5851664543151855,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\surface7_level12.cnf: 9225 clauses, 70933 proof steps, 49889 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 558,
+     "clauses": 9225,
+     "cnf_sha256": "1f400ba7b3bb1dd0a9031ee0ea85dcef5431693f0f19b03dc1c254c0c8af6a97"
+    }
+   ]
+  },
+  "13": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 2.9689738750457764,
+     "proof_bytes": 9325039,
+     "check_seconds": 2.462787628173828,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\surface7_level13.cnf: 17301 clauses, 169624 proof steps, 108822 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 558,
+     "clauses": 17301,
+     "cnf_sha256": "0fe57bd8fe5ccb214b875cde8ded29a93c2c8361d3f790fdb5582e54fc256ce7"
+    }
+   ]
+  }
+ },
+ "leading_classes": {
+  "1": 592
+ },
+ "certified_through": 13
+}

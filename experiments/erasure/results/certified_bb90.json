@@ -1,0 +1,1154 @@
+{
+ "code": "BB [[90,8,10]]",
+ "key": "bb90",
+ "distance": 10,
+ "levels": {
+  "10": {
+   "verified": true,
+   "symmetric": true,
+   "instances": [
+    {
+     "solve_seconds": 40.96324682235718,
+     "proof_bytes": 204510323,
+     "check_seconds": 12.466402053833008,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level10_q0.cnf: 8551 clauses, 1383192 proof steps, 1205577 after trimming",
+     "status": "verified",
+     "representative": 0,
+     "variables": 1513,
+     "clauses": 8551,
+     "cnf_sha256": "3864e4bb4e109e567c8d290afa0d1365672c04e800c0a6bda60a83d4a238968c"
+    },
+    {
+     "solve_seconds": 36.21403360366821,
+     "proof_bytes": 176741339,
+     "check_seconds": 11.215895891189575,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level10_q45.cnf: 8551 clauses, 1225693 proof steps, 1059364 after trimming",
+     "status": "verified",
+     "representative": 45,
+     "variables": 1513,
+     "clauses": 8551,
+     "cnf_sha256": "d20cc63795941b2f60b381fb5aead28309d4f87a848cbc4cff7ef8f3c7a88e1f"
+    }
+   ]
+  },
+  "11": {
+   "verified": true,
+   "symmetric": true,
+   "instances": [
+    {
+     "solve_seconds": 146.61498069763184,
+     "proof_bytes": 606022662,
+     "check_seconds": 37.23137712478638,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level11_q0.cnf: 8551 clauses, 3822316 proof steps, 3266360 after trimming",
+     "status": "verified",
+     "representative": 0,
+     "variables": 1513,
+     "clauses": 8551,
+     "cnf_sha256": "541554000b325a7800e385db434e1c5ba5fe0ee3af19a1dfd0e7b24ad14cdbad"
+    },
+    {
+     "solve_seconds": 131.92381358146667,
+     "proof_bytes": 544201662,
+     "check_seconds": 32.95258283615112,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level11_q45.cnf: 8551 clauses, 3495513 proof steps, 3022068 after trimming",
+     "status": "verified",
+     "representative": 45,
+     "variables": 1513,
+     "clauses": 8551,
+     "cnf_sha256": "811ba522b33466570b902f08d76ac6e8a7cc39973e3f8c3f6d71913ae10da3cf"
+    }
+   ]
+  },
+  "12": {
+   "verified": true,
+   "symmetric": true,
+   "instances": [
+    {
+     "status": "verified",
+     "representative": 0,
+     "variables": 1513,
+     "clauses": 29131,
+     "leaves": [
+      {
+       "solve_seconds": 169.31473183631897,
+       "proof_bytes": 674408684,
+       "check_seconds": 42.049046993255615,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level12_q0_p.cnf: 29132 clauses, 4122715 proof steps, 3591254 after trimming",
+       "status": "verified",
+       "cube": [
+        46
+       ],
+       "cnf_sha256": "0640ba42aec134c88e5be59e4fd65916f1d4f671d9b7ce10000c77d06235268c"
+      },
+      {
+       "solve_seconds": 128.0074999332428,
+       "proof_bytes": 512078578,
+       "check_seconds": 32.03829741477966,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level12_q0_np.cnf: 29133 clauses, 3296013 proof steps, 2816666 after trimming",
+       "status": "verified",
+       "cube": [
+        -47,
+        47
+       ],
+       "cnf_sha256": "755878c2f4c82204a57eea1d0c372f5a35d74a29561f316c347990d2b2c3c8b6"
+      },
+      {
+       "solve_seconds": 103.15028214454651,
+       "proof_bytes": 425725160,
+       "check_seconds": 27.537434101104736,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level12_q0_nnp.cnf: 29134 clauses, 2770030 proof steps, 2380000 after trimming",
+       "status": "verified",
+       "cube": [
+        -47,
+        -48,
+        52
+       ],
+       "cnf_sha256": "65c7a17d4d35522dae950ddb31a94ab8fcbd7b913cb01b9dd76a41958934cd07"
+      },
+      {
+       "solve_seconds": 83.49031925201416,
+       "proof_bytes": 368730741,
+       "check_seconds": 23.029107332229614,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level12_q0_nnnp.cnf: 29135 clauses, 2430714 proof steps, 2081120 after trimming",
+       "status": "verified",
+       "cube": [
+        -47,
+        -48,
+        -53,
+        53
+       ],
+       "cnf_sha256": "9c0b30ebe463424462bd2847311df28471aed66c4872ef6cf0f41b1df57dd2f9"
+      },
+      {
+       "solve_seconds": 140.60922813415527,
+       "proof_bytes": 661648932,
+       "check_seconds": 32.533411264419556,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level12_q0_nnnn.cnf: 29135 clauses, 4409965 proof steps, 3760642 after trimming",
+       "status": "verified",
+       "cube": [
+        -47,
+        -48,
+        -53,
+        -54
+       ],
+       "cnf_sha256": "d6ba7017c2fceec1453da5955b33f4f37ef56afc4342e1af058f82593ca72962"
+      }
+     ],
+     "solve_seconds": 624.5720613002777,
+     "check_seconds": 157.18729710578918,
+     "proof_bytes": 2642592095
+    },
+    {
+     "status": "verified",
+     "representative": 45,
+     "variables": 1513,
+     "clauses": 29131,
+     "leaves": [
+      {
+       "solve_seconds": 110.0981216430664,
+       "proof_bytes": 622429403,
+       "check_seconds": 28.53110980987549,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level12_q45_p.cnf: 29132 clauses, 3885324 proof steps, 3354813 after trimming",
+       "status": "verified",
+       "cube": [
+        1
+       ],
+       "cnf_sha256": "981a55fb260b6a9cc7a1a8902827546c52d89ae23657753b05665cef88e9b0e6"
+      },
+      {
+       "solve_seconds": 102.29313611984253,
+       "proof_bytes": 553723595,
+       "check_seconds": 25.526181936264038,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level12_q45_np.cnf: 29133 clauses, 3640826 proof steps, 3120338 after trimming",
+       "status": "verified",
+       "cube": [
+        -2,
+        2
+       ],
+       "cnf_sha256": "10c369bfabbbfda258f146f35dd21c2cefaec9360963fbd36bc74d143fcbf5a4"
+      },
+      {
+       "solve_seconds": 62.16534423828125,
+       "proof_bytes": 354388590,
+       "check_seconds": 17.51876401901245,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level12_q45_nnp.cnf: 29134 clauses, 2376918 proof steps, 2062264 after trimming",
+       "status": "verified",
+       "cube": [
+        -2,
+        -3,
+        6
+       ],
+       "cnf_sha256": "0ff76aad9a9335bb1f901a32a1bb6d8894269ba09f73bcc05a6086b99958345f"
+      },
+      {
+       "solve_seconds": 71.39880752563477,
+       "proof_bytes": 382252799,
+       "check_seconds": 18.524548292160034,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level12_q45_nnnp.cnf: 29135 clauses, 2675612 proof steps, 2227288 after trimming",
+       "status": "verified",
+       "cube": [
+        -2,
+        -3,
+        -7,
+        21
+       ],
+       "cnf_sha256": "b5a81693ddb00239bc897c1333a4ddbe669b1e5f39b39fb10cd0741858d7eb53"
+      },
+      {
+       "solve_seconds": 116.34592294692993,
+       "proof_bytes": 642419876,
+       "check_seconds": 31.531785249710083,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level12_q45_nnnn.cnf: 29135 clauses, 4266016 proof steps, 3646168 after trimming",
+       "status": "verified",
+       "cube": [
+        -2,
+        -3,
+        -7,
+        -22
+       ],
+       "cnf_sha256": "f845208bcefb1e790d263e951c0fda2250021dff7bf467a33697890ba38a40dd"
+      }
+     ],
+     "solve_seconds": 462.3013324737549,
+     "check_seconds": 121.6323893070221,
+     "proof_bytes": 2555214263
+    }
+   ]
+  },
+  "13": {
+   "verified": true,
+   "symmetric": true,
+   "instances": [
+    {
+     "status": "verified",
+     "representative": 0,
+     "variables": 1513,
+     "clauses": 29131,
+     "leaves": [
+      {
+       "solve_seconds": 127.14559149742126,
+       "proof_bytes": 650794849,
+       "check_seconds": 30.031346559524536,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q0_pp.cnf: 29133 clauses, 4237636 proof steps, 3699641 after trimming",
+       "status": "verified",
+       "cube": [
+        46,
+        47
+       ],
+       "cnf_sha256": "e9235b947013162779d1575260955c4a62b87ec4cc99b42d84b0266e83bb86d3"
+      },
+      {
+       "solve_seconds": 93.65230178833008,
+       "proof_bytes": 537821006,
+       "check_seconds": 24.52700448036194,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q0_pnp.cnf: 29134 clauses, 3432362 proof steps, 3019055 after trimming",
+       "status": "verified",
+       "cube": [
+        46,
+        -48,
+        52
+       ],
+       "cnf_sha256": "f7418cba62fc2d18631a91b3c4a42c87dce0c2771e14dee44cf3b9715d633259"
+      },
+      {
+       "solve_seconds": 83.83334136009216,
+       "proof_bytes": 502142057,
+       "check_seconds": 23.023388862609863,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q0_pnnp.cnf: 29135 clauses, 3258063 proof steps, 2805760 after trimming",
+       "status": "verified",
+       "cube": [
+        46,
+        -48,
+        -53,
+        53
+       ],
+       "cnf_sha256": "4f3d8fed20ecc283cbcc6f63761a73b63515fc087034040742edc4cd4d09a634"
+      },
+      {
+       "solve_seconds": 61.375685930252075,
+       "proof_bytes": 368005870,
+       "check_seconds": 17.52233648300171,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q0_pnnnp.cnf: 29136 clauses, 2484256 proof steps, 2171668 after trimming",
+       "status": "verified",
+       "cube": [
+        46,
+        -48,
+        -53,
+        -54,
+        63
+       ],
+       "cnf_sha256": "7589c7baa5ea7874dc349b2a8de1a2d3692b517a134753e250d8e5f2e75f7bba"
+      },
+      {
+       "solve_seconds": 55.76412034034729,
+       "proof_bytes": 342484361,
+       "check_seconds": 16.519945859909058,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q0_pnnnnp.cnf: 29137 clauses, 2362437 proof steps, 2053281 after trimming",
+       "status": "verified",
+       "cube": [
+        46,
+        -48,
+        -53,
+        -54,
+        -64,
+        67
+       ],
+       "cnf_sha256": "04c6e8a48ce428b8b9ff874360f4b22388c0c200895f9bebe0961bb36628eb86"
+      },
+      {
+       "solve_seconds": 56.96048665046692,
+       "proof_bytes": 327191926,
+       "check_seconds": 15.5178964138031,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q0_pnnnnnp.cnf: 29138 clauses, 2373772 proof steps, 1988886 after trimming",
+       "status": "verified",
+       "cube": [
+        46,
+        -48,
+        -53,
+        -54,
+        -64,
+        -68,
+        68
+       ],
+       "cnf_sha256": "daa538e0aaefbe0075a7dd330a83835697a8d831f4febadef4ef9a82860ed4e8"
+      },
+      {
+       "solve_seconds": 110.5213668346405,
+       "proof_bytes": 597769886,
+       "check_seconds": 28.532742738723755,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q0_pnnnnnn.cnf: 29138 clauses, 3991306 proof steps, 3420711 after trimming",
+       "status": "verified",
+       "cube": [
+        46,
+        -48,
+        -53,
+        -54,
+        -64,
+        -68,
+        -69
+       ],
+       "cnf_sha256": "1b7944117cfcb7b0ae20a302143b54f45e442d67c8b1b8b3825a396de950f71f"
+      },
+      {
+       "solve_seconds": 106.45700740814209,
+       "proof_bytes": 591248968,
+       "check_seconds": 27.532177686691284,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q0_npp.cnf: 29134 clauses, 3773942 proof steps, 3289982 after trimming",
+       "status": "verified",
+       "cube": [
+        -47,
+        47,
+        52
+       ],
+       "cnf_sha256": "d7de89962727629b26decac190174cebb58a3691d0a378781a6203f795470793"
+      },
+      {
+       "solve_seconds": 89.04865050315857,
+       "proof_bytes": 476483033,
+       "check_seconds": 22.524524927139282,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q0_npnp.cnf: 29135 clauses, 3264383 proof steps, 2770691 after trimming",
+       "status": "verified",
+       "cube": [
+        -47,
+        47,
+        -53,
+        53
+       ],
+       "cnf_sha256": "68591078891afc522450e13872ea8d03b1940e723ba36906592bc5c08fe1fe34"
+      },
+      {
+       "solve_seconds": 65.56795811653137,
+       "proof_bytes": 395749084,
+       "check_seconds": 18.522306203842163,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q0_npnnp.cnf: 29136 clauses, 2624197 proof steps, 2265016 after trimming",
+       "status": "verified",
+       "cube": [
+        -47,
+        47,
+        -53,
+        -54,
+        63
+       ],
+       "cnf_sha256": "a01ee5cac6a066c2bc4629f156126f7a6abf533638a0cee941fdd57358b2f599"
+      },
+      {
+       "solve_seconds": 58.76402187347412,
+       "proof_bytes": 358421941,
+       "check_seconds": 17.020432472229004,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q0_npnnnp.cnf: 29137 clauses, 2459840 proof steps, 2089297 after trimming",
+       "status": "verified",
+       "cube": [
+        -47,
+        47,
+        -53,
+        -54,
+        -64,
+        67
+       ],
+       "cnf_sha256": "ab49c3ad74ca80c8812212a586cdb4410e7413a57398e1cd62f9f893c4bca434"
+      },
+      {
+       "solve_seconds": 49.732913970947266,
+       "proof_bytes": 306234194,
+       "check_seconds": 15.018986701965332,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q0_npnnnnp.cnf: 29138 clauses, 2154183 proof steps, 1842122 after trimming",
+       "status": "verified",
+       "cube": [
+        -47,
+        47,
+        -53,
+        -54,
+        -64,
+        -68,
+        68
+       ],
+       "cnf_sha256": "9dce9493d0cd1cbcd41d4c9ea7f8a89d3b7bff7812edee7b74eaaa89739e34cc"
+      },
+      {
+       "solve_seconds": 112.71116948127747,
+       "proof_bytes": 599436825,
+       "check_seconds": 28.53351902961731,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q0_npnnnnn.cnf: 29138 clauses, 4070568 proof steps, 3420323 after trimming",
+       "status": "verified",
+       "cube": [
+        -47,
+        47,
+        -53,
+        -54,
+        -64,
+        -68,
+        -69
+       ],
+       "cnf_sha256": "60990d1c5785d378ecfd22da92028798d4f6e497ca61e56a8d4fe536dba7f881"
+      },
+      {
+       "solve_seconds": 75.0001757144928,
+       "proof_bytes": 426697898,
+       "check_seconds": 20.02583146095276,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q0_nnpp.cnf: 29135 clauses, 2858540 proof steps, 2495847 after trimming",
+       "status": "verified",
+       "cube": [
+        -47,
+        -48,
+        52,
+        53
+       ],
+       "cnf_sha256": "c59b1328987412b745ce7fe0f093efc7d6936d8fcc76f28039b8f6fb20ed21a0"
+      },
+      {
+       "solve_seconds": 68.39746260643005,
+       "proof_bytes": 393722617,
+       "check_seconds": 18.021394729614258,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q0_nnpnp.cnf: 29136 clauses, 2744464 proof steps, 2375652 after trimming",
+       "status": "verified",
+       "cube": [
+        -47,
+        -48,
+        52,
+        -54,
+        63
+       ],
+       "cnf_sha256": "1844ece7acacefe83ad039a086f1d236e19c400d72bbd4cde9416155826496cc"
+      },
+      {
+       "solve_seconds": 72.81442141532898,
+       "proof_bytes": 390035190,
+       "check_seconds": 18.020178079605103,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q0_nnpnnp.cnf: 29137 clauses, 2741835 proof steps, 2352760 after trimming",
+       "status": "verified",
+       "cube": [
+        -47,
+        -48,
+        52,
+        -54,
+        -64,
+        67
+       ],
+       "cnf_sha256": "854558fc24513cdd362a785fc83aee3bc322eed8fe2cd2cd0cd9fc3c171c6fe7"
+      },
+      {
+       "solve_seconds": 57.75314140319824,
+       "proof_bytes": 344651814,
+       "check_seconds": 16.01854920387268,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q0_nnpnnnp.cnf: 29138 clauses, 2370934 proof steps, 2011366 after trimming",
+       "status": "verified",
+       "cube": [
+        -47,
+        -48,
+        52,
+        -54,
+        -64,
+        -68,
+        68
+       ],
+       "cnf_sha256": "67d3fcc7e4112a48718a7a176e8b5c941fb1758c7f0fe9da21b1b185388f88ef"
+      },
+      {
+       "solve_seconds": 120.14180731773376,
+       "proof_bytes": 636276516,
+       "check_seconds": 28.53264832496643,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q0_nnpnnnn.cnf: 29138 clauses, 4298636 proof steps, 3703645 after trimming",
+       "status": "verified",
+       "cube": [
+        -47,
+        -48,
+        52,
+        -54,
+        -64,
+        -68,
+        -69
+       ],
+       "cnf_sha256": "113dd6cf93b241735828f35525bd13a2a3bc4d7d457e06e7aa13a83ad55bb0b4"
+      },
+      {
+       "solve_seconds": 67.00092267990112,
+       "proof_bytes": 401345646,
+       "check_seconds": 19.023751258850098,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q0_nnnpp.cnf: 29136 clauses, 2651138 proof steps, 2284640 after trimming",
+       "status": "verified",
+       "cube": [
+        -47,
+        -48,
+        -53,
+        53,
+        63
+       ],
+       "cnf_sha256": "68e1fd46e9f69bce5dbcd4c833e171f3061de6f16bdf0a887f56ef40b4561c67"
+      },
+      {
+       "solve_seconds": 57.570183992385864,
+       "proof_bytes": 351874529,
+       "check_seconds": 16.5201473236084,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q0_nnnpnp.cnf: 29137 clauses, 2345566 proof steps, 2037826 after trimming",
+       "status": "verified",
+       "cube": [
+        -47,
+        -48,
+        -53,
+        53,
+        -64,
+        67
+       ],
+       "cnf_sha256": "2852e9ce772bc906d7644ee0611426d0290b652162bf09e17cfb0af2e984083c"
+      },
+      {
+       "solve_seconds": 52.54944324493408,
+       "proof_bytes": 305184605,
+       "check_seconds": 15.017255306243896,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q0_nnnpnnp.cnf: 29138 clauses, 2200134 proof steps, 1870478 after trimming",
+       "status": "verified",
+       "cube": [
+        -47,
+        -48,
+        -53,
+        53,
+        -64,
+        -68,
+        68
+       ],
+       "cnf_sha256": "6b00051033046bd8639805473ff3c51ecc7f32f912416acfe426d931fd370c0e"
+      },
+      {
+       "solve_seconds": 114.95952296257019,
+       "proof_bytes": 601785571,
+       "check_seconds": 27.528959274291992,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q0_nnnpnnn.cnf: 29138 clauses, 4071485 proof steps, 3486943 after trimming",
+       "status": "verified",
+       "cube": [
+        -47,
+        -48,
+        -53,
+        53,
+        -64,
+        -68,
+        -69
+       ],
+       "cnf_sha256": "8d9ae6c1f985aa33e43ba10e57481e2682f181abb7c1b7c65515ef9dbf04ef4b"
+      },
+      {
+       "solve_seconds": 50.36091232299805,
+       "proof_bytes": 313519727,
+       "check_seconds": 15.516874074935913,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q0_nnnnpp.cnf: 29137 clauses, 2114785 proof steps, 1853462 after trimming",
+       "status": "verified",
+       "cube": [
+        -47,
+        -48,
+        -53,
+        -54,
+        63,
+        67
+       ],
+       "cnf_sha256": "12ff063f7ae2a64b6fccb638b1d37549531d7248bfa58f1e6f1fda356b1e6a98"
+      },
+      {
+       "solve_seconds": 117.32122087478638,
+       "proof_bytes": 651936956,
+       "check_seconds": 31.533859491348267,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q0_nnnnpn.cnf: 29137 clauses, 4394507 proof steps, 3828381 after trimming",
+       "status": "verified",
+       "cube": [
+        -47,
+        -48,
+        -53,
+        -54,
+        63,
+        -68
+       ],
+       "cnf_sha256": "87e248614b9183147864d75dc006a9e6b141d3170f120e733bfcd8358766fa5e"
+      },
+      {
+       "solve_seconds": 134.13527536392212,
+       "proof_bytes": 699112960,
+       "check_seconds": 32.53352332115173,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q0_nnnnnp.cnf: 29137 clauses, 4593673 proof steps, 3873792 after trimming",
+       "status": "verified",
+       "cube": [
+        -47,
+        -48,
+        -53,
+        -54,
+        -64,
+        67
+       ],
+       "cnf_sha256": "8710bceabbe20d91958e0a074cd555ae82f25a8f718d80bd6e6c651a0085c610"
+      },
+      {
+       "solve_seconds": 39.109166383743286,
+       "proof_bytes": 244497825,
+       "check_seconds": 11.515128374099731,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q0_nnnnnnpp.cnf: 29139 clauses, 1741998 proof steps, 1480251 after trimming",
+       "status": "verified",
+       "cube": [
+        -47,
+        -48,
+        -53,
+        -54,
+        -64,
+        -68,
+        68,
+        69
+       ],
+       "cnf_sha256": "701fcc667ea50c98ead933e49fa0c7f66936210dad6538211d2e1bef34d4c0c9"
+      },
+      {
+       "solve_seconds": 87.43760657310486,
+       "proof_bytes": 479783396,
+       "check_seconds": 22.024986267089844,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q0_nnnnnnpn.cnf: 29139 clauses, 3364059 proof steps, 2851062 after trimming",
+       "status": "verified",
+       "cube": [
+        -47,
+        -48,
+        -53,
+        -54,
+        -64,
+        -68,
+        68,
+        -70
+       ],
+       "cnf_sha256": "abc90a72d6bc64a1de485ad80b9e4cde6d4ff3a2276d7cc05ad26ebe79fe59fa"
+      },
+      {
+       "solve_seconds": 82.23311400413513,
+       "proof_bytes": 460415102,
+       "check_seconds": 21.025693893432617,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q0_nnnnnnnp.cnf: 29139 clauses, 3198405 proof steps, 2744281 after trimming",
+       "status": "verified",
+       "cube": [
+        -47,
+        -48,
+        -53,
+        -54,
+        -64,
+        -68,
+        -69,
+        69
+       ],
+       "cnf_sha256": "e6ac0478da85dfee1dce3918d55479a2d8e4ca086abb4348a1d308e2f483bd5c"
+      },
+      {
+       "solve_seconds": 134.80370783805847,
+       "proof_bytes": 695551558,
+       "check_seconds": 32.03562903404236,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q0_nnnnnnnn.cnf: 29139 clauses, 4841763 proof steps, 4194810 after trimming",
+       "status": "verified",
+       "cube": [
+        -47,
+        -48,
+        -53,
+        -54,
+        -64,
+        -68,
+        -69,
+        -70
+       ],
+       "cnf_sha256": "e874ed7d14c12d2910cbc94b0bd96b762667e124b8ddc094c60bb24c43e5a223"
+      }
+     ],
+     "solve_seconds": 2403.1227004528046,
+     "check_seconds": 629.7210178375244,
+     "proof_bytes": 13450175910
+    },
+    {
+     "status": "verified",
+     "representative": 45,
+     "variables": 1513,
+     "clauses": 29131,
+     "leaves": [
+      {
+       "solve_seconds": 109.9336085319519,
+       "proof_bytes": 601838233,
+       "check_seconds": 27.029059886932373,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q45_pp.cnf: 29133 clauses, 3793633 proof steps, 3339070 after trimming",
+       "status": "verified",
+       "cube": [
+        1,
+        2
+       ],
+       "cnf_sha256": "764aa1b0530e20e61f8ce6957d2ff447de9f8ebd9dd5e3ae4489721f6423a437"
+      },
+      {
+       "solve_seconds": 85.05382919311523,
+       "proof_bytes": 460535741,
+       "check_seconds": 21.026087999343872,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q45_pnp.cnf: 29134 clauses, 3190764 proof steps, 2792068 after trimming",
+       "status": "verified",
+       "cube": [
+        1,
+        -3,
+        6
+       ],
+       "cnf_sha256": "8ac89862d86f3a79c3f5ae32ce05921922320ad0deb96f18571c9fc17c27f039"
+      },
+      {
+       "solve_seconds": 86.43553328514099,
+       "proof_bytes": 503170872,
+       "check_seconds": 22.525081396102905,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q45_pnnp.cnf: 29135 clauses, 3314081 proof steps, 2821491 after trimming",
+       "status": "verified",
+       "cube": [
+        1,
+        -3,
+        -7,
+        21
+       ],
+       "cnf_sha256": "c16ee6650bd64682e6fe4683cb48ae0e73d824d7ae9685bfb7f1d7e259c116a5"
+      },
+      {
+       "solve_seconds": 83.0365629196167,
+       "proof_bytes": 440541041,
+       "check_seconds": 24.525582313537598,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q45_pnnnp.cnf: 29136 clauses, 3034285 proof steps, 2611504 after trimming",
+       "status": "verified",
+       "cube": [
+        1,
+        -3,
+        -7,
+        -22,
+        25
+       ],
+       "cnf_sha256": "4085e004a0028795b824b56933980a0ce66841faa1062e7ed554427c9d0cd74b"
+      },
+      {
+       "solve_seconds": 72.8048906326294,
+       "proof_bytes": 421575050,
+       "check_seconds": 19.521692037582397,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q45_pnnnnp.cnf: 29137 clauses, 2834599 proof steps, 2471929 after trimming",
+       "status": "verified",
+       "cube": [
+        1,
+        -3,
+        -7,
+        -22,
+        -26,
+        26
+       ],
+       "cnf_sha256": "092276b5c1bf026f52a3e06af11efc0290f52e51e1ec425aa9df42466fc958ac"
+      },
+      {
+       "solve_seconds": 48.34170699119568,
+       "proof_bytes": 282975128,
+       "check_seconds": 13.515894412994385,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q45_pnnnnnp.cnf: 29138 clauses, 2088288 proof steps, 1796984 after trimming",
+       "status": "verified",
+       "cube": [
+        1,
+        -3,
+        -7,
+        -22,
+        -26,
+        -27,
+        27
+       ],
+       "cnf_sha256": "5fcd5df11bdab171febadda38a414f32ae86a15c5f7b77393ec504184f6f3571"
+      },
+      {
+       "solve_seconds": 127.10619449615479,
+       "proof_bytes": 671566226,
+       "check_seconds": 30.52947688102722,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q45_pnnnnnn.cnf: 29138 clauses, 4527803 proof steps, 3896275 after trimming",
+       "status": "verified",
+       "cube": [
+        1,
+        -3,
+        -7,
+        -22,
+        -26,
+        -27,
+        -28
+       ],
+       "cnf_sha256": "b8e8ecdbb68ff2ac0be1c927013dbe4da7c3cf23d0cddeb792a0216ae0726bae"
+      },
+      {
+       "solve_seconds": 106.50140476226807,
+       "proof_bytes": 546710955,
+       "check_seconds": 25.027735471725464,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q45_npp.cnf: 29134 clauses, 3703379 proof steps, 3162794 after trimming",
+       "status": "verified",
+       "cube": [
+        -2,
+        2,
+        6
+       ],
+       "cnf_sha256": "1a4c9a0bc8c761de15a95c146c820672b6a35e26455a8cfed7011e5abc79765e"
+      },
+      {
+       "solve_seconds": 90.23922944068909,
+       "proof_bytes": 516077650,
+       "check_seconds": 24.025826692581177,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q45_npnp.cnf: 29135 clauses, 3305923 proof steps, 2856777 after trimming",
+       "status": "verified",
+       "cube": [
+        -2,
+        2,
+        -7,
+        21
+       ],
+       "cnf_sha256": "abc407f8926e476fab02cf570a2a40fe4039dcffefb192f0a18073974c42d42f"
+      },
+      {
+       "solve_seconds": 83.21941947937012,
+       "proof_bytes": 451478338,
+       "check_seconds": 21.523191213607788,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q45_npnnp.cnf: 29136 clauses, 3075953 proof steps, 2627311 after trimming",
+       "status": "verified",
+       "cube": [
+        -2,
+        2,
+        -7,
+        -22,
+        25
+       ],
+       "cnf_sha256": "17430490645d65fddb2ebce91096264bdc6a8023d9d5a39d3e86df78111330f9"
+      },
+      {
+       "solve_seconds": 70.39927458763123,
+       "proof_bytes": 394647028,
+       "check_seconds": 19.023704290390015,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q45_npnnnp.cnf: 29137 clauses, 2669230 proof steps, 2312659 after trimming",
+       "status": "verified",
+       "cube": [
+        -2,
+        2,
+        -7,
+        -22,
+        -26,
+        26
+       ],
+       "cnf_sha256": "654b0a6d229b3ccca516bb1d7ed416cb5009fdb1bc4b6c5ea12d8abfd0fe5c1c"
+      },
+      {
+       "solve_seconds": 49.33092021942139,
+       "proof_bytes": 282534757,
+       "check_seconds": 14.016454696655273,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q45_npnnnnp.cnf: 29138 clauses, 2062335 proof steps, 1792587 after trimming",
+       "status": "verified",
+       "cube": [
+        -2,
+        2,
+        -7,
+        -22,
+        -26,
+        -27,
+        27
+       ],
+       "cnf_sha256": "06d438e8098d26e5461549eea4cd13d687f97cbf4e435698994f4be35163d751"
+      },
+      {
+       "solve_seconds": 122.4210033416748,
+       "proof_bytes": 633991931,
+       "check_seconds": 30.030630826950073,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q45_npnnnnn.cnf: 29138 clauses, 4383155 proof steps, 3748316 after trimming",
+       "status": "verified",
+       "cube": [
+        -2,
+        2,
+        -7,
+        -22,
+        -26,
+        -27,
+        -28
+       ],
+       "cnf_sha256": "4603fdc3fb6b0e0a8097064302260e9c2617fc25cbc7eb06214d33ebd0d7b2fe"
+      },
+      {
+       "solve_seconds": 76.81474733352661,
+       "proof_bytes": 450095424,
+       "check_seconds": 21.52274203300476,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q45_nnpp.cnf: 29135 clauses, 2913764 proof steps, 2491659 after trimming",
+       "status": "verified",
+       "cube": [
+        -2,
+        -3,
+        6,
+        21
+       ],
+       "cnf_sha256": "e7df216673cfe4533465d2076000837db9c1555497498c4d1b07371dbe376138"
+      },
+      {
+       "solve_seconds": 69.1867516040802,
+       "proof_bytes": 389583855,
+       "check_seconds": 18.521809101104736,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q45_nnpnp.cnf: 29136 clauses, 2738699 proof steps, 2330867 after trimming",
+       "status": "verified",
+       "cube": [
+        -2,
+        -3,
+        6,
+        -22,
+        25
+       ],
+       "cnf_sha256": "dc06cff569eb86c3920c0a703fe9fc9e35c3cc40a2ea85a90e9d1a03e4a9c887"
+      },
+      {
+       "solve_seconds": 59.37773394584656,
+       "proof_bytes": 340027347,
+       "check_seconds": 17.021392583847046,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q45_nnpnnp.cnf: 29137 clauses, 2413069 proof steps, 2100257 after trimming",
+       "status": "verified",
+       "cube": [
+        -2,
+        -3,
+        6,
+        -22,
+        -26,
+        26
+       ],
+       "cnf_sha256": "d40eaba2f1ae34da1ba51cee00e7002ea07d93163c98047fba376296a6fc2ef1"
+      },
+      {
+       "solve_seconds": 110.20024824142456,
+       "proof_bytes": 599648776,
+       "check_seconds": 29.031697273254395,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q45_nnpnnn.cnf: 29137 clauses, 4051861 proof steps, 3513533 after trimming",
+       "status": "verified",
+       "cube": [
+        -2,
+        -3,
+        6,
+        -22,
+        -26,
+        -27
+       ],
+       "cnf_sha256": "d8ef9874bed2c90b2c4838446a594484d2ebf2189ee60f41ec372fa3913eb8cf"
+      },
+      {
+       "solve_seconds": 76.63046503067017,
+       "proof_bytes": 445743312,
+       "check_seconds": 21.024390697479248,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q45_nnnpp.cnf: 29136 clauses, 2968226 proof steps, 2603517 after trimming",
+       "status": "verified",
+       "cube": [
+        -2,
+        -3,
+        -7,
+        21,
+        25
+       ],
+       "cnf_sha256": "548e31a4b3c55b33d59a63fcb7742c8cbf0885087be4bee8136c2b6a231703f4"
+      },
+      {
+       "solve_seconds": 57.95911931991577,
+       "proof_bytes": 348274676,
+       "check_seconds": 17.01994776725769,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q45_nnnpnp.cnf: 29137 clauses, 2339856 proof steps, 2022320 after trimming",
+       "status": "verified",
+       "cube": [
+        -2,
+        -3,
+        -7,
+        21,
+        -26,
+        26
+       ],
+       "cnf_sha256": "c9462e4f92482b73a33e107da460accf0a291cf95bf49628e400f73d9b4590be"
+      },
+      {
+       "solve_seconds": 144.34634065628052,
+       "proof_bytes": 715260534,
+       "check_seconds": 37.037527561187744,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q45_nnnpnn.cnf: 29137 clauses, 4832377 proof steps, 4136225 after trimming",
+       "status": "verified",
+       "cube": [
+        -2,
+        -3,
+        -7,
+        21,
+        -26,
+        -27
+       ],
+       "cnf_sha256": "95483d4514eb7cd8d5abd06bae8886ed75b658e8e0a37b9d7ab877c62bc69191"
+      },
+      {
+       "solve_seconds": 55.148016929626465,
+       "proof_bytes": 322884349,
+       "check_seconds": 15.518264770507812,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q45_nnnnpp.cnf: 29137 clauses, 2302506 proof steps, 2007671 after trimming",
+       "status": "verified",
+       "cube": [
+        -2,
+        -3,
+        -7,
+        -22,
+        25,
+        26
+       ],
+       "cnf_sha256": "c63fc008916df3a407af8280b177477791e0f885635140e1553ab9d8d57e3bc9"
+      },
+      {
+       "solve_seconds": 135.55887699127197,
+       "proof_bytes": 698657691,
+       "check_seconds": 34.037150859832764,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q45_nnnnpn.cnf: 29137 clauses, 4761186 proof steps, 4070197 after trimming",
+       "status": "verified",
+       "cube": [
+        -2,
+        -3,
+        -7,
+        -22,
+        25,
+        -27
+       ],
+       "cnf_sha256": "1f739a342b6438e7c5c7db858f70681599d535be70a56499fd990df3f1790d5c"
+      },
+      {
+       "solve_seconds": 48.35499119758606,
+       "proof_bytes": 296650520,
+       "check_seconds": 14.517208576202393,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q45_nnnnnpp.cnf: 29138 clauses, 2068736 proof steps, 1780891 after trimming",
+       "status": "verified",
+       "cube": [
+        -2,
+        -3,
+        -7,
+        -22,
+        -26,
+        26,
+        27
+       ],
+       "cnf_sha256": "59839dca0f7d532fb704379f372034bc7ed195e09a752ec624d3facbe978b230"
+      },
+      {
+       "solve_seconds": 118.57011938095093,
+       "proof_bytes": 622880671,
+       "check_seconds": 30.532042980194092,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q45_nnnnnpn.cnf: 29138 clauses, 4334406 proof steps, 3756595 after trimming",
+       "status": "verified",
+       "cube": [
+        -2,
+        -3,
+        -7,
+        -22,
+        -26,
+        26,
+        -28
+       ],
+       "cnf_sha256": "38bbcd801cbda430cb5aec9581d4e58832c6fb7742c459db2593af5951e14f53"
+      },
+      {
+       "solve_seconds": 110.0266604423523,
+       "proof_bytes": 565669491,
+       "check_seconds": 28.03027653694153,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q45_nnnnnnp.cnf: 29138 clauses, 3915233 proof steps, 3383865 after trimming",
+       "status": "verified",
+       "cube": [
+        -2,
+        -3,
+        -7,
+        -22,
+        -26,
+        -27,
+        27
+       ],
+       "cnf_sha256": "f1d0e88444416e759653fa45d38daa4c67ed23f6c678688d40744a46f5620757"
+      },
+      {
+       "solve_seconds": 91.65337872505188,
+       "proof_bytes": 487499801,
+       "check_seconds": 24.02709174156189,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q45_nnnnnnnp.cnf: 29139 clauses, 3396754 proof steps, 2911994 after trimming",
+       "status": "verified",
+       "cube": [
+        -2,
+        -3,
+        -7,
+        -22,
+        -26,
+        -27,
+        -28,
+        40
+       ],
+       "cnf_sha256": "0914b685b0d1d1c0d09e5524b3852146bdaf66fa135d9a5613386d62b6fe8b24"
+      },
+      {
+       "solve_seconds": 78.01557564735413,
+       "proof_bytes": 420486224,
+       "check_seconds": 20.523244857788086,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q45_nnnnnnnnp.cnf: 29140 clauses, 3109183 proof steps, 2597763 after trimming",
+       "status": "verified",
+       "cube": [
+        -2,
+        -3,
+        -7,
+        -22,
+        -26,
+        -27,
+        -28,
+        -41,
+        41
+       ],
+       "cnf_sha256": "c4eef23fed3651248093e4849af6b89fcff6ef73e1c9eaae5812a2e5e2c7d2a4"
+      },
+      {
+       "solve_seconds": 113.71702575683594,
+       "proof_bytes": 595228971,
+       "check_seconds": 27.03056263923645,
+       "checker_output": "VERIFIED UNSAT <work>\\certify_work\\bb90_level13_q45_nnnnnnnnn.cnf: 29140 clauses, 4268972 proof steps, 3600670 after trimming",
+       "status": "verified",
+       "cube": [
+        -2,
+        -3,
+        -7,
+        -22,
+        -26,
+        -27,
+        -28,
+        -41,
+        -42
+       ],
+       "cnf_sha256": "9d88ff1c0364220af7f164438c63c837fad7c42f6a226f3e8d1094a7359bbc60"
+      }
+     ],
+     "solve_seconds": 2480.3836290836334,
+     "check_seconds": 647.7157680988312,
+     "proof_bytes": 13506234592
+    }
+   ]
+  }
+ },
+ "leading_classes": {
+  "1": 1116
+ },
+ "certified_through": 13
+}

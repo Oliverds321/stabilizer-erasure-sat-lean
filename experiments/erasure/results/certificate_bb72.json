@@ -1,0 +1,15 @@
+{
+ "code": "BB [[72,12,6]]",
+ "key": "bb72",
+ "level": 11,
+ "distance": 6,
+ "symmetric": true,
+ "listed": 28632,
+ "leaves": 2,
+ "certified": true,
+ "lean_output": "checks passed (122439 ms): isotropy, 28632 listed sets uncorrectable, sizes, 2 generators, 2 representatives, cover\nleaf 0 rep=0 units=0: hash matches a CertifyList-certified instance\nleaf 1 rep=36 units=0: hash matches a CertifyList-certified instance\nCERTIFIED CODE BB [[72,12,6]]: complete through 11, distance 6, minimum-size sets by exponent [(1, 144), (2, 12)] (combine mode, 127559 ms)",
+ "seconds": 141.62129831314087,
+ "bundle_sha256": "1c839f8b45faf3c02983c939efcdec9608ecee54ba8170afba6e80305b8d410f",
+ "program": "tools/lrat/CertifyCode.lean combine",
+ "meaning": "lean/ListCertificate.lean: symmetric_certificate / plain_certificate (Certified rows L d mins)"
+}

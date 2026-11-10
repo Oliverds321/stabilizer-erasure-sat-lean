@@ -1,0 +1,61 @@
+{
+ "code": "toric [[32,2,4]]",
+ "key": "toric4",
+ "distance": 4,
+ "levels": {
+  "10": {
+   "verified": true,
+   "symmetric": true,
+   "instances": [
+    {
+     "status": "verified",
+     "representative": 0,
+     "formula": "certFormula (Lean)",
+     "leaves": [
+      {
+       "solve_seconds": 1.608736515045166,
+       "proof_bytes": 11703658,
+       "check_seconds": 7.511332988739014,
+       "checker_output": "CERTIFIED n=32 L=10 listed=4408 units=1: every uncorrectable erased set of size <= 10 satisfying the unit constraints contains a listed set (8125 clauses, 165816 proof steps, 142269 after trimming)",
+       "status": "verified",
+       "cube": [],
+       "cnf_sha256": "10f5760ee9c1d08b3a17420d31a86df55de101654ada5462c90a643895ef9180",
+       "instance_sha256": "439af0be6dfb88cdc6522d637e5aef52a1ec8e54249c1b0e314359a4a1c38947",
+       "variables": 1250,
+       "clauses": 8125
+      }
+     ],
+     "solve_seconds": 1.608736515045166,
+     "check_seconds": 7.511332988739014,
+     "proof_bytes": 11703658
+    },
+    {
+     "status": "verified",
+     "representative": 16,
+     "formula": "certFormula (Lean)",
+     "leaves": [
+      {
+       "solve_seconds": 1.6091971397399902,
+       "proof_bytes": 11636318,
+       "check_seconds": 7.510169982910156,
+       "checker_output": "CERTIFIED n=32 L=10 listed=4408 units=1: every uncorrectable erased set of size <= 10 satisfying the unit constraints contains a listed set (8125 clauses, 170830 proof steps, 142796 after trimming)",
+       "status": "verified",
+       "cube": [],
+       "cnf_sha256": "ca78ee2ada32d75b0c7396e61d9e9b110114db143d8ca6f8a63724e34cad133d",
+       "instance_sha256": "6f8965935442bc390da3287f7989dfc61411df6614b8db0ff1d4119c309830c1",
+       "variables": 1250,
+       "clauses": 8125
+      }
+     ],
+     "solve_seconds": 1.6091971397399902,
+     "check_seconds": 7.510169982910156,
+     "proof_bytes": 11636318
+    }
+   ]
+  }
+ },
+ "leading_classes": {
+  "1": 16
+ },
+ "certified_through": 10
+}

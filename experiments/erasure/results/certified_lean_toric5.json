@@ -1,0 +1,61 @@
+{
+ "code": "toric [[50,2,5]]",
+ "key": "toric5",
+ "distance": 5,
+ "levels": {
+  "11": {
+   "verified": true,
+   "symmetric": true,
+   "instances": [
+    {
+     "status": "verified",
+     "representative": 0,
+     "formula": "certFormula (Lean)",
+     "leaves": [
+      {
+       "solve_seconds": 13.2390296459198,
+       "proof_bytes": 93702527,
+       "check_seconds": 13.016605615615845,
+       "checker_output": "CERTIFIED n=50 L=11 listed=13030 units=1: every uncorrectable erased set of size <= 11 satisfying the unit constraints contains a listed set (19135 clauses, 945773 proof steps, 813601 after trimming)",
+       "status": "verified",
+       "cube": [],
+       "cnf_sha256": "d0b34535ef17c5ac3023fb99f6b3849229cab1134edaf41c121137277c2664b9",
+       "instance_sha256": "13640b5ac04936c2d99a4f23be5652fea796d13a2f6a550b49be076eff84eabf",
+       "variables": 2052,
+       "clauses": 19135
+      }
+     ],
+     "solve_seconds": 13.2390296459198,
+     "check_seconds": 13.016605615615845,
+     "proof_bytes": 93702527
+    },
+    {
+     "status": "verified",
+     "representative": 25,
+     "formula": "certFormula (Lean)",
+     "leaves": [
+      {
+       "solve_seconds": 11.436007499694824,
+       "proof_bytes": 84251193,
+       "check_seconds": 10.512076377868652,
+       "checker_output": "CERTIFIED n=50 L=11 listed=13030 units=1: every uncorrectable erased set of size <= 11 satisfying the unit constraints contains a listed set (19135 clauses, 789748 proof steps, 645170 after trimming)",
+       "status": "verified",
+       "cube": [],
+       "cnf_sha256": "18e90508d055057bfe9c443f95750373a89742198d983b7034981d1d3652f563",
+       "instance_sha256": "a50dbbf279618a38abaf898d1de4a35c5904679471e847bb5631d3d3c5d983d0",
+       "variables": 2052,
+       "clauses": 19135
+      }
+     ],
+     "solve_seconds": 11.436007499694824,
+     "check_seconds": 10.512076377868652,
+     "proof_bytes": 84251193
+    }
+   ]
+  }
+ },
+ "leading_classes": {
+  "1": 20
+ },
+ "certified_through": 11
+}

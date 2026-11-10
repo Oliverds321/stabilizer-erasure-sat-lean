@@ -1,0 +1,79 @@
+{
+ "code": "toric [[18,2,3]]",
+ "key": "toric3",
+ "distance": 3,
+ "levels": {
+  "3": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 0.015247344970703125,
+     "proof_bytes": 8027,
+     "check_seconds": 0.9761176109313965,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric3_level3.cnf: 546 clauses, 219 proof steps, 254 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 193,
+     "clauses": 546,
+     "cnf_sha256": "3a9c179bffddfe0ed481e16b07a9501ab5b24094b83368853aa203cf43a72683"
+    }
+   ]
+  },
+  "4": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 0.01676034927368164,
+     "proof_bytes": 23618,
+     "check_seconds": 0.9745476245880127,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric3_level4.cnf: 546 clauses, 483 proof steps, 552 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 193,
+     "clauses": 546,
+     "cnf_sha256": "618e815d69c8416e28149e62ce5285aad9f09c6c8c3f98977cafdd1ea5986154"
+    }
+   ]
+  },
+  "5": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 0.029938459396362305,
+     "proof_bytes": 44108,
+     "check_seconds": 0.9714205265045166,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric3_level5.cnf: 618 clauses, 870 proof steps, 1015 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 193,
+     "clauses": 618,
+     "cnf_sha256": "faaf35ea2f0d138dbd81b771c566c8a5611ed60dd13f5425584854079d4725ce"
+    }
+   ]
+  },
+  "6": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "solve_seconds": 0.027006864547729492,
+     "proof_bytes": 72239,
+     "check_seconds": 1.001713752746582,
+     "checker_output": "VERIFIED UNSAT <work>\\certify_work\\toric3_level6.cnf: 696 clauses, 1526 proof steps, 1636 after trimming",
+     "status": "verified",
+     "representative": null,
+     "variables": 193,
+     "clauses": 696,
+     "cnf_sha256": "06c18eec8b5a3071ce1ed90d59334b274e409f1c3d015096da3613f6f2a42b29"
+    }
+   ]
+  }
+ },
+ "leading_classes": {
+  "1": 12
+ },
+ "certified_through": 6
+}

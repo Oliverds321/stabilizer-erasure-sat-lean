@@ -1,0 +1,792 @@
+--- original/OAI/Algorithms/SubexponentialSAT/ArithmeticExpressionBounds.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/ArithmeticExpressionBounds.lean
+@@ -1,3 +1,5 @@
++import Mathlib.Tactic.Ring
++import Mathlib.Tactic.Linarith
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ 
+ namespace OAI.Algorithms
+--- original/OAI/Algorithms/SubexponentialSAT/BinomialInterpolation.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/BinomialInterpolation.lean
+@@ -1,3 +1,4 @@
++import Mathlib.RingTheory.MvPolynomial.Symmetric.Defs
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.BinomialMatrix
+ import OAI.Algorithms.SubexponentialSAT.MatrixSupport
+--- original/OAI/Algorithms/SubexponentialSAT/BinomialMatrix.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/BinomialMatrix.lean
+@@ -1,3 +1,6 @@
++import Mathlib.LinearAlgebra.Matrix.Block
++import Mathlib.Data.Nat.Choose.Vandermonde
++import Mathlib.Algebra.BigOperators.Fin
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ 
+ namespace OAI.Algorithms
+--- original/OAI/Algorithms/SubexponentialSAT/BinomialMultiplicity.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/BinomialMultiplicity.lean
+@@ -1,3 +1,7 @@
++import Mathlib.Data.Nat.Choose.Sum
++import Mathlib.Data.Fintype.BigOperators
++import Mathlib.Data.Fintype.Powerset
++import Mathlib.Data.Nat.Choose.Basic
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ 
+ namespace OAI.Algorithms
+--- original/OAI/Algorithms/SubexponentialSAT/BlockPacking.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/BlockPacking.lean
+@@ -1,3 +1,11 @@
++import Mathlib.Data.Fintype.BigOperators
++import Mathlib.Data.Fintype.EquivFin
++import Mathlib.Data.Finset.Max
++import Mathlib.Algebra.Order.BigOperators.Group.Finset
++import Mathlib.Tactic.Linarith
++import Mathlib.Tactic.FieldSimp
++import Mathlib.Tactic.Positivity
++import Mathlib.Tactic.Ring
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ 
+ namespace OAI.Algorithms
+--- original/OAI/Algorithms/SubexponentialSAT/BooleanPacking.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/BooleanPacking.lean
+@@ -1,3 +1,6 @@
++import Mathlib.Data.Fintype.BigOperators
++import Mathlib.Logic.Equiv.Fin.Basic
++import Mathlib.Data.ZMod.Basic
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ 
+ namespace OAI.Algorithms
+--- original/OAI/Algorithms/SubexponentialSAT/BranchTree.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/BranchTree.lean
+@@ -1,3 +1,4 @@
++import Mathlib.Analysis.Complex.ExponentialBounds
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.SparsificationConstants
+ 
+--- original/OAI/Algorithms/SubexponentialSAT/ChunkPartition.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/ChunkPartition.lean
+@@ -1,3 +1,4 @@
++import Mathlib.Data.Fintype.BigOperators
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ 
+ namespace OAI.Algorithms
+--- original/OAI/Algorithms/SubexponentialSAT/ComputablePackingSplit.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/ComputablePackingSplit.lean
+@@ -1,3 +1,7 @@
++import Mathlib.Data.Fintype.Prod
++import Mathlib.LinearAlgebra.Prod
++import Mathlib.Algebra.BigOperators.Ring.Finset
++import Mathlib.Data.Fintype.Card
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ 
+ namespace OAI.Algorithms
+--- original/OAI/Algorithms/SubexponentialSAT/Computation.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/Computation.lean
+@@ -1,3 +1,6 @@
++import Mathlib.Computability.TuringMachine.Computable
++import Mathlib.Analysis.SpecialFunctions.Pow.Real
++import Mathlib.Tactic.Positivity
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.Encoding
+ 
+--- original/OAI/Algorithms/SubexponentialSAT/ConditionalExpectation.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/ConditionalExpectation.lean
+@@ -1,3 +1,7 @@
++import Mathlib.Data.Fintype.Card
++import Mathlib.Algebra.Order.Field.Rat
++import Mathlib.Algebra.BigOperators.Group.Finset.Basic
++import Mathlib.Tactic.Linarith
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ 
+ namespace OAI.Algorithms
+--- original/OAI/Algorithms/SubexponentialSAT/CosetCardinality.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/CosetCardinality.lean
+@@ -1,3 +1,7 @@
++import Mathlib.LinearAlgebra.Dimension.DivisionRing
++import Mathlib.LinearAlgebra.Dimension.RankNullity
++import Mathlib.LinearAlgebra.Dimension.Constructions
++import Mathlib.SetTheory.Cardinal.Finite
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ 
+ namespace OAI.Algorithms
+--- original/OAI/Algorithms/SubexponentialSAT/CosetInvariance.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/CosetInvariance.lean
+@@ -1,3 +1,8 @@
++import Mathlib.LinearAlgebra.Quotient.Basic
++import Mathlib.LinearAlgebra.Quotient.Defs
++import Mathlib.RingTheory.Ideal.Span
++import Mathlib.RingTheory.Ideal.Maps
++import Mathlib.Algebra.BigOperators.Ring.Finset
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ 
+ namespace OAI.Algorithms
+--- original/OAI/Algorithms/SubexponentialSAT/DirectSums.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/DirectSums.lean
+@@ -1,3 +1,5 @@
++import Mathlib.LinearAlgebra.Dimension.Constructions
++import Mathlib.LinearAlgebra.Dimension.DivisionRing
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.BlockPacking
+ 
+--- original/OAI/Algorithms/SubexponentialSAT/DyadicWidth.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/DyadicWidth.lean
+@@ -1,3 +1,4 @@
++import Mathlib.Tactic.NormNum
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ 
+ namespace OAI.Algorithms
+--- original/OAI/Algorithms/SubexponentialSAT/Encoding.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/Encoding.lean
+@@ -1,3 +1,5 @@
++import Mathlib.Tactic.Ring
++import Mathlib.Data.Finset.Sort
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.SAT
+ 
+--- original/OAI/Algorithms/SubexponentialSAT/ExponentArithmetic.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/ExponentArithmetic.lean
+@@ -1,3 +1,9 @@
++import Mathlib.Analysis.SpecialFunctions.Pow.Real
++import Mathlib.Algebra.Order.Floor.Ring
++import Mathlib.Tactic.Linarith
++import Mathlib.Tactic.NormNum
++import Mathlib.Tactic.FieldSimp
++import Mathlib.Tactic.Ring
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ 
+ namespace OAI.Algorithms
+--- original/OAI/Algorithms/SubexponentialSAT/Factor.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/Factor.lean
+@@ -1,3 +1,5 @@
++import Mathlib.Data.Fintype.BigOperators
++import Mathlib.Algebra.BigOperators.Ring.Finset
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ 
+ namespace OAI.Algorithms
+--- original/OAI/Algorithms/SubexponentialSAT/FiniteField.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/FiniteField.lean
+@@ -1,3 +1,5 @@
++import Mathlib.FieldTheory.Finite.GaloisField
++import Mathlib.FieldTheory.PrimitiveElement
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ 
+ namespace OAI.Algorithms
+--- original/OAI/Algorithms/SubexponentialSAT/Incidence.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/Incidence.lean
+@@ -1,3 +1,4 @@
++import Mathlib.Algebra.Order.BigOperators.Group.Finset
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.Factor
+ 
+--- original/OAI/Algorithms/SubexponentialSAT/JetCRT.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/JetCRT.lean
+@@ -1,3 +1,7 @@
++import Mathlib.Algebra.Polynomial.BigOperators
++import Mathlib.Algebra.Polynomial.RingDivision
++import Mathlib.Algebra.Polynomial.AlgebraMap
++import Mathlib.RingTheory.Ideal.Quotient.Operations
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ 
+ namespace OAI.Algorithms
+--- original/OAI/Algorithms/SubexponentialSAT/Layout.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/Layout.lean
+@@ -1,3 +1,4 @@
++import Mathlib.FieldTheory.Finite.GaloisField
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.Types
+ import OAI.Algorithms.SubexponentialSAT.Factor
+--- original/OAI/Algorithms/SubexponentialSAT/LayoutParameters.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/LayoutParameters.lean
+@@ -1,3 +1,11 @@
++import Mathlib.Algebra.BigOperators.Field
++import Mathlib.Data.Nat.Choose.Sum
++import Mathlib.Order.Interval.Finset.Nat
++import Mathlib.Tactic.Linarith
++import Mathlib.Tactic.NormNum
++import Mathlib.Tactic.Positivity
++import Mathlib.Tactic.Ring
++import Mathlib.Tactic.FieldSimp
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.ParameterOrder
+ 
+--- original/OAI/Algorithms/SubexponentialSAT/LayoutSpec.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/LayoutSpec.lean
+@@ -1,3 +1,6 @@
++import Mathlib.Algebra.Polynomial.Lifts
++import Mathlib.LinearAlgebra.FiniteDimensional.Defs
++import Mathlib.Algebra.Field.ZMod
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.Factor
+ import OAI.Algorithms.SubexponentialSAT.CosetInvariance
+--- original/OAI/Algorithms/SubexponentialSAT/LeanCompat.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/LeanCompat.lean
+@@ -1,4 +1,6 @@
+-import Mathlib
++import Mathlib.Data.List.FinRange
++import Mathlib.Logic.Function.Basic
++import Mathlib.Data.Nat.Log
+ 
+ universe u v
+ 
+--- original/OAI/Algorithms/SubexponentialSAT/LiftRing.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/LiftRing.lean
+@@ -1,3 +1,11 @@
++import Mathlib.Algebra.Polynomial.FieldDivision
++import Mathlib.Algebra.Polynomial.RingDivision
++import Mathlib.Algebra.Polynomial.Lifts
++import Mathlib.RingTheory.PrincipalIdealDomain
++import Mathlib.RingTheory.Ideal.Quotient.Operations
++import Mathlib.Data.ZMod.Basic
++import Mathlib.SetTheory.Cardinal.Finite
++import Mathlib.LinearAlgebra.FreeModule.Finite.Basic
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ 
+ namespace OAI.Algorithms
+--- original/OAI/Algorithms/SubexponentialSAT/LocalSpectrum.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/LocalSpectrum.lean
+@@ -1,3 +1,9 @@
++import Mathlib.LinearAlgebra.Dimension.Constructions
++import Mathlib.LinearAlgebra.Dimension.DivisionRing
++import Mathlib.LinearAlgebra.Pi
++import Mathlib.Algebra.BigOperators.Ring.Finset
++import Mathlib.Tactic.FieldSimp
++import Mathlib.Tactic.Ring
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ 
+ namespace OAI.Algorithms
+--- original/OAI/Algorithms/SubexponentialSAT/MonomialCount.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/MonomialCount.lean
+@@ -1,3 +1,7 @@
++import Mathlib.Data.Finsupp.Multiset
++import Mathlib.Data.Sym.Card
++import Mathlib.Data.Nat.Choose.Bounds
++import Mathlib.Algebra.BigOperators.Fin
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ 
+ namespace OAI.Algorithms
+--- original/OAI/Algorithms/SubexponentialSAT/MulticolorTypes.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/MulticolorTypes.lean
+@@ -1,3 +1,5 @@
++import Mathlib.SetTheory.Cardinal.Finite
++import Mathlib.Data.Rat.Cast.Defs
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.SlotAssignment
+ 
+--- original/OAI/Algorithms/SubexponentialSAT/NilpotentDefect.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/NilpotentDefect.lean
+@@ -1,3 +1,5 @@
++import Mathlib.RingTheory.Nilpotent.Basic
++import Mathlib.Algebra.Field.ZMod
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.WeightedSupport
+ import OAI.Algorithms.SubexponentialSAT.LiftRing
+--- original/OAI/Algorithms/SubexponentialSAT/ParameterOrder.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/ParameterOrder.lean
+@@ -1,3 +1,6 @@
++import Mathlib.Order.Filter.AtTopBot.Basic
++import Mathlib.Data.Nat.Prime.Infinite
++import Mathlib.Computability.Partrec
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ 
+ namespace OAI.Algorithms
+--- original/OAI/Algorithms/SubexponentialSAT/SAT.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SAT.lean
+@@ -1,3 +1,6 @@
++import Mathlib.Data.Fintype.BigOperators
++import Mathlib.Data.Finset.Lattice.Fold
++import Mathlib.Data.Fintype.Pi
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ 
+ namespace OAI.Algorithms
+--- original/OAI/Algorithms/SubexponentialSAT/SlotAssignment.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SlotAssignment.lean
+@@ -1,3 +1,4 @@
++import Mathlib.Data.Finset.Sort
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.Incidence
+ import OAI.Algorithms.SubexponentialSAT.Types
+--- original/OAI/Algorithms/SubexponentialSAT/SparsificationConstants.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SparsificationConstants.lean
+@@ -1,3 +1,9 @@
++import Mathlib.Analysis.SpecificLimits.Normed
++import Mathlib.Analysis.SpecialFunctions.Log.Base
++import Mathlib.Tactic.Linarith
++import Mathlib.Tactic.NormNum
++import Mathlib.Tactic.Positivity
++import Mathlib.Tactic.Ring
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.ParameterOrder
+ 
+--- original/OAI/Algorithms/SubexponentialSAT/SqrtLog/CayleyCharacters.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SqrtLog/CayleyCharacters.lean
+@@ -1,3 +1,9 @@
++import Mathlib.Data.Real.Basic
++import Mathlib.Data.ZMod.Basic
++import Mathlib.Algebra.BigOperators.Ring.Finset
++import Mathlib.Data.Fintype.BigOperators
++import Mathlib.Algebra.Ring.Pi
++import Mathlib.Tactic.NormNum
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ 
+ namespace OAI.Algorithms
+--- original/OAI/Algorithms/SubexponentialSAT/SqrtLog/CayleyFourier.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SqrtLog/CayleyFourier.lean
+@@ -1,3 +1,6 @@
++import Mathlib.Analysis.Real.Sqrt
++import Mathlib.Tactic.Ring
++import Mathlib.Tactic.Linarith
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.SqrtLog.CayleyCharacters
+ 
+--- original/OAI/Algorithms/SubexponentialSAT/SqrtLog/CodeSearchProgramSupport.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SqrtLog/CodeSearchProgramSupport.lean
+@@ -1,3 +1,4 @@
++import Mathlib.Tactic.NormNum.NatLog
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.SqrtLog.CodeSearchProgramEnumeration
+ import OAI.Algorithms.SubexponentialSAT.SqrtLog.SparseCodeBasic
+--- original/OAI/Algorithms/SubexponentialSAT/SqrtLog/HashFamily.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SqrtLog/HashFamily.lean
+@@ -1,3 +1,7 @@
++import Mathlib.Algebra.Field.ZMod
++import Mathlib.Algebra.BigOperators.Ring.Finset
++import Mathlib.Data.Fintype.BigOperators
++import Mathlib.Tactic.Linarith
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ 
+ namespace OAI.Algorithms
+--- original/OAI/Algorithms/SubexponentialSAT/SqrtLog/HashFamilyEnumeration.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SqrtLog/HashFamilyEnumeration.lean
+@@ -1,3 +1,5 @@
++import Mathlib.Algebra.BigOperators.Fin
++import Mathlib.Logic.Equiv.Fin.Basic
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.SqrtLog.HashFamily
+ 
+--- original/OAI/Algorithms/SubexponentialSAT/SqrtLog/HashInput.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SqrtLog/HashInput.lean
+@@ -1,3 +1,7 @@
++import Mathlib.Algebra.MvPolynomial.CommRing
++import Mathlib.Algebra.MvPolynomial.Degrees
++import Mathlib.Algebra.MvPolynomial.Variables
++import Mathlib.Algebra.MvPolynomial.Monad
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.SAT
+ import OAI.Algorithms.SubexponentialSAT.Incidence
+--- original/OAI/Algorithms/SubexponentialSAT/SqrtLog/HashSelectCore.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SqrtLog/HashSelectCore.lean
+@@ -1,3 +1,5 @@
++import Mathlib.Algebra.Order.BigOperators.Group.Finset
++import Mathlib.Algebra.BigOperators.Ring.Finset
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ 
+ namespace OAI.Algorithms
+--- original/OAI/Algorithms/SubexponentialSAT/SqrtLog/HashSelectGreedy.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SqrtLog/HashSelectGreedy.lean
+@@ -1,3 +1,4 @@
++import Mathlib.Tactic.Ring
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.SqrtLog.HashSelectArgmin
+ 
+--- original/OAI/Algorithms/SubexponentialSAT/SqrtLog/HashSelectSAT.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SqrtLog/HashSelectSAT.lean
+@@ -1,3 +1,4 @@
++import Mathlib.Data.ZMod.Basic
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.SqrtLog.HashSelectTermination
+ import OAI.Algorithms.SubexponentialSAT.SqrtLog.HashSelectQueries
+--- original/OAI/Algorithms/SubexponentialSAT/SqrtLog/HashSelectTermination.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SqrtLog/HashSelectTermination.lean
+@@ -1,3 +1,5 @@
++import Mathlib.Tactic.Positivity
++import Mathlib.Data.Nat.Size
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.SqrtLog.HashSelectGreedy
+ 
+--- original/OAI/Algorithms/SubexponentialSAT/SqrtLog/HighIncidence.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SqrtLog/HighIncidence.lean
+@@ -1,3 +1,5 @@
++import Mathlib.Algebra.Order.Floor.Div
++import Mathlib.Tactic.Linarith
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.Incidence
+ 
+--- original/OAI/Algorithms/SubexponentialSAT/SqrtLog/IdempotentCore.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SqrtLog/IdempotentCore.lean
+@@ -1,3 +1,5 @@
++import Mathlib.RingTheory.Nilpotent.Basic
++import Mathlib.Tactic.LinearCombination
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.LiftRing
+ 
+--- original/OAI/Algorithms/SubexponentialSAT/SqrtLog/IrreducibleSearchBasic.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SqrtLog/IrreducibleSearchBasic.lean
+@@ -1,3 +1,4 @@
++import Mathlib.Algebra.Polynomial.OfFn
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.QuarticSearch
+ 
+--- original/OAI/Algorithms/SubexponentialSAT/SqrtLog/LayoutCoefficientBounds.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SqrtLog/LayoutCoefficientBounds.lean
+@@ -1,3 +1,4 @@
++import Mathlib.Data.Nat.Choose.Bounds
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.BinomialInterpolation
+ 
+--- original/OAI/Algorithms/SubexponentialSAT/SqrtLog/LayoutCoefficientRecurrenceFormula.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SqrtLog/LayoutCoefficientRecurrenceFormula.lean
+@@ -1,3 +1,4 @@
++import Mathlib.Tactic.LinearCombination
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.SqrtLog.LayoutCoefficientRecurrence
+ 
+--- original/OAI/Algorithms/SubexponentialSAT/SqrtLog/LayoutPullback.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SqrtLog/LayoutPullback.lean
+@@ -1,3 +1,6 @@
++import Mathlib.Algebra.Polynomial.BigOperators
++import Mathlib.Algebra.Polynomial.Eval.Defs
++import Mathlib.Algebra.BigOperators.Ring.Finset
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ 
+ namespace OAI.Algorithms
+--- original/OAI/Algorithms/SubexponentialSAT/SqrtLog/LayoutRank.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SqrtLog/LayoutRank.lean
+@@ -1,3 +1,5 @@
++import Mathlib.LinearAlgebra.Matrix.Rank
++import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.SqrtLog.LayoutRowSelection
+ 
+--- original/OAI/Algorithms/SubexponentialSAT/SqrtLog/LayoutRowSelection.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SqrtLog/LayoutRowSelection.lean
+@@ -1,3 +1,5 @@
++import Mathlib.LinearAlgebra.LinearIndependent.Lemmas
++import Mathlib.LinearAlgebra.Dimension.Constructions
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.SqrtLog.LayoutExactBuckets
+ 
+--- original/OAI/Algorithms/SubexponentialSAT/SqrtLog/LayoutSignatureBound.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SqrtLog/LayoutSignatureBound.lean
+@@ -1,3 +1,4 @@
++import Mathlib.SetTheory.Cardinal.Finite
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.SqrtLog.LayoutExactBuckets
+ 
+--- original/OAI/Algorithms/SubexponentialSAT/SqrtLog/LocalCodeCounting.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SqrtLog/LocalCodeCounting.lean
+@@ -1,3 +1,9 @@
++import Mathlib.Data.Fintype.BigOperators
++import Mathlib.Algebra.Group.Action.Defs
++import Mathlib.Algebra.Order.BigOperators.Group.Finset
++import Mathlib.Algebra.BigOperators.Ring.Finset
++import Mathlib.Data.Fintype.Sigma
++import Mathlib.Algebra.Group.Hom.Basic
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ 
+ namespace OAI.Algorithms
+--- original/OAI/Algorithms/SubexponentialSAT/SqrtLog/LocalCodeExistence.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SqrtLog/LocalCodeExistence.lean
+@@ -1,3 +1,6 @@
++import Mathlib.Data.Matrix.Basic
++import Mathlib.Algebra.Field.ZMod
++import Mathlib.Data.Fintype.Pi
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.SqrtLog.LocalCodeCounting
+ import OAI.Algorithms.SubexponentialSAT.SqrtLog.SparseCodeBasic
+--- original/OAI/Algorithms/SubexponentialSAT/SqrtLog/MomentsAlgorithm.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SqrtLog/MomentsAlgorithm.lean
+@@ -1,3 +1,5 @@
++import Mathlib.Algebra.Ring.Hom.Defs
++import Mathlib.Tactic.Ring
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ 
+ namespace OAI.Algorithms
+--- original/OAI/Algorithms/SubexponentialSAT/SqrtLog/RowSelectionAlgebra.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SqrtLog/RowSelectionAlgebra.lean
+@@ -1,3 +1,8 @@
++import Mathlib.Algebra.Field.Rat
++import Mathlib.LinearAlgebra.Matrix.SchurComplement
++import Mathlib.LinearAlgebra.FiniteDimensional.Basic
++import Mathlib.LinearAlgebra.Dimension.Constructions
++import Mathlib.LinearAlgebra.Finsupp.LinearCombination
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ 
+ namespace OAI.Algorithms
+--- original/OAI/Algorithms/SubexponentialSAT/SqrtLog/SparseCodeBasic.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SqrtLog/SparseCodeBasic.lean
+@@ -1,3 +1,7 @@
++import Mathlib.Data.ZMod.Basic
++import Mathlib.LinearAlgebra.Matrix.Defs
++import Mathlib.Data.Fintype.BigOperators
++import Mathlib.Analysis.Real.Sqrt
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ 
+ namespace OAI.Algorithms
+--- original/OAI/Algorithms/SubexponentialSAT/SqrtLog/SparseCodeParameters.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SqrtLog/SparseCodeParameters.lean
+@@ -1,3 +1,5 @@
++import Mathlib.Tactic.Positivity
++import Mathlib.Tactic.Linarith
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ 
+ namespace OAI.Algorithms
+--- original/OAI/Algorithms/SubexponentialSAT/SqrtLog/SpectralBinomial.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SqrtLog/SpectralBinomial.lean
+@@ -1,3 +1,12 @@
++import Mathlib.Analysis.SpecialFunctions.Trigonometric.DerivHyp
++import Mathlib.Analysis.SpecialFunctions.Trigonometric.Series
++import Mathlib.Analysis.Convex.SpecificFunctions.Basic
++import Mathlib.Data.Nat.Choose.Sum
++import Mathlib.Tactic.LinearCombination
++import Mathlib.Tactic.FieldSimp
++import Mathlib.Tactic.Positivity
++import Mathlib.Tactic.Linarith
++import Mathlib.Tactic.Ring
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.SubexpSwapMultiplicity
+ 
+--- original/OAI/Algorithms/SubexponentialSAT/SqrtLog/SquarefreeBasic.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SqrtLog/SquarefreeBasic.lean
+@@ -1,3 +1,7 @@
++import Mathlib.Algebra.MonoidAlgebra.Lift
++import Mathlib.Algebra.MonoidAlgebra.Support
++import Mathlib.Algebra.BigOperators.Group.Finset.Basic
++import Mathlib.Data.Finset.Card
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ 
+ namespace OAI.Algorithms
+--- original/OAI/Algorithms/SubexponentialSAT/SqrtLog/StatementScale.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SqrtLog/StatementScale.lean
+@@ -1,3 +1,9 @@
++import Mathlib.Analysis.SpecialFunctions.Pow.Real
++import Mathlib.Analysis.Real.Sqrt
++import Mathlib.Tactic.Linarith
++import Mathlib.Tactic.NormNum
++import Mathlib.Tactic.Positivity
++import Mathlib.Tactic.Ring
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ 
+ namespace OAI.Algorithms
+--- original/OAI/Algorithms/SubexponentialSAT/SqrtLog/WalshExistenceCore.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SqrtLog/WalshExistenceCore.lean
+@@ -1,3 +1,10 @@
++import Mathlib.Analysis.SpecialFunctions.Trigonometric.Series
++import Mathlib.Analysis.Convex.SpecificFunctions.Basic
++import Mathlib.Algebra.BigOperators.Ring.Finset
++import Mathlib.Data.Fintype.BigOperators
++import Mathlib.Tactic.Positivity
++import Mathlib.Tactic.Linarith
++import Mathlib.Tactic.Ring
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ 
+ namespace OAI.Algorithms
+--- original/OAI/Algorithms/SubexponentialSAT/Subexp/AssignmentEnumeration.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/Subexp/AssignmentEnumeration.lean
+@@ -1,3 +1,4 @@
++import Mathlib.Data.List.GetD
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.Subexp.LocalExpectation
+ import OAI.Algorithms.SubexponentialSAT.Subexp.CoefficientSearch
+--- original/OAI/Algorithms/SubexponentialSAT/Subexp/CoefficientDynamics.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/Subexp/CoefficientDynamics.lean
+@@ -1,3 +1,4 @@
++import Mathlib.Data.List.GetD
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.BinomialInterpolation
+ 
+--- original/OAI/Algorithms/SubexponentialSAT/Subexp/Elementary.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/Subexp/Elementary.lean
+@@ -1,3 +1,4 @@
++import Mathlib.Data.List.GetD
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.BinomialInterpolation
+ 
+--- original/OAI/Algorithms/SubexponentialSAT/Subexp/LocalExpectation.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/Subexp/LocalExpectation.lean
+@@ -1,3 +1,4 @@
++import Mathlib.Data.Nat.Size
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.LocalExpectation
+ import OAI.Algorithms.SubexponentialSAT.SubexpTypeVariance
+--- original/OAI/Algorithms/SubexponentialSAT/Subexp/LocalSpectrum.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/Subexp/LocalSpectrum.lean
+@@ -1,3 +1,8 @@
++import Mathlib.LinearAlgebra.FiniteDimensional.Basic
++import Mathlib.LinearAlgebra.Dimension.Constructions
++import Mathlib.LinearAlgebra.Pi
++import Mathlib.Tactic.FieldSimp
++import Mathlib.Tactic.Ring
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.SubexpSwapMultiplicity
+ 
+--- original/OAI/Algorithms/SubexponentialSAT/Subexp/MatrixSupport.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/Subexp/MatrixSupport.lean
+@@ -1,3 +1,5 @@
++import Mathlib.LinearAlgebra.Matrix.ToLin
++import Mathlib.Tactic.Ring
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.MulticolorTypes
+ 
+--- original/OAI/Algorithms/SubexponentialSAT/Subexp/ScalarBinomial.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/Subexp/ScalarBinomial.lean
+@@ -1,3 +1,4 @@
++import Mathlib.Algebra.Polynomial.Coeff
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ 
+ namespace OAI.Algorithms
+--- original/OAI/Algorithms/SubexponentialSAT/Subexp/SpectralRank.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/Subexp/SpectralRank.lean
+@@ -1,3 +1,5 @@
++import Mathlib.Data.Rat.Cast.Order
++import Mathlib.Data.Real.Basic
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.SpectralRank
+ import OAI.Algorithms.SubexponentialSAT.BinomialInterpolation
+--- original/OAI/Algorithms/SubexponentialSAT/Subexp/SubspaceDimension.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/Subexp/SubspaceDimension.lean
+@@ -1,3 +1,4 @@
++import Mathlib.Data.Real.Basic
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.SubspaceDimension
+ import OAI.Algorithms.SubexponentialSAT.MulticolorTypes
+--- original/OAI/Algorithms/SubexponentialSAT/Subexp/TailInterval.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/Subexp/TailInterval.lean
+@@ -1,3 +1,5 @@
++import Mathlib.Data.Rat.Floor
++import Mathlib.Algebra.Order.Floor.Ring
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.SubexpSwapMultiplicity
+ 
+--- original/OAI/Algorithms/SubexponentialSAT/SubexpBlockPacking.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SubexpBlockPacking.lean
+@@ -1,3 +1,4 @@
++import Mathlib.Data.Rat.Floor
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.BlockPacking
+ import OAI.Algorithms.SubexponentialSAT.DirectSums
+--- original/OAI/Algorithms/SubexponentialSAT/SubexpComputation.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SubexpComputation.lean
+@@ -1,3 +1,4 @@
++import Mathlib.Analysis.SpecialFunctions.Log.Base
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.Computation
+ import OAI.Algorithms.SubexponentialSAT.StackAdapter
+--- original/OAI/Algorithms/SubexponentialSAT/SubexpCosetCount.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SubexpCosetCount.lean
+@@ -1,3 +1,4 @@
++import Mathlib.Analysis.SpecialFunctions.Pow.Real
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.CosetCardinality
+ import OAI.Algorithms.SubexponentialSAT.SubexpDirectSums
+--- original/OAI/Algorithms/SubexponentialSAT/SubexpExponentArithmetic.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SubexpExponentArithmetic.lean
+@@ -1,3 +1,9 @@
++import Mathlib.Analysis.SpecialFunctions.Log.Base
++import Mathlib.Tactic.Linarith
++import Mathlib.Tactic.NormNum
++import Mathlib.Tactic.FieldSimp
++import Mathlib.Tactic.Positivity
++import Mathlib.Tactic.Ring
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ 
+ namespace OAI.Algorithms
+--- original/OAI/Algorithms/SubexponentialSAT/SubexpIntervalStart.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SubexpIntervalStart.lean
+@@ -1,3 +1,4 @@
++import Mathlib.Algebra.Order.Floor.Semifield
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.Subexp.TailInterval
+ 
+--- original/OAI/Algorithms/SubexponentialSAT/SubexpPackingParameters.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SubexpPackingParameters.lean
+@@ -1,3 +1,4 @@
++import Mathlib.NumberTheory.Bertrand
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.ChunkPartition
+ import OAI.Algorithms.SubexponentialSAT.ParameterOrder
+--- original/OAI/Algorithms/SubexponentialSAT/SubexpRowInterpolation.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SubexpRowInterpolation.lean
+@@ -1,3 +1,6 @@
++import Mathlib.Algebra.Polynomial.BigOperators
++import Mathlib.Algebra.Polynomial.Eval.Defs
++import Mathlib.Algebra.GroupWithZero.Units.Basic
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ 
+ namespace OAI.Algorithms
+--- original/OAI/Algorithms/SubexponentialSAT/SubexpSwapMultiplicity.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SubexpSwapMultiplicity.lean
+@@ -1,3 +1,13 @@
++import Mathlib.Data.Fintype.BigOperators
++import Mathlib.Order.Interval.Finset.Nat
++import Mathlib.Algebra.BigOperators.Intervals
++import Mathlib.Algebra.Order.BigOperators.Group.Finset
++import Mathlib.Data.Nat.Choose.Sum
++import Mathlib.Tactic.Linarith
++import Mathlib.Tactic.NormNum
++import Mathlib.Tactic.Positivity
++import Mathlib.Tactic.Ring
++import Mathlib.Tactic.FieldSimp
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ 
+ namespace OAI.Algorithms
+--- original/OAI/Algorithms/SubexponentialSAT/SubspaceDimension.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SubspaceDimension.lean
+@@ -1,3 +1,8 @@
++import Mathlib.LinearAlgebra.FiniteDimensional.Lemmas
++import Mathlib.LinearAlgebra.FiniteDimensional.Basic
++import Mathlib.LinearAlgebra.Dimension.Constructions
++import Mathlib.Algebra.Order.BigOperators.Group.Finset
++import Mathlib.Tactic.Linarith
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.Types
+ 
+--- original/OAI/Algorithms/SubexponentialSAT/SunflowerBranch.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/SunflowerBranch.lean
+@@ -1,3 +1,4 @@
++import Mathlib.Algebra.Order.BigOperators.Group.Finset
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.SAT
+ 
+--- original/OAI/Algorithms/SubexponentialSAT/TableInterpolation.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/TableInterpolation.lean
+@@ -1,3 +1,6 @@
++import Mathlib.Algebra.MvPolynomial.CommRing
++import Mathlib.Algebra.MvPolynomial.Degrees
++import Mathlib.Algebra.MvPolynomial.Eval
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.LiftRing
+ 
+--- original/OAI/Algorithms/SubexponentialSAT/TypeDistribution.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/TypeDistribution.lean
+@@ -1,3 +1,4 @@
++import Mathlib.Tactic.FieldSimp
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ import OAI.Algorithms.SubexponentialSAT.SlotAssignment
+ import OAI.Algorithms.SubexponentialSAT.Variance
+--- original/OAI/Algorithms/SubexponentialSAT/Types.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/Types.lean
+@@ -1,3 +1,5 @@
++import Mathlib.Data.Fintype.BigOperators
++import Mathlib.Data.Fintype.Pi
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ 
+ namespace OAI.Algorithms
+--- original/OAI/Algorithms/SubexponentialSAT/Variance.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/Variance.lean
+@@ -1,3 +1,8 @@
++import Mathlib.Algebra.Order.Field.Rat
++import Mathlib.Algebra.Order.BigOperators.Group.Finset
++import Mathlib.Algebra.BigOperators.Ring.Finset
++import Mathlib.Tactic.Linarith
++import Mathlib.Tactic.Ring
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ 
+ namespace OAI.Algorithms
+--- original/OAI/Algorithms/SubexponentialSAT/WeightedSupport.lean
++++ overlay/OAI/Algorithms/SubexponentialSAT/WeightedSupport.lean
+@@ -1,3 +1,6 @@
++import Mathlib.Algebra.MvPolynomial.Degrees
++import Mathlib.Algebra.Polynomial.Coeff
++import Mathlib.Algebra.MvPolynomial.Eval
+ import OAI.Algorithms.SubexponentialSAT.LeanCompat
+ 
+ namespace OAI.Algorithms

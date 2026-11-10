@@ -1,0 +1,15 @@
+{
+ "code": "toric [[128,2,8]]",
+ "key": "toric8",
+ "level": 12,
+ "distance": 8,
+ "symmetric": true,
+ "listed": 27808,
+ "leaves": 8,
+ "certified": true,
+ "lean_output": "checks passed (180725 ms): isotropy, 27808 listed sets uncorrectable, sizes, 2 generators, 2 representatives, cover\nleaf 0 rep=0 units=1: hash matches a CertifyList-certified instance\nleaf 1 rep=0 units=2: hash matches a CertifyList-certified instance\nleaf 2 rep=0 units=2: hash matches a CertifyList-certified instance\nleaf 3 rep=64 units=1: hash matches a CertifyList-certified instance\nleaf 4 rep=64 units=2: hash matches a CertifyList-certified instance\nleaf 5 rep=64 units=3: hash matches a CertifyList-certified instance\nleaf 6 rep=64 units=4: hash matches a CertifyList-certified instance\nleaf 7 rep=64 units=4: hash matches a CertifyList-certified instance\nCERTIFIED CODE toric [[128,2,8]]: complete through 12, distance 8, minimum-size sets by exponent [(1, 32)] (combine mode, 206458 ms)",
+ "seconds": 218.75531649589539,
+ "bundle_sha256": "2c2a4262767d74cdcd74286f721b051101b9456460d70682de01896396c276dc",
+ "program": "tools/lrat/CertifyCode.lean combine",
+ "meaning": "lean/ListCertificate.lean: symmetric_certificate / plain_certificate (Certified rows L d mins)"
+}

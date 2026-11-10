@@ -1,0 +1,39 @@
+{
+ "code": "rotated surface [[25,1,5]]",
+ "key": "surface5",
+ "distance": 5,
+ "levels": {
+  "8": {
+   "verified": true,
+   "symmetric": false,
+   "instances": [
+    {
+     "status": "verified",
+     "representative": null,
+     "formula": "certFormula (Lean)",
+     "leaves": [
+      {
+       "solve_seconds": 0.20428824424743652,
+       "proof_bytes": 802017,
+       "check_seconds": 6.510510206222534,
+       "checker_output": "CERTIFIED n=25 L=8 listed=254 units=0: every uncorrectable erased set of size <= 8 satisfying the unit constraints contains a listed set (2696 clauses, 16346 proof steps, 15374 after trimming)",
+       "status": "verified",
+       "cube": [],
+       "cnf_sha256": "e54118a467ea34466902bcac5f1eb7316932f29b1e1f7f33f9e7d5d4f89590b5",
+       "instance_sha256": "d9ed55962c9f2cbf0276f899673597c76f920c6931785cec5cdbf2c3ab69b98e",
+       "variables": 837,
+       "clauses": 2696
+      }
+     ],
+     "solve_seconds": 0.20428824424743652,
+     "check_seconds": 6.510510206222534,
+     "proof_bytes": 802017
+    }
+   ]
+  }
+ },
+ "leading_classes": {
+  "1": 104
+ },
+ "certified_through": 8
+}
